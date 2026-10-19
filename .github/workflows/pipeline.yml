@@ -18,6 +18,11 @@ on:
   push:
     branches: [main]
 
+concurrency:
+  # 队列 congested 时，新运行直接顶掉旧的，避免每次推送都堆一个待跑任务
+  group: publish
+  cancel-in-progress: true
+
 permissions:
   contents: write
   # GitHub Models 需要这个权限；没有 DEEPSEEK_API_KEY 时靠它做分节与摘要
@@ -25,7 +30,7 @@ permissions:
 
 jobs:
   publish:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     env:
       SITE_REPO: git@github.com:wangdali2233/wangdali2233.github.io.git
 
