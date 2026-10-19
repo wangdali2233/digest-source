@@ -15,7 +15,8 @@ state_file = "data/seen.json"
 [quota]
 daily = 12               # 每期总条数上限
 per_section = 4          # 每个分节的条数上限
-max_other = 2            # 「其他」单独限量，防止分类失手的条目淹没版面
+max_other = 4            # 「其他」桶的独立上限。单源（HN）时泛技术条目多，
+                         # 实测 47 条里约 64% 不属于任何固定分节，卡太紧会浪费配额
 min_items = 3            # 少于这个数就中止发布，宁可停更
 seen_days = 7            # 同一链接多少天内不重复
 
@@ -48,6 +49,8 @@ domains = ["simonwillison.net", "paulgraham.com"]
 title = "其他"
 
 # ---- 源 ----
+# 目前只启用 HN。加 RSS 源时追加一个 [[sources]] 块即可：
+#   id / name / kind = "rss" / url / weight / default_section
 # kind 支持：hn_algolia（HN 全天窗口查询）、rss（RSS 2.0 / Atom 通用）
 # weight 决定跨源排序时的相对权重，调到 0 等于静音该源
 
@@ -58,27 +61,3 @@ kind = "hn_algolia"
 weight = 1.0
 min_points = 80
 limit = 100
-
-[[sources]]
-id = "cloudflare"
-name = "Cloudflare Blog"
-kind = "rss"
-url = "https://blog.cloudflare.com/rss/"
-weight = 0.8
-default_section = "infra"
-
-[[sources]]
-id = "gh-blog"
-name = "GitHub Blog"
-kind = "rss"
-url = "https://github.blog/feed/"
-weight = 0.7
-default_section = "oss"
-
-[[sources]]
-id = "simonw"
-name = "Simon Willison"
-kind = "rss"
-url = "https://simonwillison.net/atom/everything/"
-weight = 0.75
-default_section = "ai"

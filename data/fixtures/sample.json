@@ -68,32 +68,5 @@
     "published_at": "2026-10-18T12:00:00+00:00",
     "points": 61,
     "comments": 143
-  },
-  {
-    "id": "gh-blog:1",
-    "source": "gh-blog",
-    "title": "GitHub Actions 新增依赖缓存策略",
-    "url": "https://github.blog/changelog/2026-10-18-actions-cache-policy/",
-    "published_at": "2026-10-18T15:00:00+00:00",
-    "points": 0,
-    "comments": 0
-  },
-  {
-    "id": "cloudflare:1",
-    "source": "cloudflare",
-    "title": "Cloudflare 发布新的边缘存储层",
-    "url": "https://blog.cloudflare.com/edge-storage-r2-update/",
-    "published_at": "2026-10-18T13:20:00+00:00",
-    "points": 0,
-    "comments": 0
-  },
-  {
-    "id": "simonw:1",
-    "source": "simonw",
-    "title": "How I use LLMs for writing",
-    "url": "https://simonwillison.net/2026/Oct/18/llms-for-writing/",
-    "published_at": "2026-10-18T18:40:00+00:00",
-    "points": 0,
-    "comments": 0
   }
 ]
