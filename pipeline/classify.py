@@ -111,7 +111,16 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool) -> str:
         },
     )
     with urllib.request.urlopen(request, timeout=int(profile.get("timeout", 90))) as resp:
-        payload = json.loads(resp.read())
+        status = resp.status
+        raw = resp.read()
+    try:
+        payload = json.loads(raw)
+    except json.JSONDecodeError:
+        snippet = raw[:300].decode("utf-8", "replace").replace("\n", " ")
+        raise ValueError(f"HTTP {status} 但响应不是 JSON：{snippet}") from None
+    if "choices" not in payload:
+        snippet = str(payload)[:300]
+        raise ValueError(f"响应缺少 choices：{snippet}")
     return payload["choices"][0]["message"]["content"]
 
 
@@ -182,4 +191,7 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
         except Exception as exc:  # 网络、限流、格式，全都退回关键词
             last_error = exc
 
-    return 0, f"LLM 分类失败（{label}，{type(last_error).__name__}），退回关键词分类"
+    return 0, (
+        f"LLM 分类失败（{label}，{type(last_error).__name__}：{str(last_error)[:300]}），"
+        "退回关键词分类"
+    )
