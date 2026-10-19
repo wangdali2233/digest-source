@@ -20,6 +20,8 @@ on:
 
 permissions:
   contents: write
+  # GitHub Models 需要这个权限；没有 DEEPSEEK_API_KEY 时靠它做分节与摘要
+  models: read
 
 concurrency:
   group: publish
@@ -50,8 +52,9 @@ jobs:
         env:
           DIGEST_DATE: ${{ github.event.inputs.date }}
           DIGEST_FORCE: ${{ github.event.inputs.force }}
-          # 没配这个 secret 时自动退回关键词分类，不会失败
+          # 两个都给了就优先 DeepSeek；只给 GITHUB_TOKEN 也能工作，不会失败
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           ARGS=()

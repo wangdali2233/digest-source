@@ -3,7 +3,9 @@
 设计原则
 --------
 * 一次请求搞定全部候选，不做 per-item 调用（成本与延迟都在一个量级内）。
-* 任何失败都退回关键词分类，不抛错、不阻断构建——分类是增强，不是依赖。
+* 凭据按 provider 自动选择：有 DEEPSEEK_API_KEY 就用 DeepSeek，
+  否则用 CI 自带的 GITHUB_TOKEN 调 GitHub Models，两者都没有就退回关键词。
+* 任何失败都不抛错、不阻断构建——分类是增强，不是依赖。
 * 输出必须能被严格校验：分节 id 不在表里就丢弃，摘要超长就丢弃。
 """
 
@@ -14,27 +16,62 @@ import os
 import re
 import urllib.request
 
-DEFAULT_ENDPOINT = "https://api.deepseek.com/chat/completions"
-DEFAULT_MODEL = "deepseek-chat"
 MAX_SUMMARY = 80
-
 EXAMPLE = '{"items":[{"i":0,"section":"ai","summary":"模型发布，上下文扩到 1M"}]}'
+
+# 两个 provider 的默认值，sources.toml 的 [llm.<name>] 可以逐项覆盖
+PROVIDERS = {
+    "deepseek": {
+        "endpoint": "https://api.deepseek.com/chat/completions",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY",
+    },
+    "github": {
+        "endpoint": "https://models.github.ai/inference/chat/completions",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "GITHUB_TOKEN",
+    },
+}
+
+
+def _fake_path() -> str | None:
+    return os.environ.get("DIGEST_LLM_FAKE") or None
+
+
+def _profile(cfg: dict, name: str) -> dict:
+    profile = dict(PROVIDERS[name])
+    override = (cfg.get("llm", {}).get(name) or {})
+    profile.update(override)
+    return profile
+
+
+def resolve(cfg: dict) -> tuple[str, dict, str] | None:
+    """auto 模式按 deepseek → github 顺序找第一个有凭据的 provider。"""
+    llm = cfg.get("llm", {})
+    wanted = str(llm.get("provider", "auto")).lower()
+    candidates = [wanted] if wanted in PROVIDERS else list(PROVIDERS)
+
+    for name in candidates:
+        profile = _profile(cfg, name)
+        key = (os.environ.get(profile["key_env"]) or "").strip()
+        if key:
+            return name, profile, key
+    return None
 
 
 def enabled(cfg: dict) -> bool:
-    """没配 key 时安静退回关键词分类，不让本地开发和 CI 卡住。"""
+    """没凭据时安静退回关键词分类，不让本地开发和 CI 卡住。"""
     llm = cfg.get("llm", {})
     if not llm.get("enabled", True):
         return False
-    return bool(os.environ.get("DEEPSEEK_API_KEY")) or bool(os.environ.get("DIGEST_LLM_FAKE"))
+    return bool(_fake_path()) or resolve(cfg) is not None
 
 
 def _build_prompt(items: list[dict], sections: list[dict]) -> str:
     lines = ["你是技术信息聚合的编辑。把下面每条标题分到唯一的分类，并写一句中文摘要。", ""]
     lines.append("分类表（section 只能取这些 id）：")
     for section in sections:
-        desc = section.get("desc", "")
-        lines.append(f'- {section["id"]}：{section["title"]}（{desc}）')
+        lines.append(f'- {section["id"]}：{section["title"]}（{section.get("desc", "")}）')
     lines.append("- other：确实不属于以上任何一类")
     lines += [
         "",
@@ -51,28 +88,29 @@ def _build_prompt(items: list[dict], sections: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def _call(prompt: str, llm: dict) -> str:
-    fake = os.environ.get("DIGEST_LLM_FAKE")
+def _call(prompt: str, profile: dict, key: str, json_mode: bool) -> str:
+    fake = _fake_path()
     if fake:
-        return open(fake, encoding="utf-8").read()
+        with open(fake, encoding="utf-8") as handle:
+            return handle.read()
 
-    body = {
-        "model": llm.get("model", DEFAULT_MODEL),
+    body: dict = {
+        "model": profile.get("model", ""),
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
     }
-    if llm.get("json_mode", True):
+    if json_mode:
         body["response_format"] = {"type": "json_object"}
 
     request = urllib.request.Request(
-        llm.get("endpoint", DEFAULT_ENDPOINT),
+        profile["endpoint"],
         data=json.dumps(body).encode("utf-8"),
         headers={
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {os.environ['DEEPSEEK_API_KEY']}",
+            "Authorization": f"Bearer {key}",
         },
     )
-    with urllib.request.urlopen(request, timeout=int(llm.get("timeout", 60))) as resp:
+    with urllib.request.urlopen(request, timeout=int(profile.get("timeout", 90))) as resp:
         payload = json.loads(resp.read())
     return payload["choices"][0]["message"]["content"]
 
@@ -120,15 +158,28 @@ def apply(items: list[dict], sections: list[dict], rows: list[dict]) -> int:
 def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, str]:
     """返回 (改判条数, 说明)。异常一律吞掉并回退。"""
     llm = dict(cfg.get("llm", {}))
+    resolved = resolve(cfg)
+
+    if resolved:
+        name, profile, key = resolved
+        label = f"{name}/{profile.get('model', '')}"
+    elif _fake_path():
+        name, profile, key = "fake", {}, ""
+        label = "fake"
+    else:
+        return 0, "没有可用的模型凭据，使用关键词分类"
+
     prompt = _build_prompt(items, sections)
+    # 第一次带 response_format；不支持 JSON 模式的端点会在第二次去掉它重试
+    attempts = [True, False] if llm.get("json_mode", True) else [False]
 
     last_error: Exception | None = None
-    for _ in range(2):
+    for json_mode in attempts:
         try:
-            rows = _parse(_call(prompt, llm))
+            rows = _parse(_call(prompt, profile, key, json_mode))
             changed = apply(items, sections, rows)
-            return changed, f"LLM 分类：返回 {len(rows)} 条，改判 {changed} 条"
+            return changed, f"LLM 分类（{label}）：返回 {len(rows)} 条，改判 {changed} 条"
         except Exception as exc:  # 网络、限流、格式，全都退回关键词
             last_error = exc
 
-    return 0, f"LLM 分类失败（{type(last_error).__name__}），退回关键词分类"
+    return 0, f"LLM 分类失败（{label}，{type(last_error).__name__}），退回关键词分类"

@@ -67,11 +67,22 @@ min_points = 80
 limit = 100
 
 # ---- LLM 分节 ----
-# 没配 DEEPSEEK_API_KEY 时整段失效，自动退回关键词分类，不影响出稿
+# 凭据按 provider 自动选择；两者都没有时整段失效，自动退回关键词分类
 [llm]
 enabled = true
-model = "deepseek-chat"
+provider = "auto"   # auto | deepseek | github
+limit = 60          # 只把分数最高的这么多条送去分类，控制 token
+json_mode = true    # 首次请求用 response_format，失败会去掉它重试
+timeout = 90
+
+# 有 DEEPSEEK_API_KEY 时优先用它
+[llm.deepseek]
 endpoint = "https://api.deepseek.com/chat/completions"
-limit = 60        # 只把分数最高的这么多条送去分类，控制 token
-timeout = 60
-json_mode = true  # 让服务端保证返回 JSON；个别兼容端点不支持时改 false
+model = "deepseek-chat"
+key_env = "DEEPSEEK_API_KEY"
+
+# 否则用 CI 自带的 GITHUB_TOKEN 调 GitHub Models：免费额度，有速率限制，无需额外配置
+[llm.github]
+endpoint = "https://models.github.ai/inference/chat/completions"
+model = "openai/gpt-4o-mini"
+key_env = "GITHUB_TOKEN"

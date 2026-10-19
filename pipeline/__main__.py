@@ -108,7 +108,10 @@ def build(args: argparse.Namespace) -> int:
         changed, note = classify.classify(batch, config.sections(cfg), cfg)
         print(f"  {note}", file=sys.stderr)
     else:
-        print("  · 未配置 DEEPSEEK_API_KEY，使用关键词分类", file=sys.stderr)
+        print(
+            "  · 没有可用的模型凭据（DEEPSEEK_API_KEY / GITHUB_TOKEN），使用关键词分类",
+            file=sys.stderr,
+        )
 
     picked = merge.select(weighted, config.sections(cfg), quota)
 

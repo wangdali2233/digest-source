@@ -94,18 +94,22 @@ Hexo 会按 `_config.yml` 的 `timezone` 解释，避免日期漂移。
 
 - **一次请求**把「分数最高的 `llm.limit` 条」（默认 60）分到固定分节表，顺带生成一句话摘要。
 - 只送头部候选，不送全部原始条目——token 上限可控。
-- **任何失败都退回关键词分类**：没配 key、网络错误、返回垃圾、JSON 解析失败，都只是少了一次增强，
-  构建照常出稿（会退一次重试）。
+- **任何失败都退回关键词分类**：没凭据、网络错误、返回垃圾、JSON 解析失败，都只是少了一次增强，
+  构建照常出稿。
 - 输出严格校验：分节 id 不在表里直接丢，摘要超 80 字直接丢，编号越界直接丢。
 
-配置在 `sources.toml` 的 `[llm]`；分节表里的 `desc` 字段会进 prompt，描述越具体分类越准。
+### 两个 provider，自动选择
 
-**启用方式**：仓库 Settings → Secrets and variables → Actions → 新建 `DEEPSEEK_API_KEY`
-（去 https://platform.deepseek.com 申请）。不配也能跑，只是用关键词分类。
+| provider | 凭据 | 说明 |
+|---|---|---|
+| `deepseek` | `DEEPSEEK_API_KEY` | 优先级最高，需自己在 [platform.deepseek.com](https://platform.deepseek.com) 申请 |
+| `github` | `GITHUB_TOKEN` | **零配置**，用仓库自带 token 调 GitHub Models，免费额度有速率限制 |
 
-量级参考：一次约 60 条标题 ≈ 1k input token，输出几百 token，每天成本在厘级。
+`[llm] provider = "auto"` 时按上表顺序取第一个有凭据的；两个都没有就走关键词分类。
+配置在 `sources.toml` 的 `[llm]` / `[llm.deepseek]` / `[llm.github]`；
+分节表里的 `desc` 字段会进 prompt，描述越具体分类越准。
 
-**离线验证**（不需要 key）：
+**离线验证**（不需要任何凭据）：
 
 ```bash
 DIGEST_LLM_FAKE=data/fixtures/llm_fake.json \
@@ -113,6 +117,9 @@ DIGEST_LLM_FAKE=data/fixtures/llm_fake.json \
 ```
 
 `DIGEST_LLM_FAKE` 指向一个假的模型响应文件，用来验证 prompt 组装、JSON 解析、结果写回这一整条链路。
+
+> 注意：本地验证只能覆盖到「解析与写回」，覆盖不到真实 API——如果你的网络里有代理拦截，
+> 请求可能返回看似成功的假响应。真实调用请以 CI 日志里的 `LLM 分类（provider/model）` 为准。
 
 ## 部署（一次性）
 
