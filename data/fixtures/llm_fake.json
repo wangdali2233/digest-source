@@ -1,0 +1,9 @@
+{"items":[
+{"i":0,"section":"infra","summary":"演示：被模型改判为基础设施"},
+{"i":1,"section":"essay","summary":"演示：被模型改判为长文"},
+{"i":2,"section":"ai","summary":"演示：被模型改判为 AI"},
+{"i":3,"section":"other","summary":"演示：确实无关的内容"},
+{"i":4,"section":"oss","summary":"演示：被模型改判为开源工具"},
+{"i":5,"section":"ai","summary":"多余的编号，应被忽略"},
+{"i":99,"section":"ai","summary":"越界编号，应被忽略"}
+]}

@@ -50,6 +50,8 @@ jobs:
         env:
           DIGEST_DATE: ${{ github.event.inputs.date }}
           DIGEST_FORCE: ${{ github.event.inputs.force }}
+          # 没配这个 secret 时自动退回关键词分类，不会失败
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           set -euo pipefail
           ARGS=()

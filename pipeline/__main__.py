@@ -10,7 +10,7 @@ import sys
 from collections import Counter
 from zoneinfo import ZoneInfo
 
-from . import config, fetch, merge, render, state
+from . import classify, config, fetch, merge, render, state
 from .config import ROOT
 
 UTC = dt.timezone.utc
@@ -99,7 +99,18 @@ def build(args: argparse.Namespace) -> int:
     ]
 
     weights = {src["id"]: float(src.get("weight", 0.7)) for src in config.sources(cfg)}
-    picked = merge.select(merge.score(items, weights), config.sections(cfg), quota)
+    weighted = merge.score(items, weights)
+
+    # 只把「有机会入选」的头部候选送去分类，控制 token 上限
+    if classify.enabled(cfg):
+        limit = int(cfg.get("llm", {}).get("limit", 60))
+        batch = sorted(weighted, key=lambda row: -row["score"])[:limit]
+        changed, note = classify.classify(batch, config.sections(cfg), cfg)
+        print(f"  {note}", file=sys.stderr)
+    else:
+        print("  · 未配置 DEEPSEEK_API_KEY，使用关键词分类", file=sys.stderr)
+
+    picked = merge.select(weighted, config.sections(cfg), quota)
 
     if len(picked) < int(quota["min_items"]):
         print(

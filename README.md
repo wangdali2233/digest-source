@@ -88,6 +88,32 @@ _config.next.yml  主题（NexT）配置
 同样地，frontmatter 里的 `date` 写成不带偏移的本地时间（`2026-10-19 07:00:00`），
 Hexo 会按 `_config.yml` 的 `timezone` 解释，避免日期漂移。
 
+## LLM 分节
+
+关键词分类在单源（HN）下实测有 64% 的条目落进「其他」，所以加了模型分节：
+
+- **一次请求**把「分数最高的 `llm.limit` 条」（默认 60）分到固定分节表，顺带生成一句话摘要。
+- 只送头部候选，不送全部原始条目——token 上限可控。
+- **任何失败都退回关键词分类**：没配 key、网络错误、返回垃圾、JSON 解析失败，都只是少了一次增强，
+  构建照常出稿（会退一次重试）。
+- 输出严格校验：分节 id 不在表里直接丢，摘要超 80 字直接丢，编号越界直接丢。
+
+配置在 `sources.toml` 的 `[llm]`；分节表里的 `desc` 字段会进 prompt，描述越具体分类越准。
+
+**启用方式**：仓库 Settings → Secrets and variables → Actions → 新建 `DEEPSEEK_API_KEY`
+（去 https://platform.deepseek.com 申请）。不配也能跑，只是用关键词分类。
+
+量级参考：一次约 60 条标题 ≈ 1k input token，输出几百 token，每天成本在厘级。
+
+**离线验证**（不需要 key）：
+
+```bash
+DIGEST_LLM_FAKE=data/fixtures/llm_fake.json \
+  python3 -m pipeline build --date 2026-10-19 --offline --stdout --no-state
+```
+
+`DIGEST_LLM_FAKE` 指向一个假的模型响应文件，用来验证 prompt 组装、JSON 解析、结果写回这一整条链路。
+
 ## 部署（一次性）
 
 1. **站点仓库开 Pages**：Settings → Pages → Source 选 `Deploy from a branch` → `main` / `(root)`。
@@ -103,9 +129,9 @@ Hexo 会按 `_config.yml` 的 `timezone` 解释，避免日期漂移。
 ## 已知限制
 
 - **目前只启用 Hacker News 一个源**。加 RSS 源的方式见 `sources.toml` 末尾的注释。
-- **分类靠关键词 + 域名**，长尾条目会掉进「其他」。单源实测 47 条里约 64% 落在「其他」，
-  所以 `max_other` 放宽到 4；想真正解决，用一次 LLM 调用让模型在固定分节表里选。
-- **没有摘要**。`render.py` 已预留 `summary` 字段，接 LLM 后直接填。
+- **分类优先走 LLM**，没配 key 时退回关键词 + 域名（单源实测约 64% 会落进「其他」，
+  所以 `max_other` 放宽到 4）。
+- **摘要有赖于 LLM**。没配 key 时只有标题和元信息，`summary` 字段为空。
 - **每天只采集一次**。HN 用 Algolia 的全天窗口查询兜底；若 RSS 源日更量超过 feed 容量，
   需要加一个只做采集、写 `data/raw/` 的高频 workflow。
 - **站点仓库每次 force push，只有一个提交**。回滚方式是回到源码仓库对应 commit 重跑，

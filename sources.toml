@@ -24,24 +24,28 @@ seen_days = 7            # 同一链接多少天内不重复
 [[sections]]
 id = "ai"
 title = "AI / 模型"
+desc = "大模型、训练与推理、AI 公司动态、论文、算力"
 keywords = ["ai", "llm", "gpt", "claude", "模型", "训练", "推理", "agent", "diffusion", "token", "transformer"]
 domains = ["arxiv.org", "openai.com", "anthropic.com", "huggingface.co"]
 
 [[sections]]
 id = "oss"
 title = "开源 / 工具"
+desc = "开源项目、开发者工具、编程语言与框架、版本发布"
 keywords = ["github", "开源", "open source", "cli", "tool", "编辑器", "rust", "python", "javascript", "release"]
 domains = ["github.com", "gitlab.com", "crates.io", "pypi.org"]
 
 [[sections]]
 id = "infra"
 title = "基础设施"
+desc = "数据库、网络、云服务、运维、性能、安全"
 keywords = ["database", "数据库", "索引", "kubernetes", "k8s", "latency", "性能", "存储", "linux", "deploy", "server", "cdn"]
 domains = ["blog.cloudflare.com", "aws.amazon.com", "kubernetes.io"]
 
 [[sections]]
 id = "essay"
 title = "长文 / 观点"
+desc = "观点、随笔、访谈、视频、科技与社会、非技术但值得读的深度内容"
 keywords = ["why", "essay", "观点", "思考", "反思", "how i", "blog", "技术债"]
 domains = ["simonwillison.net", "paulgraham.com"]
 
@@ -61,3 +65,13 @@ kind = "hn_algolia"
 weight = 1.0
 min_points = 80
 limit = 100
+
+# ---- LLM 分节 ----
+# 没配 DEEPSEEK_API_KEY 时整段失效，自动退回关键词分类，不影响出稿
+[llm]
+enabled = true
+model = "deepseek-chat"
+endpoint = "https://api.deepseek.com/chat/completions"
+limit = 60        # 只把分数最高的这么多条送去分类，控制 token
+timeout = 60
+json_mode = true  # 让服务端保证返回 JSON；个别兼容端点不支持时改 false
