@@ -27,7 +27,7 @@ concurrency:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       SITE_REPO: git@github.com:wangdali2233/wangdali2233.github.io.git
 
