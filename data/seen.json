@@ -2,27 +2,27 @@
 "api-docs.deepseek.com/guides/search": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 579
+"max_points": 585
 },
 "arxiv.org/abs/2610.18861": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 436
+"max_points": 474
 },
 "github.com/0x23/MicroManipulatorStepper": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 210
+"max_points": 211
 },
 "github.com/VikOlliver/RepRapMicron/wiki": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 409
+"max_points": 430
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 136
+"max_points": 144
 },
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
@@ -32,17 +32,22 @@
 "jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 209
+"max_points": 256
 },
 "karrisaarinen.com/posts/someone-behind-the-software": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 483
+"max_points": 513
+},
+"meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day": {
+"first": "2026-10-19",
+"last": "2026-10-19",
+"max_points": 590
 },
 "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
 "first": "2026-10-19",
 "last": "2026-10-19",
-"max_points": 598
+"max_points": 625
 },
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
@@ -53,6 +58,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 248
+},
+"twitter.com/opencode/status/2111516673953935833": {
+"first": "2026-10-19",
+"last": "2026-10-19",
+"max_points": 965
 },
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
