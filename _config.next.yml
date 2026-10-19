@@ -1,0 +1,32 @@
+# NexT 主题配置（覆盖 node_modules/hexo-theme-next/_config.yml）
+scheme: Gemini
+darkmode: true
+
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+
+social:
+  RSS: /atom.xml || fa fa-rss
+  GitHub: https://github.com/wangdali2233 || fab fa-github
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: false
+  categories: false
+  tags: true
+
+toc:
+  enable: true
+  number: false
+  wrap: true
+
+codeblock:
+  copy_button:
+    enable: true
+
+footer:
+  since: 2026
+  copyright: 内容版权归原作者，此处仅聚合标题与链接

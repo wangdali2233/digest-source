@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+public/
+db.json
+.deploy_git/
+*.log
+
+# 主题若改成 git 引入才需要
+themes/
+
+# 采集缓存与中间结果
+data/cache/
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 部署密钥绝不能提交
+site_deploy_key
+site_deploy_key.pub

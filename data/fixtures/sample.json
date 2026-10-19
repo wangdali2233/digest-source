@@ -1,0 +1,99 @@
+[
+  {
+    "id": "hn:41001",
+    "source": "hn",
+    "title": "Rust 1.85 released with async closures",
+    "url": "https://blog.rust-lang.org/2026/10/18/Rust-1.85.0.html",
+    "discussion": "https://news.ycombinator.com/item?id=41001",
+    "published_at": "2026-10-18T09:10:00+00:00",
+    "points": 412,
+    "comments": 186
+  },
+  {
+    "id": "hn:41002",
+    "source": "hn",
+    "title": "The cost of database indexes",
+    "url": "https://example.org/posts/cost-of-indexes",
+    "discussion": "https://news.ycombinator.com/item?id=41002",
+    "published_at": "2026-10-18T04:20:00+00:00",
+    "points": 305,
+    "comments": 97
+  },
+  {
+    "id": "hn:41003",
+    "source": "hn",
+    "title": "为什么我们放弃了 Kubernetes",
+    "url": "https://example.com/blog/leaving-k8s",
+    "discussion": "https://news.ycombinator.com/item?id=41003",
+    "published_at": "2026-10-18T06:05:00+00:00",
+    "points": 288,
+    "comments": 214
+  },
+  {
+    "id": "hn:41004",
+    "source": "hn",
+    "title": "Rust 1.85 released with async closures",
+    "url": "https://blog.rust-lang.org/2026/10/18/Rust-1.85.0.html?utm_source=twitter&utm_medium=social",
+    "discussion": "https://news.ycombinator.com/item?id=41004",
+    "published_at": "2026-10-18T11:40:00+00:00",
+    "points": 88,
+    "comments": 12
+  },
+  {
+    "id": "hn:41005",
+    "source": "hn",
+    "title": "The cost of database indexes (2026 update)",
+    "url": "https://example.net/indexes-2026",
+    "discussion": "https://news.ycombinator.com/item?id=41005",
+    "published_at": "2026-10-18T07:30:00+00:00",
+    "points": 142,
+    "comments": 31
+  },
+  {
+    "id": "hn:41006",
+    "source": "hn",
+    "title": "LLM inference costs dropped 10x this year",
+    "url": "https://example.io/llm-cost-drop",
+    "discussion": "https://news.ycombinator.com/item?id=41006",
+    "published_at": "2026-10-18T02:15:00+00:00",
+    "points": 233,
+    "comments": 120
+  },
+  {
+    "id": "hn:41007",
+    "source": "hn",
+    "title": "Ask HN: 你们怎么管理技术债",
+    "url": "https://news.ycombinator.com/item?id=41007",
+    "discussion": "https://news.ycombinator.com/item?id=41007",
+    "published_at": "2026-10-18T12:00:00+00:00",
+    "points": 61,
+    "comments": 143
+  },
+  {
+    "id": "gh-blog:1",
+    "source": "gh-blog",
+    "title": "GitHub Actions 新增依赖缓存策略",
+    "url": "https://github.blog/changelog/2026-10-18-actions-cache-policy/",
+    "published_at": "2026-10-18T15:00:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cloudflare:1",
+    "source": "cloudflare",
+    "title": "Cloudflare 发布新的边缘存储层",
+    "url": "https://blog.cloudflare.com/edge-storage-r2-update/",
+    "published_at": "2026-10-18T13:20:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "simonw:1",
+    "source": "simonw",
+    "title": "How I use LLMs for writing",
+    "url": "https://simonwillison.net/2026/Oct/18/llms-for-writing/",
+    "published_at": "2026-10-18T18:40:00+00:00",
+    "points": 0,
+    "comments": 0
+  }
+]

@@ -1,0 +1,84 @@
+# 每日信息聚合 · 采集与编排配置
+
+[site]
+title = "技术信息聚合"
+base_url = "https://wangdali2233.github.io/"
+timezone = "Asia/Shanghai"
+publish_at = "07:00"     # 每期出稿时刻，也是时间窗的右边界
+window_hours = 24        # 窗口 = [出稿时刻 - 24h, 出稿时刻)
+window_slack_hours = 6   # 额外向前放宽，避免跑晚了导致 feed 全军覆没
+
+[output]
+content_dir = "source/_posts"
+state_file = "data/seen.json"
+
+[quota]
+daily = 12               # 每期总条数上限
+per_section = 4          # 每个分节的条数上限
+max_other = 2            # 「其他」单独限量，防止分类失手的条目淹没版面
+min_items = 3            # 少于这个数就中止发布，宁可停更
+seen_days = 7            # 同一链接多少天内不重复
+
+# 正文分节：固定顺序，渲染时按这个顺序出 ## 标题
+[[sections]]
+id = "ai"
+title = "AI / 模型"
+keywords = ["ai", "llm", "gpt", "claude", "模型", "训练", "推理", "agent", "diffusion", "token", "transformer"]
+domains = ["arxiv.org", "openai.com", "anthropic.com", "huggingface.co"]
+
+[[sections]]
+id = "oss"
+title = "开源 / 工具"
+keywords = ["github", "开源", "open source", "cli", "tool", "编辑器", "rust", "python", "javascript", "release"]
+domains = ["github.com", "gitlab.com", "crates.io", "pypi.org"]
+
+[[sections]]
+id = "infra"
+title = "基础设施"
+keywords = ["database", "数据库", "索引", "kubernetes", "k8s", "latency", "性能", "存储", "linux", "deploy", "server", "cdn"]
+domains = ["blog.cloudflare.com", "aws.amazon.com", "kubernetes.io"]
+
+[[sections]]
+id = "essay"
+title = "长文 / 观点"
+keywords = ["why", "essay", "观点", "思考", "反思", "how i", "blog", "技术债"]
+domains = ["simonwillison.net", "paulgraham.com"]
+
+[other]
+title = "其他"
+
+# ---- 源 ----
+# kind 支持：hn_algolia（HN 全天窗口查询）、rss（RSS 2.0 / Atom 通用）
+# weight 决定跨源排序时的相对权重，调到 0 等于静音该源
+
+[[sources]]
+id = "hn"
+name = "Hacker News"
+kind = "hn_algolia"
+weight = 1.0
+min_points = 80
+limit = 100
+
+[[sources]]
+id = "cloudflare"
+name = "Cloudflare Blog"
+kind = "rss"
+url = "https://blog.cloudflare.com/rss/"
+weight = 0.8
+default_section = "infra"
+
+[[sources]]
+id = "gh-blog"
+name = "GitHub Blog"
+kind = "rss"
+url = "https://github.blog/feed/"
+weight = 0.7
+default_section = "oss"
+
+[[sources]]
+id = "simonw"
+name = "Simon Willison"
+kind = "rss"
+url = "https://simonwillison.net/atom/everything/"
+weight = 0.75
+default_section = "ai"

@@ -1,0 +1,81 @@
+# Hexo 站点配置
+title: 技术信息聚合
+subtitle: ''
+description: 每天 07:00 更新 · Hacker News / 开源 / 基础设施 / 长文
+keywords:
+author: wangdali2233
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL：站点仓是 <user>.github.io，所以部署在根路径
+url: https://wangdali2233.github.io
+root: /
+# 用日期定 URL。这里必须用 :title 而不是 :year-:month-:day：
+# Hexo 的 :day 取自 UTC，07:00+08:00 会算成前一天；而文件名本身就是日期。
+permalink: posts/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 注意：这个模式必须含 :title，Hexo 会用它从文件名解析 slug，
+# 缺失时 data.slug 会被覆盖成 undefined，文章静默不入库。
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude:
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+# 出稿时间在 07:00，若 CI 提前跑，future 必须放行
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+default_category: daily
+category_map:
+tag_map:
+
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: mtime
+
+per_page: 10
+pagination_dir: page
+
+theme: next
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+marked:
+  gfm: true
+  breaks: false
+  headerIds: true
+  modifyAnchors: 0
+  autolink: true
+  prependRoot: false

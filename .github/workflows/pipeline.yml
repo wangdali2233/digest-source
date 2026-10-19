@@ -1,0 +1,101 @@
+name: publish
+
+on:
+  schedule:
+    # UTC 23:00 = 北京时间次日 07:00，与 sources.toml 的 publish_at 对齐
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "出稿日期 YYYY-MM-DD（留空 = 今天）"
+        required: false
+        type: string
+      force:
+        description: "覆盖当天已生成的文件"
+        required: false
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      SITE_REPO: git@github.com:wangdali2233/wangdali2233.github.io.git
+
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 生成 Markdown
+        env:
+          DIGEST_DATE: ${{ github.event.inputs.date }}
+          DIGEST_FORCE: ${{ github.event.inputs.force }}
+        run: |
+          set -euo pipefail
+          ARGS=()
+          if [ -n "${DIGEST_DATE:-}" ]; then ARGS+=(--date "$DIGEST_DATE"); fi
+          if [ "${DIGEST_FORCE:-false}" = "true" ]; then ARGS+=(--force); fi
+          python3 -m pipeline build "${ARGS[@]}"
+
+      - name: 提交 Markdown 与去重状态
+        run: |
+          set -euo pipefail
+          git config user.name  "digest-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add source/_posts data/seen.json
+          if git diff --cached --quiet; then
+            echo "无内容变更，跳过提交"
+          else
+            git commit -m "digest: $(date -u +%F)"
+            git push origin HEAD:main
+          fi
+
+      - name: 构建站点
+        run: |
+          npx hexo clean
+          npx hexo generate
+          # 缺了 .nojekyll，Pages 会用 Jekyll 预处理，下划线开头的路径会 404
+          touch public/.nojekyll
+
+      - name: 发布到站点仓库
+        env:
+          SITE_DEPLOY_KEY: ${{ secrets.SITE_DEPLOY_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SITE_DEPLOY_KEY:-}" ]; then
+            echo "缺少 SITE_DEPLOY_KEY，请先在仓库 Secrets 里配置 deploy key" >&2
+            exit 1
+          fi
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$SITE_DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t rsa,ecdsa,ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
+
+          cd public
+          git init -q -b main
+          git remote add origin "$SITE_REPO"
+          git add -A
+          git -c user.name="digest-bot" \
+              -c user.email="bot@users.noreply.github.com" \
+              commit -qm "publish: source@${GITHUB_SHA::7}"
+          git push -f origin main
