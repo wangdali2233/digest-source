@@ -98,15 +98,27 @@ Hexo 会按 `_config.yml` 的 `timezone` 解释，避免日期漂移。
   构建照常出稿。
 - 输出严格校验：分节 id 不在表里直接丢，摘要超 80 字直接丢，编号越界直接丢。
 
-### 两个 provider，自动选择
+### 接哪个模型
 
-| provider | 凭据 | 说明 |
+只认 **OpenAI 兼容端点**（`/chat/completions`），换服务商只改 `sources.toml` 里三行：
+
+```toml
+[llm]
+endpoint = "https://api.deepseek.com/chat/completions"
+model    = "deepseek-chat"
+key_env  = "DEEPSEEK_API_KEY"      # 从哪个环境变量读密钥
+```
+
+| 服务 | endpoint | 说明 |
 |---|---|---|
-| `deepseek` | `DEEPSEEK_API_KEY` | 优先级最高，需自己在 [platform.deepseek.com](https://platform.deepseek.com) 申请 |
-| `github` | `GITHUB_TOKEN` | **零配置**，用仓库自带 token 调 GitHub Models，免费额度有速率限制 |
+| DeepSeek | `https://api.deepseek.com/chat/completions` | 默认值，一天成本在厘级 |
+| Moonshot | `https://api.moonshot.cn/v1/chat/completions` | 国内直连 |
+| 硅基流动 | `https://api.siliconflow.cn/v1/chat/completions` | 有免费额度 |
+| 自建 vLLM / Ollama | `http://host:8000/v1/chat/completions` | CI 里需要公网可达 |
 
-`[llm] provider = "auto"` 时按上表顺序取第一个有凭据的；两个都没有就走关键词分类。
-配置在 `sources.toml` 的 `[llm]` / `[llm.deepseek]` / `[llm.github]`；
+> **GitHub Models 已于 2026-07-30 完全下线**，不要再指向 `models.github.ai`——
+> 那个域名现在只返回一个 4 字节的 `OK` 健康检查，看起来像成功，实际拿不到任何内容。
+
 分节表里的 `desc` 字段会进 prompt，描述越具体分类越准。
 
 **离线验证**（不需要任何凭据）：
@@ -117,9 +129,7 @@ DIGEST_LLM_FAKE=data/fixtures/llm_fake.json \
 ```
 
 `DIGEST_LLM_FAKE` 指向一个假的模型响应文件，用来验证 prompt 组装、JSON 解析、结果写回这一整条链路。
-
-> 注意：本地验证只能覆盖到「解析与写回」，覆盖不到真实 API——如果你的网络里有代理拦截，
-> 请求可能返回看似成功的假响应。真实调用请以 CI 日志里的 `LLM 分类（provider/model）` 为准。
+它覆盖不到真实 API——真实调用以 CI 日志里的 `LLM 分类（模型名）` 为准。
 
 ## 部署（一次性）
 

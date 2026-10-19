@@ -67,22 +67,17 @@ min_points = 80
 limit = 100
 
 # ---- LLM 分节 ----
-# 凭据按 provider 自动选择；两者都没有时整段失效，自动退回关键词分类
+# 只认 OpenAI 兼容端点（/chat/completions）。换服务商改下面三行即可：
+#   Moonshot:   https://api.moonshot.cn/v1/chat/completions   moonshot-v1-8k
+#   硅基流动:   https://api.siliconflow.cn/v1/chat/completions  Qwen/Qwen2.5-7B-Instruct
+#   自建 vLLM:  http://your-host:8000/v1/chat/completions      你的模型名
+# 拿不到密钥时整段失效，自动退回关键词分类，不影响出稿。
+# 注意：GitHub Models 已于 2026-07-30 完全下线，不要再指向 models.github.ai。
 [llm]
 enabled = true
-provider = "auto"   # auto | deepseek | github
-limit = 60          # 只把分数最高的这么多条送去分类，控制 token
-json_mode = true    # 首次请求用 response_format，失败会去掉它重试
-timeout = 90
-
-# 有 DEEPSEEK_API_KEY 时优先用它
-[llm.deepseek]
 endpoint = "https://api.deepseek.com/chat/completions"
 model = "deepseek-chat"
 key_env = "DEEPSEEK_API_KEY"
-
-# 否则用 CI 自带的 GITHUB_TOKEN 调 GitHub Models：免费额度，有速率限制，无需额外配置
-[llm.github]
-endpoint = "https://models.github.ai/inference/chat/completions"
-model = "openai/gpt-4o-mini"
-key_env = "GITHUB_TOKEN"
+limit = 60          # 只把分数最高的这么多条送去分类，控制 token
+json_mode = true    # 首次请求用 response_format，不支持时自动去掉重试
+timeout = 90
