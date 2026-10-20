@@ -10,7 +10,7 @@ import sys
 from collections import Counter
 from zoneinfo import ZoneInfo
 
-from . import classify, config, fetch, merge, render, state
+from . import classify, config, fetch, merge, render, state, summarize
 from .config import ROOT
 
 UTC = dt.timezone.utc
@@ -114,6 +114,11 @@ def build(args: argparse.Namespace) -> int:
         )
 
     picked = merge.select(weighted, config.sections(cfg), quota)
+
+    # 第二阶段：只对选中的条目抓正文，再写摘要（分类阶段只看标题）
+    if picked:
+        _, note = summarize.summarize(picked, cfg, offline=args.offline)
+        print(f"  {note}", file=sys.stderr)
 
     if len(picked) < int(quota["min_items"]):
         print(

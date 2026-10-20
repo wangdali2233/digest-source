@@ -88,13 +88,26 @@ def budget(cfg: dict, now: dt.datetime | None = None) -> dict:
             "limit": int(conf.get("peak_limit", 30)),
             "max_tokens": int(conf.get("peak_max_tokens", 800)),
             "summary_chars": int(conf.get("peak_summary_chars", 20)),
+            "summary_max_tokens": int(conf.get("peak_summary_max_tokens", 1600)),
         }
     return {
         "peak": False,
         "limit": int(llm.get("limit", 60)),
         "max_tokens": int(conf.get("offpeak_max_tokens", 4000)),
         "summary_chars": int(conf.get("summary_chars", 30)),
+        "summary_max_tokens": int(conf.get("offpeak_summary_max_tokens", 4000)),
     }
+
+
+def credentials(cfg: dict) -> tuple[dict, str, str] | None:
+    """返回 (profile, key, label)；fake 模式也算「有凭据」，否则离线测试跑不通摘要阶段。"""
+    resolved = resolve(cfg)
+    if resolved:
+        profile, key = resolved
+        return profile, key, str(profile["model"])
+    if _fake_path():
+        return _profile(cfg), "", "fake"
+    return None
 
 
 def enabled(cfg: dict) -> bool:
@@ -175,6 +188,15 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool, max_tokens: int
     return content
 
 
+def chat(prompt: str, profile: dict, key: str, max_tokens: int, json_mode: bool = True) -> str:
+    """给摘要阶段复用的底层调用。"""
+    return _call(prompt, profile, key, json_mode, max_tokens)
+
+
+def parse_rows(content: str) -> list[dict]:
+    return _parse(content)
+
+
 def _parse(content: str) -> list[dict]:
     """容忍 ```json 围栏和前后废话，只取第一个完整的 JSON 对象。"""
     text = re.sub(r"```(?:json)?", "", content)
@@ -217,16 +239,10 @@ def apply(items: list[dict], sections: list[dict], rows: list[dict]) -> int:
 
 def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, str]:
     """返回 (改判条数, 说明)。异常一律吞掉并回退。"""
-    profile = _profile(cfg)
-    resolved = resolve(cfg)
-
-    if resolved:
-        key = resolved[1]
-        label = str(profile["model"])
-    elif _fake_path():
-        key, label = "", "fake"
-    else:
-        return 0, f'没有可用的模型凭据（{profile["key_env"]}），使用关键词分类'
+    creds = credentials(cfg)
+    if not creds:
+        return 0, f'没有可用的模型凭据（{_profile(cfg)["key_env"]}），使用关键词分类'
+    profile, key, label = creds
 
     plan = budget(cfg)
     prompt = _build_prompt(items, sections, plan["summary_chars"])

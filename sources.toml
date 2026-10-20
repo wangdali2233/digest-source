@@ -95,3 +95,14 @@ peak_max_tokens = 800       # 高峰输出上限
 peak_summary_chars = 20     # 高峰摘要压到 20 字
 offpeak_max_tokens = 4000
 summary_chars = 30
+# 摘要阶段单独给预算：条数多、每条都要写，800 不够用
+peak_summary_max_tokens = 1600
+offpeak_summary_max_tokens = 4000
+
+# 摘要阶段：先抓正文，再让模型写一句话。抓不到就只依据标题写。
+[llm.summary]
+enabled = true
+excerpt_chars = 1200     # 每篇最多取多少字进 prompt
+fetch_bytes = 200000     # 单页最多读多少字节
+timeout = 12
+workers = 8              # 并发抓取数，20 条大约几秒
