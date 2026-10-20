@@ -51,6 +51,7 @@ def load(profile: str = "tech", path: str | pathlib.Path | None = None, slot: st
 
     # 有时段的栏目（财经一天两期），发布时刻由时段决定
     slots = prof.get("slots", {}) or {}
+    slot_label = ""
     if slots and not slot:
         raise SystemExit(
             f"栏目 {profile} 需要指定时段；可用：{', '.join(slots)}"
@@ -61,6 +62,7 @@ def load(profile: str = "tech", path: str | pathlib.Path | None = None, slot: st
                 f"栏目 {profile} 没有时段 {slot}；可用：{', '.join(slots) or '（无）'}"
             )
         site["publish_at"] = slots[slot].get("publish_at", site.get("publish_at"))
+        slot_label = str(slots[slot].get("label", ""))
     cfg["site"] = site
 
     # --- output：{profile} 占位符让每个栏目落到自己的子目录 ---
@@ -96,6 +98,7 @@ def load(profile: str = "tech", path: str | pathlib.Path | None = None, slot: st
         "footer": prof.get("footer", ""),
         "summary_rules": prof.get("summary_rules", ""),
         "slot": slot,
+        "slot_label": slot_label,
     }
     return cfg
 

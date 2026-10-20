@@ -17,9 +17,11 @@ summary_rules = "只转述结论，不要复述涨跌幅、点位、金额等具
 # 两期：晨报看隔夜，晚报看当天
 [slots.morning]
 publish_at = "05:30"
+label = "早报"
 
 [slots.evening]
 publish_at = "17:30"
+label = "晚报"
 
 [quota]
 daily = 6

@@ -29,9 +29,11 @@ def _permalink(day: dt.date, profile_cfg: dict | None, slot: str | None) -> str:
 
 def _title(site_cfg: dict, profile_cfg: dict | None) -> str:
     """文章标题用栏目名：两个栏目同一天出稿时，标题不能一样。"""
+    base = str(site_cfg.get("title", "信息聚合"))
     if profile_cfg and profile_cfg.get("title"):
-        return str(profile_cfg["title"])
-    return str(site_cfg.get("title", "信息聚合"))
+        base = str(profile_cfg["title"])
+    label = str((profile_cfg or {}).get("slot_label") or "")
+    return f"{base}{label}"
 
 
 def _escape_title(title: str) -> str:
