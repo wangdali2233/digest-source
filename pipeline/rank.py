@@ -36,13 +36,17 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
     lines = [
         f"你是财经编辑。从下面候选里挑出最值得读者知道的 {want} 条，按重要性排序。",
         "",
-        "标准：宏观政策 > 市场异动 > 公司重大事件 > 一般新闻；同题材只留最重要的一条。",
+        "标准：宏观政策 > 市场异动 > 公司重大事件 > 一般新闻。",
+        f"目标是 {want} 条；候选不足就全部选出。只有明显无关的（娱乐八卦、生活琐事）才剔除。",
+        "尽量覆盖不同来源，同一来源别超过半数；官方机构（美联储/欧洲央行/SEC/BLS）优先。",
         "",
-        "要求：",
-        f'1. 只输出 JSON，形如 {{"picks":[3,0,7]}}，按重要性从高到低，最多 {want} 条',
-        "2. 数字是候选编号，必须真实存在，不要编造",
-        f"3. 目标是 {want} 条；候选不足就全部选出。只有明显无关的（娱乐八卦、生活琐事）才剔除",
-        "4. 尽量覆盖不同来源，同一来源别超过半数；官方机构（美联储/欧洲央行/SEC/BLS）优先",
+        "去重规则（重要）：多条候选如果报道的是同一件事，只保留信息最全的一条，",
+        "其余全部放进 duplicates。标题措辞不同、来源不同，只要是同一件事就算重复。",
+        "",
+        "只输出 JSON，形如：",
+        '{"picks":[3,0,7],"duplicates":[[3,9],[0,4]]}',
+        "picks 是按重要性排序的入选编号；duplicates 是每组重复的编号。",
+        "编号必须真实存在，不要编造。",
         "",
         "候选：",
     ]
@@ -52,15 +56,18 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
     attempts = [True, False] if profile.get("json_mode", True) else [False]
     for json_mode in attempts:
         try:
-            content = classify.chat("\n".join(lines), profile, key, 600, json_mode)
-            picks = _parse_picks(content)
+            content = classify.chat(
+                "\n".join(lines), profile, key, plan["max_tokens"], json_mode
+            )
+            picks, dup_groups = _parse_picks(content)
             chosen = [candidates[i] for i in picks if 0 <= i < len(candidates)]
             if not chosen:
                 raise ValueError("模型没有给出有效编号")
             chosen = _ensure_diversity(chosen[:want], candidates, want)
             return chosen, (
                 f"模型选品（{label}）：{len(candidates)} 条候选挑 {len(chosen)} 条，"
-                f"来源 {len({x['source'] for x in chosen})} 个"
+                f"来源 {len({x['source'] for x in chosen})} 个，"
+                f"合并重复 {len(dup_groups)} 组"
             )
         except Exception as exc:  # noqa: BLE001 - 选品失败不能拖垮发布
             last = exc
@@ -102,7 +109,7 @@ def _recent(items: list[dict], want: int) -> list[dict]:
     return sorted(items, key=lambda x: x["published"], reverse=True)[:want]
 
 
-def _parse_picks(content: str) -> list[int]:
+def _parse_picks(content: str) -> tuple[list[int], list[list[int]]]:
     text = content.strip()
     start, end = text.find("{"), text.rfind("}")
     if start < 0 or end <= start:
@@ -119,4 +126,17 @@ def _parse_picks(content: str) -> list[int]:
             continue
         if index not in picks:
             picks.append(index)
-    return picks
+
+    groups: list[list[int]] = []
+    for group in data.get("duplicates") or []:
+        if not isinstance(group, list):
+            continue
+        cleaned = []
+        for value in group:
+            try:
+                cleaned.append(int(value))
+            except (TypeError, ValueError):
+                continue
+        if cleaned:
+            groups.append(cleaned)
+    return picks, groups

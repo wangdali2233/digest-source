@@ -74,6 +74,15 @@ weight = 1.0
 default_section = "macro"
 
 [[sources]]
+id = "bbc"
+name = "BBC 商业"
+kind = "rss"
+url = "https://feeds.bbci.co.uk/news/business/rss.xml"
+weight = 0.7
+# 量最大的一个源（窗口内约 35 条），靠模型去重避免和 CNBC 撞同一件事
+default_section = "markets"
+
+[[sources]]
 id = "ecb"
 name = "欧洲央行"
 kind = "rss"
