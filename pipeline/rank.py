@@ -34,14 +34,14 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
     candidates = sorted(items, key=lambda x: x["published"], reverse=True)[: plan["limit"]]
 
     lines = [
-        "你是财经编辑。从下面候选里挑出最值得读者知道的几条，按重要性排序。",
+        f"你是财经编辑。从下面候选里挑出最值得读者知道的 {want} 条，按重要性排序。",
         "",
         "标准：宏观政策 > 市场异动 > 公司重大事件 > 一般新闻；同题材只留最重要的一条。",
         "",
         "要求：",
-        f'1. 只输出 JSON，形如 {{"picks":[3,0,7]}}，最多 {want} 条',
+        f'1. 只输出 JSON，形如 {{"picks":[3,0,7]}}，按重要性从高到低，最多 {want} 条',
         "2. 数字是候选编号，必须真实存在，不要编造",
-        "3. 不够重要就少挑，宁缺毋滥",
+        f"3. 目标是 {want} 条；候选不足就全部选出。只有明显无关的（娱乐八卦、生活琐事）才剔除",
         "",
         "候选：",
     ]
