@@ -74,6 +74,15 @@ weight = 1.0
 default_section = "macro"
 
 [[sources]]
+id = "ecb"
+name = "欧洲央行"
+kind = "rss"
+url = "https://www.ecb.europa.eu/rss/press.html"
+weight = 1.0
+# 法兰克福上午 = 北京下午，正好补上晚报窗口（美国那边在睡觉）
+default_section = "macro"
+
+[[sources]]
 id = "sec"
 name = "SEC"
 kind = "rss"
