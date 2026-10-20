@@ -62,7 +62,7 @@ def _hn_algolia(src: dict, start: dt.datetime, end: dt.datetime) -> list[dict]:
 
 
 def _rss(src: dict) -> list[dict]:
-    raw = http.get(src["url"], cache_key=f"rss-{src['id']}")
+    raw = http.get(src["url"], cache_key=f"rss-{src['id']}", ua=src.get("ua"))
     rows = []
     for title, link, published in _parse_feed(raw):
         if not title or not link:

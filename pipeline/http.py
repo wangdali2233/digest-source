@@ -22,7 +22,7 @@ def _cache_path(key: str) -> pathlib.Path:
     return CACHE_DIR / f"{safe}.json"
 
 
-def get(url: str, cache_key: str | None = None, timeout: int = 25) -> bytes:
+def get(url: str, cache_key: str | None = None, timeout: int = 25, ua: str | None = None) -> bytes:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     cached: dict = {}
@@ -34,7 +34,7 @@ def get(url: str, cache_key: str | None = None, timeout: int = 25) -> bytes:
             except (OSError, ValueError):
                 cached = {}
 
-    headers = {"User-Agent": UA, "Accept-Encoding": "identity"}
+    headers = {"User-Agent": ua or UA, "Accept-Encoding": "identity"}
     if cached.get("etag"):
         headers["If-None-Match"] = cached["etag"]
     if cached.get("modified"):
