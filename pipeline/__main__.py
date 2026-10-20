@@ -142,7 +142,8 @@ def build(args: argparse.Namespace) -> int:
         out_path.write_text(markdown, encoding="utf-8")
         print(f"✓ 写入 {out_path.relative_to(ROOT)}")
 
-    if not args.no_state:
+    # 离线跑的是 fixture 数据，绝不能写进生产去重状态
+    if not args.no_state and not args.offline:
         for item in picked:
             state.touch(seen, item["canonical"], day, item["points"])
         state.save(state_file, state.prune(seen, day))
