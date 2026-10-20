@@ -154,9 +154,11 @@ def summarize(items: list[dict], cfg: dict, offline: bool = False) -> tuple[int,
             )
             rows = classify.parse_rows(content)
             written = _apply(items, rows)
+            usage = classify.usage_text()
             return written, (
                 f"摘要（{label}）：抓到正文 {got}/{len(items)} 条，"
                 f"写入 {written} 条"
+                + (f"，{usage}" if usage else "")
             )
         except Exception as exc:
             last_error = exc

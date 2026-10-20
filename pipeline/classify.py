@@ -19,6 +19,8 @@ import urllib.request
 from zoneinfo import ZoneInfo
 
 MAX_SUMMARY = 80
+# 最近一次调用的 usage，用来把 token 消耗打进口志（成本可观测）
+LAST_USAGE: dict = {}
 EXAMPLE = '{"items":[{"i":0,"section":"ai","summary":"模型发布，上下文扩到 1M"}]}'
 
 # 默认指向 DeepSeek。任何 OpenAI 兼容服务（Moonshot / 智谱 / 硅基流动 / 自建 vLLM）
@@ -175,6 +177,9 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool, max_tokens: int
     if "choices" not in payload:
         raise ValueError(f"响应缺少 choices：{str(payload)[:200]}")
 
+    LAST_USAGE.clear()
+    LAST_USAGE.update(payload.get("usage") or {})
+
     choice = payload["choices"][0]
     message = choice.get("message", {}) or {}
     content = (message.get("content") or "").strip()
@@ -186,6 +191,12 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool, max_tokens: int
         }
         raise ValueError(f"content 为空，诊断：{json.dumps(detail, ensure_ascii=False)[:300]}")
     return content
+
+
+def usage_text() -> str:
+    if not LAST_USAGE:
+        return ""
+    return f"{LAST_USAGE.get('prompt_tokens', 0)}/{LAST_USAGE.get('completion_tokens', 0)} tokens"
 
 
 def chat(prompt: str, profile: dict, key: str, max_tokens: int, json_mode: bool = True) -> str:
@@ -255,9 +266,11 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
             rows = _parse(_call(prompt, profile, key, json_mode, plan["max_tokens"]))
             changed = apply(items, sections, rows)
             phase = "高峰省流" if plan["peak"] else "错峰"
+            usage = usage_text()
             return changed, (
                 f"LLM 分类（{label}，{phase}，max_tokens={plan['max_tokens']}）："
                 f"返回 {len(rows)} 条，改判 {changed} 条"
+                + (f"，{usage}" if usage else "")
             )
         except Exception as exc:  # 网络、限流、格式，全都退回关键词
             last_error = exc
