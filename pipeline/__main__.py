@@ -103,8 +103,8 @@ def build(args: argparse.Namespace) -> int:
 
     # 只把「有机会入选」的头部候选送去分类，控制 token 上限
     if classify.enabled(cfg):
-        limit = int(cfg.get("llm", {}).get("limit", 60))
-        batch = sorted(weighted, key=lambda row: -row["score"])[:limit]
+        plan = classify.budget(cfg)
+        batch = sorted(weighted, key=lambda row: -row["score"])[: plan["limit"]]
         changed, note = classify.classify(batch, config.sections(cfg), cfg)
         print(f"  {note}", file=sys.stderr)
     else:

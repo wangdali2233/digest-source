@@ -81,3 +81,13 @@ key_env = "DEEPSEEK_API_KEY"
 limit = 60          # 只把分数最高的这么多条送去分类，控制 token
 json_mode = true    # 首次请求用 response_format，不支持时自动去掉重试
 timeout = 90
+
+# 高峰省流：DeepSeek 官方模型的错峰优惠是北京时间 00:30-08:30，其余时段为高峰。
+# 高峰期压缩输出，避免在贵的时候烧 token；错峰时段放开。
+[llm.budget]
+peak = "08:30-00:30"        # 北京时间高峰段（跨午夜）
+peak_limit = 30             # 高峰只送 30 条候选（错峰 60）
+peak_max_tokens = 800       # 高峰输出上限
+peak_summary_chars = 20     # 高峰摘要压到 20 字
+offpeak_max_tokens = 4000
+summary_chars = 30
