@@ -9,10 +9,20 @@
 "last": "2026-10-19",
 "max_points": 476
 },
+"colo.to/cyberspace.html": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 277
+},
 "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 241
+"max_points": 242
+},
+"getlazarus.org/dynamic": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 197
 },
 "github.com/0x23/MicroManipulatorStepper": {
 "first": "2026-10-19",
@@ -37,27 +47,32 @@
 "github.com/kksimp/Mac.apk": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 246
+"max_points": 250
 },
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 172
 },
+"githubstatus.com/incidents/8tzbpcnl75jp": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 150
+},
 "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 314
+"max_points": 315
 },
 "inceptionlabs.ai/blog/introducing-mercury-3": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 218
+"max_points": 219
 },
 "josie.lol/blog/linux-rtx-spark": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 138
+"max_points": 169
 },
 "jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
 "first": "2026-10-19",
@@ -77,7 +92,7 @@
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 488
+"max_points": 490
 },
 "meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day": {
 "first": "2026-10-19",
@@ -87,22 +102,32 @@
 "minimax.io/blog/minimax-m31f": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 364
+"max_points": 371
 },
 "mistral.ai/news/timestral": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 535
+"max_points": 538
 },
 "news.ycombinator.com/item?id=50151036": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 208
+"max_points": 244
+},
+"peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 191
 },
 "po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 418
+"max_points": 421
+},
+"politico.com/news/magazine/2026/10/18/egg-prices-conspiracy-affordability-issue-01100411": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 200
 },
 "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
 "first": "2026-10-19",
@@ -117,12 +142,17 @@
 "spectrum.ieee.org/alternatives-to-animal-testing": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 316
+"max_points": 317
 },
 "sphinx-six-theta.vercel.app/": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 249
+},
+"starcraft-shooter-2026.pages.dev/": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 298
 },
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
@@ -142,6 +172,6 @@
 "youtube.com/watch?v=Ndftcft6XhU": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 366
+"max_points": 368
 }
 }
