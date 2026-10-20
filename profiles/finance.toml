@@ -1,0 +1,78 @@
+# 栏目：财经
+id = "finance"
+title = "财经"
+category = "finance"
+
+# 没有分数信号，靠模型挑：40 条候选里选 6 条
+rank = "llm"
+
+window_hours = 12           # 与两次发布对齐，窗口不重叠
+window_slack_hours = 2
+
+footer = "> 仅供信息参考，不构成投资建议。"
+
+# 财经摘要不重复具体数字：写错一个百分比比写错一句话严重
+summary_rules = "只转述结论，不要复述涨跌幅、点位、金额等具体数字"
+
+# 两期：晨报看隔夜，晚报看当天
+[slots.morning]
+publish_at = "05:30"
+
+[slots.evening]
+publish_at = "17:30"
+
+[quota]
+daily = 6
+per_section = 3
+max_other = 0               # 财经不设「其他」，宁可少收
+min_items = 1               # 一条重要消息就值得成期
+seen_days = 7
+
+[[sections]]
+id = "macro"
+title = "宏观"
+desc = "央行政策、利率、通胀、就业、GDP、财政、关税"
+keywords = ["fed", "fomc", "rate", "inflation", "cpi", "gdp", "jobs", "payroll", "treasury", "tariff"]
+domains = []
+
+[[sections]]
+id = "markets"
+title = "市场"
+desc = "股市、债市、汇市、大宗商品、资金流向"
+keywords = ["stocks", "s&p", "nasdaq", "bond", "yield", "dollar", "oil", "gold", "bitcoin", "markets"]
+domains = []
+
+[[sections]]
+id = "companies"
+title = "公司"
+desc = "财报、并购、IPO、管理层变动、裁员"
+keywords = ["earnings", "revenue", "ipo", "merger", "acquisition", "ceo", "layoffs", "quarter"]
+domains = []
+
+[[sections]]
+id = "policy"
+title = "政策与监管"
+desc = "监管处罚、立法、反垄断、数据与合规"
+keywords = ["regulator", "sec", "antitrust", "lawsuit", "fine", "ban", "legislation", "compliance"]
+domains = []
+
+[tags]
+extra = ["rates", "earnings", "cbank", "fx", "commodities", "inflation", "trade", "regulation"]
+
+# ---- 源 ----
+# 两个都是实测可用的官方/主流源，无付费墙、无登录
+[[sources]]
+id = "fed"
+name = "美联储"
+kind = "rss"
+url = "https://www.federalreserve.gov/feeds/press_all.xml"
+weight = 1.0
+default_section = "macro"
+
+[[sources]]
+id = "cnbc"
+name = "CNBC"
+kind = "rss"
+url = "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+weight = 0.8
+default_section = "markets"

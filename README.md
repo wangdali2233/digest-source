@@ -1,6 +1,6 @@
 # digest-source
 
-每天 07:17 触发（内容窗口到 07:00 为止），抓取信息源、去重、打分、选品，渲染成一篇 Markdown，用 Hexo 构建成静态站点后
+多个栏目（技术 / 财经）各自按自己的节奏抓取、去重、选品，渲染成 Markdown，用 Hexo 构建成静态站点后
 推送到 `wangdali2233.github.io` 仓库发布。
 
 - 源码与内容仓库：本仓库（`digest-source`）
@@ -17,10 +17,14 @@
 
 ```bash
 npm ci                                  # 或 npm install
-# 用内置样本数据，不联网，验证版式
-python3 -m pipeline build --date 2026-10-19 --offline --stdout --no-state
-# 真实抓取，写入 source/_posts/
-python3 -m pipeline build
+# 技术栏目（默认 profile 就是 tech）
+python3 -m pipeline build --profile tech --date 2026-10-19 --offline --stdout --no-state
+
+# 财经栏目：必须带 --slot（morning / evening）
+python3 -m pipeline build --profile finance --slot morning --offline --stdout --no-state
+
+# 真实抓取，写入 source/_posts/<profile>/
+python3 -m pipeline build --profile tech
 # 本地预览
 npm run server                          # http://localhost:4000
 ```
@@ -31,8 +35,13 @@ npm run server                          # http://localhost:4000
 ## 目录
 
 ```
+config.toml     全局：站点、输出、LLM、核心词表
+profiles/       tech.toml / finance.toml —— 每个栏目一份
+docs/design/    设计文档，编号递增，评审通过才实施
 pipeline/
   __main__.py   CLI：串起整条流水线
+  config.py     加载 global + profile 并合并
+  rank.py       选品策略：percentile / llm
   config.py     sources.toml 加载
   http.py       带 ETag 条件请求的极简客户端
   fetch.py      hn_algolia / rss 两种抓取器
@@ -40,14 +49,14 @@ pipeline/
   merge.py      归一化 → 去重 → 打分 → 选品
   render.py     → Markdown
   state.py      data/seen.json 跨天去重
-source/
-  _posts/       每天一篇 YYYY-MM-DD.md
+source/_posts/tech/      每天一篇 YYYY-MM-DD.md
+source/_posts/finance/   每天两篇 YYYY-MM-DD-morning.md / -evening.md
   tags/         标签页（type: tags）
   archives/     归档页（type: archives）
 data/
   seen.json     已收录链接的指纹与首末出现日期
   fixtures/     离线演示数据
-_config.yml     站点配置
+_config.yml     站点配置（标题「每日信息」）
 _config.next.yml  主题（NexT）配置
 ```
 
@@ -60,7 +69,20 @@ _config.next.yml  主题（NexT）配置
 先去重再打分，否则同一篇文章的多个来源会互相抬分。
 先源内归一再跨源比较，HN 的 300 分和 GitHub 的 star 不是一个量纲。
 
-## 配置（sources.toml）
+## URL 规则
+
+目录三层（栏目 / 年 / 月），文件名带日：
+
+```
+/tech/2026/10/19.html
+/finance/2026/11/01-morning.html
+/finance/2026/11/01-evening.html
+```
+
+由 `render.py::_permalink` 按**本地日期**算出后写进 frontmatter，不用 Hexo 的
+`:year/:month/:day` 变量——那些变量全按 UTC 取，财经 05:30 的稿子在月末会直接错月。
+
+## 配置（config.toml + profiles/）
 
 | 键 | 含义 |
 |---|---|

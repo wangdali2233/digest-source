@@ -1,0 +1,31 @@
+name: publish-finance-am
+
+# 财经晨报：北京时间 05:30，覆盖前 12 小时（美股全天 + 盘后）
+on:
+  schedule:
+    # UTC 21:30 = 北京次日 05:30
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "出稿日期 YYYY-MM-DD（留空 = 今天）"
+        required: false
+        type: string
+      force:
+        description: "覆盖当天已生成的文件"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    uses: ./.github/workflows/pipeline.yml
+    with:
+      profile: finance
+      slot: morning
+      date: ${{ github.event.inputs.date }}
+      force: ${{ github.event.inputs.force == 'true' }}
+    secrets: inherit

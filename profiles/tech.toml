@@ -1,0 +1,61 @@
+# 栏目：技术信息聚合
+id = "tech"
+title = "技术信息聚合"
+category = "tech"
+
+publish_at = "07:00"        # 内容窗口右边界（本地时间）
+window_hours = 24
+window_slack_hours = 6      # 向前放宽，避免跑晚了 feed 全被过滤
+
+rank = "percentile"         # 有分数（HN points）→ 源内百分位归一
+footer = ""                 # 文末固定文案，技术栏目不需要
+
+[quota]
+daily = 20                  # 每期总条数上限
+per_section = 8             # 每节上限。HN 条目高度集中在 AI / 开源两节，卡 4 条凑不满 20
+max_other = 4               # 「其他」桶独立上限
+min_items = 3               # 少于这个数就中止发布，宁可停更
+seen_days = 7               # 同一链接多少天内不重复
+
+# 分节：固定顺序，渲染时按这个顺序出 ## 标题
+[[sections]]
+id = "ai"
+title = "AI / 模型"
+desc = "大模型、训练与推理、AI 公司动态、论文、算力"
+keywords = ["ai", "llm", "gpt", "claude", "模型", "训练", "推理", "agent", "diffusion", "token", "transformer"]
+domains = ["arxiv.org", "openai.com", "anthropic.com", "huggingface.co"]
+
+[[sections]]
+id = "oss"
+title = "开源 / 工具"
+desc = "开源项目、开发者工具、编程语言与框架、版本发布"
+keywords = ["github", "开源", "open source", "cli", "tool", "编辑器", "rust", "python", "javascript", "release"]
+domains = ["github.com", "gitlab.com", "crates.io", "pypi.org"]
+
+[[sections]]
+id = "infra"
+title = "基础设施"
+desc = "数据库、网络、云服务、运维、性能、安全"
+keywords = ["database", "数据库", "索引", "kubernetes", "k8s", "latency", "性能", "存储", "linux", "deploy", "server", "cdn"]
+domains = ["blog.cloudflare.com", "aws.amazon.com", "kubernetes.io"]
+
+[[sections]]
+id = "essay"
+title = "长文 / 观点"
+desc = "观点、随笔、访谈、视频、科技与社会、非技术但值得读的深度内容"
+keywords = ["why", "essay", "观点", "思考", "反思", "how i", "blog", "技术债"]
+domains = ["simonwillison.net", "paulgraham.com"]
+
+[tags]
+extra = []
+
+# ---- 源 ----
+# kind 支持：hn_algolia（HN 全天窗口查询）、rss（RSS 2.0 / Atom 通用）
+# weight 决定跨源排序时的相对权重，调到 0 等于静音该源
+[[sources]]
+id = "hn"
+name = "Hacker News"
+kind = "hn_algolia"
+weight = 1.0
+min_points = 80
+limit = 100

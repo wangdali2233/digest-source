@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fed:1",
+    "source": "fed",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261020a.htm",
+    "published_at": "2026-10-20T18:00:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "fed:2",
+    "source": "fed",
+    "title": "Federal Reserve Board announces approval of application by a bank holding company",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261020a.htm",
+    "published_at": "2026-10-20T15:30:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cnbc:1",
+    "source": "cnbc",
+    "title": "Stocks close higher as investors weigh earnings",
+    "url": "https://www.cnbc.com/2026/10/20/stocks-close-higher.html",
+    "published_at": "2026-10-20T20:10:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cnbc:2",
+    "source": "cnbc",
+    "title": "Treasury yields slip after inflation data",
+    "url": "https://www.cnbc.com/2026/10/20/treasury-yields-inflation.html",
+    "published_at": "2026-10-20T13:45:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cnbc:3",
+    "source": "cnbc",
+    "title": "Oil prices rise on supply concerns",
+    "url": "https://www.cnbc.com/2026/10/20/oil-prices-rise.html",
+    "published_at": "2026-10-20T11:20:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cnbc:4",
+    "source": "cnbc",
+    "title": "Tech giant reports quarterly earnings beat",
+    "url": "https://www.cnbc.com/2026/10/20/tech-earnings-beat.html",
+    "published_at": "2026-10-20T21:00:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cnbc:5",
+    "source": "cnbc",
+    "title": "Regulator opens probe into payments company",
+    "url": "https://www.cnbc.com/2026/10/20/regulator-probe-payments.html",
+    "published_at": "2026-10-20T16:40:00+00:00",
+    "points": 0,
+    "comments": 0
+  },
+  {
+    "id": "cnbc:6",
+    "source": "cnbc",
+    "title": "A celebrity chef opens a restaurant in New York",
+    "url": "https://www.cnbc.com/2026/10/20/celebrity-chef-restaurant.html",
+    "published_at": "2026-10-20T17:10:00+00:00",
+    "points": 0,
+    "comments": 0
+  }
+]

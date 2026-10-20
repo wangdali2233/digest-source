@@ -14,6 +14,26 @@ from .merge import OTHER
 from .normalize import canonical_url
 
 
+def _permalink(day: dt.date, profile_cfg: dict | None, slot: str | None) -> str:
+    """分类/年/月/日[时段].html。
+
+    不用 Hexo 的 :year/:month 变量：05:30 的稿子在 UTC 是前一天，
+    月末会直接错月。这里用本地日期，绕开所有时区运算。
+    """
+    category = str((profile_cfg or {}).get("category") or (profile_cfg or {}).get("id") or "posts")
+    stem = day.strftime("%Y/%m/%d")
+    if slot:
+        stem = f"{stem}-{slot}"
+    return f"{category}/{stem}.html"
+
+
+def _title(site_cfg: dict, profile_cfg: dict | None) -> str:
+    """文章标题用栏目名：两个栏目同一天出稿时，标题不能一样。"""
+    if profile_cfg and profile_cfg.get("title"):
+        return str(profile_cfg["title"])
+    return str(site_cfg.get("title", "信息聚合"))
+
+
 def _escape_title(title: str) -> str:
     # 标题里的方括号会打断链接语法
     return title.replace("[", "\\[").replace("]", "\\]")
@@ -56,6 +76,8 @@ def render(
     sections_cfg: list[dict],
     site_cfg: dict,
     missing: list[str] | None = None,
+    profile_cfg: dict | None = None,
+    slot: str | None = None,
 ) -> str:
     tz = ZoneInfo(site_cfg.get("timezone", "Asia/Shanghai"))
     hour, minute = (int(x) for x in site_cfg.get("publish_at", "07:00").split(":"))
@@ -96,11 +118,12 @@ def render(
 
     lines = [
         "---",
-        f'title: "{day.isoformat()} · {site_cfg.get("title", "信息聚合")}"',
+        f'title: "{day.isoformat()} · {_title(site_cfg, profile_cfg)}"',
         f"date: {stamp}",
+        f"permalink: {_permalink(day, profile_cfg, slot)}",
         f'description: "{_yaml_str(description)}"',
         f"tags: [{tags}]",
-        'categories: ["daily"]',
+        f'categories: ["{(profile_cfg or {}).get("category", "daily")}"]',
         "comments: false",
         "---",
         "",
@@ -135,6 +158,9 @@ def render(
             if item.get("see_also"):
                 others = "、".join(_link(x["title"], x["url"]) for x in item["see_also"])
                 lines += [f"另见：{others}", ""]
+
+    if profile_cfg and profile_cfg.get("footer"):
+        lines += [str(profile_cfg["footer"]), ""]
 
     if missing:
         lines += [f"> 本期缺失源：{'、'.join(missing)}", ""]

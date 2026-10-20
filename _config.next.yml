@@ -4,6 +4,9 @@ darkmode: true
 
 menu:
   home: / || fa fa-home
+  # 用中文作为 key：NexT 找不到对应 i18n 时直接显示 key 本身
+  技术: /categories/tech/ || fa fa-microchip
+  财经: /categories/finance/ || fa fa-line-chart
   archives: /archives/ || fa fa-archive
   tags: /tags/ || fa fa-tags
 

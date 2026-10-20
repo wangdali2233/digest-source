@@ -81,7 +81,9 @@ def gather(items: list[dict], conf: dict) -> dict[str, str]:
     return out
 
 
-def _build_prompt(items: list[dict], excerpts: dict[str, str], chars: int) -> str:
+def _build_prompt(
+    items: list[dict], excerpts: dict[str, str], chars: int, rules: str = ""
+) -> str:
     lines = [
         "你是技术信息聚合的编辑。为下面每一条写一句中文摘要。",
         "",
@@ -90,9 +92,10 @@ def _build_prompt(items: list[dict], excerpts: dict[str, str], chars: int) -> st
         f"2. summary 不超过 {chars} 字，说明这条到底讲了什么，不要重复标题",
         "3. 只写正文里出现的事实，正文没提的不要编",
         "4. 编号逐条对应，不能遗漏",
-        "",
-        "条目：",
     ]
+    if rules:
+        lines.append(f"5. {rules}")
+    lines += ["", "条目："]
     for index, item in enumerate(items):
         lines.append(f'{index}. 标题：{item["title"]}')
         excerpt = excerpts.get(item["id"]) or ""
@@ -143,7 +146,8 @@ def summarize(items: list[dict], cfg: dict, offline: bool = False) -> tuple[int,
     excerpts = {} if offline else gather(items, conf)
     got = sum(1 for text in excerpts.values() if text)
 
-    prompt = _build_prompt(items, excerpts, plan["summary_chars"])
+    rules = str((cfg.get("profile") or {}).get("summary_rules", ""))
+    prompt = _build_prompt(items, excerpts, plan["summary_chars"], rules)
     attempts = [True, False] if profile.get("json_mode", True) else [False]
 
     last_error: Exception | None = None

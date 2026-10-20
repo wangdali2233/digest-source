@@ -1,38 +1,48 @@
-name: publish
+name: pipeline
 
+# 可复用流程：三个触发器（技术 / 财经晨 / 财经晚）都调它。
+# 好处是发布步骤只有一份，不会出现「改了 A 忘了 B」。
 on:
-  schedule:
-    # UTC 23:17 = 北京次日 07:17。故意避开整点：整点是全球最拥堵的调度时刻，
-    # 实测整点触发会晚 10~16 分钟甚至卡在队列里。
-    # 内容窗口仍由 sources.toml 的 publish_at(07:00) 决定，与触发时刻无关。
-    - cron: "17 23 * * *"
-  workflow_dispatch:
+  workflow_call:
     inputs:
-      date:
-        description: "出稿日期 YYYY-MM-DD（留空 = 今天）"
+      profile:
+        description: "栏目 id（profiles/<id>.toml）"
+        required: true
+        type: string
+      slot:
+        description: "时段，仅财经使用：morning / evening"
         required: false
         type: string
+        default: ""
+      date:
+        description: "出稿日期 YYYY-MM-DD，留空为今天"
+        required: false
+        type: string
+        default: ""
       force:
         description: "覆盖当天已生成的文件"
         required: false
         type: boolean
         default: false
-  push:
-    branches: [main]
-
-concurrency:
-  # 队列 congested 时，新运行直接顶掉旧的，避免每次推送都堆一个待跑任务
-  group: publish
-  cancel-in-progress: true
+    secrets:
+      DEEPSEEK_API_KEY:
+        required: false
+      SITE_DEPLOY_KEY:
+        required: true
 
 permissions:
   contents: write
 
+env:
+  SITE_REPO: git@github.com:wangdali2233/wangdali2233.github.io.git
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-    env:
-      SITE_REPO: git@github.com:wangdali2233/wangdali2233.github.io.git
+    # 按栏目+时段分组：财经晨报和技术日报互不干扰，也不会互相取消
+    concurrency:
+      group: ${{ inputs.profile }}-${{ inputs.slot || 'daily' }}
+      cancel-in-progress: false
 
     steps:
       - name: 检出
@@ -41,7 +51,7 @@ jobs:
           fetch-depth: 0
 
       - name: 安装 Node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
@@ -51,31 +61,31 @@ jobs:
 
       - name: 生成 Markdown
         env:
-          DIGEST_DATE: ${{ github.event.inputs.date }}
-          DIGEST_FORCE: ${{ github.event.inputs.force }}
-          # 没配就退回关键词分类，不会失败
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           set -euo pipefail
-          ARGS=()
-          if [ -n "${DIGEST_DATE:-}" ]; then ARGS+=(--date "$DIGEST_DATE"); fi
-          if [ "${DIGEST_FORCE:-false}" = "true" ]; then ARGS+=(--force); fi
+          ARGS=(--profile "${{ inputs.profile }}")
+          if [ -n "${{ inputs.slot }}" ]; then ARGS+=(--slot "${{ inputs.slot }}"); fi
+          if [ -n "${{ inputs.date }}" ]; then ARGS+=(--date "${{ inputs.date }}"); fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS+=(--force); fi
           python3 -m pipeline build "${ARGS[@]}"
 
       - name: 提交 Markdown 与去重状态
         env:
-          # 07:17 北京 = 23:17 UTC 前一天，必须用本地时区取日期，否则提交信息会错一天
-          DIGEST_DATE: ${{ github.event.inputs.date }}
+          DIGEST_PROFILE: ${{ inputs.profile }}
+          DIGEST_SLOT: ${{ inputs.slot }}
+          DIGEST_DATE: ${{ inputs.date }}
         run: |
           set -euo pipefail
-          DAY="${DIGEST_DATE:-$(TZ=Asia/Shanghai date +%F)}"
           git config user.name  "digest-bot"
           git config user.email "bot@users.noreply.github.com"
           git add source/_posts data/seen.json
           if git diff --cached --quiet; then
             echo "无内容变更，跳过提交"
           else
-            git commit -m "digest: $DAY"
+            DAY="${DIGEST_DATE:-$(TZ=Asia/Shanghai date +%F)}"
+            LABEL="$DIGEST_PROFILE${DIGEST_SLOT:+-$DIGEST_SLOT}"
+            git commit -m "digest($LABEL): $DAY"
             git push origin HEAD:main
           fi
 

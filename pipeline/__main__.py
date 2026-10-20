@@ -10,15 +10,17 @@ import sys
 from collections import Counter
 from zoneinfo import ZoneInfo
 
-from . import classify, config, fetch, merge, render, state, summarize
+from . import classify, config, fetch, merge, rank, render, state, summarize
 from .config import ROOT
 
 UTC = dt.timezone.utc
 
 
-def _collect(cfg: dict, start: dt.datetime, end: dt.datetime, offline: bool):
+def _collect(cfg: dict, start: dt.datetime, end: dt.datetime, offline: bool, profile: str):
     if offline:
-        path = ROOT / "data" / "fixtures" / "sample.json"
+        path = ROOT / "data" / "fixtures" / f"{profile}.json"
+        if not path.exists():
+            path = ROOT / "data" / "fixtures" / "sample.json"
         return json.loads(path.read_text(encoding="utf-8")), []
 
     rows: list[dict] = []
@@ -47,7 +49,7 @@ def _log_source_stats(rows: list[dict], items: list[dict]) -> None:
 
 
 def build(args: argparse.Namespace) -> int:
-    cfg = config.load(args.config)
+    cfg = config.load(args.profile, args.config, args.slot)
     site_cfg = config.site(cfg)
     quota = config.quota(cfg)
     tz = ZoneInfo(site_cfg.get("timezone", "Asia/Shanghai"))
@@ -62,12 +64,13 @@ def build(args: argparse.Namespace) -> int:
     # 幂等保护：同一天只生成一次。否则 bot 提交触发的 push 会让管道重跑，
     # 而这时 seen.json 已把选过的条目记为已读，第二轮会选出另一批并覆盖当天版面。
     content_dir = ROOT / cfg.get("output", {}).get("content_dir", "content/posts")
-    out_path = content_dir / f"{day.isoformat()}.md"
+    stem = day.isoformat() + (f"-{args.slot}" if args.slot else "")
+    out_path = content_dir / f"{stem}.md"
     if out_path.exists() and not args.force and not args.stdout:
         print(f"= {out_path.relative_to(ROOT)} 已存在，跳过生成（--force 可覆盖）", file=sys.stderr)
         return 0
 
-    rows, missing = _collect(cfg, floor, end, args.offline)
+    rows, missing = _collect(cfg, floor, end, args.offline, args.profile)
 
     sources_by_id = {src["id"]: src for src in config.sources(cfg)}
     items = merge.prepare(
@@ -113,7 +116,8 @@ def build(args: argparse.Namespace) -> int:
             file=sys.stderr,
         )
 
-    picked = merge.select(weighted, config.sections(cfg), quota)
+    picked, rank_note = rank.select(cfg, weighted, config.sections(cfg), quota)
+    print(f"  {rank_note}", file=sys.stderr)
 
     # 第二阶段：只对选中的条目抓正文，再写摘要（分类阶段只看标题）
     if picked:
@@ -127,7 +131,9 @@ def build(args: argparse.Namespace) -> int:
         )
         return 2
 
-    markdown = render.render(day, picked, config.sections(cfg), site_cfg, missing)
+    markdown = render.render(
+        day, picked, config.sections(cfg), site_cfg, missing, config.profile(cfg), args.slot
+    )
 
     if args.stdout:
         sys.stdout.write(markdown)
@@ -158,7 +164,9 @@ def main(argv: list[str] | None = None) -> int:
     build_cmd.add_argument("--stdout", action="store_true", help="输出到 stdout，不写文件")
     build_cmd.add_argument("--no-state", action="store_true", help="不更新 seen.json")
     build_cmd.add_argument("--force", action="store_true", help="即使当天文件已存在也重新生成")
-    build_cmd.add_argument("--config", default=None, help="配置文件路径")
+    build_cmd.add_argument("--profile", default="tech", help="栏目 id，对应 profiles/<id>.toml")
+    build_cmd.add_argument("--slot", default=None, help="时段（财经用 morning / evening）")
+    build_cmd.add_argument("--config", default=None, help="全局配置文件路径（测试用）")
 
     args = parser.parse_args(argv)
     if args.command == "build":

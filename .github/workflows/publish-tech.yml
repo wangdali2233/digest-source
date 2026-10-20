@@ -1,0 +1,30 @@
+name: publish-tech
+
+# 技术信息聚合：每天 07:17（北京），内容窗口到 07:00 为止
+on:
+  schedule:
+    # 故意避开整点：整点是全球最拥堵的调度时刻，实测会晚 10-16 分钟甚至卡队列
+    - cron: "17 23 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "出稿日期 YYYY-MM-DD（留空 = 今天）"
+        required: false
+        type: string
+      force:
+        description: "覆盖当天已生成的文件"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    uses: ./.github/workflows/pipeline.yml
+    with:
+      profile: tech
+      date: ${{ github.event.inputs.date }}
+      force: ${{ github.event.inputs.force == 'true' }}
+    secrets: inherit
