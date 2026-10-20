@@ -12,7 +12,7 @@
 "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 237
+"max_points": 241
 },
 "github.com/0x23/MicroManipulatorStepper": {
 "first": "2026-10-19",
@@ -37,17 +37,22 @@
 "github.com/kksimp/Mac.apk": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 227
+"max_points": 246
 },
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 172
 },
+"home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 314
+},
 "inceptionlabs.ai/blog/introducing-mercury-3": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 206
+"max_points": 218
 },
 "josie.lol/blog/linux-rtx-spark": {
 "first": "2026-10-20",
@@ -67,12 +72,12 @@
 "lwn.net/Articles/1101143": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 576
+"max_points": 584
 },
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 475
+"max_points": 488
 },
 "meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day": {
 "first": "2026-10-19",
@@ -82,12 +87,12 @@
 "minimax.io/blog/minimax-m31f": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 330
+"max_points": 364
 },
 "mistral.ai/news/timestral": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 523
+"max_points": 535
 },
 "news.ycombinator.com/item?id=50151036": {
 "first": "2026-10-20",
@@ -97,7 +102,7 @@
 "po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 407
+"max_points": 418
 },
 "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
 "first": "2026-10-19",
@@ -108,6 +113,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 0
+},
+"spectrum.ieee.org/alternatives-to-animal-testing": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 316
 },
 "sphinx-six-theta.vercel.app/": {
 "first": "2026-10-19",
@@ -128,5 +138,10 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 624
+},
+"youtube.com/watch?v=Ndftcft6XhU": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 366
 }
 }
