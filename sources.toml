@@ -83,6 +83,7 @@ model = "deepseek-flash"
 key_env = "DEEPSEEK_API_KEY"
 limit = 60          # 只把分数最高的这么多条送去分类，控制 token
 json_mode = true    # 首次请求用 response_format，不支持时自动去掉重试
+thinking = "disabled"  # 关闭思考。开着会把 max_tokens 烧在 reasoning 上，正文返回空
 timeout = 90
 
 # 高峰省流：北京时间 09:00-12:00 与 14:00-18:00 为高峰，压缩输出；

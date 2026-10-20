@@ -139,6 +139,11 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool, max_tokens: int
     }
     if json_mode:
         body["response_format"] = {"type": "json_object"}
+    # 分类任务不需要推理：开着思考会把 max_tokens 全烧在 reasoning 上，
+    # 正文直接返回空字符串（实测 deepseek-flash + 高峰 800 token 就是这样）。
+    thinking = str(profile.get("thinking", "disabled"))
+    if thinking and thinking != "auto":
+        body["thinking"] = {"type": thinking}
 
     request = urllib.request.Request(
         profile["endpoint"],
@@ -156,7 +161,18 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool, max_tokens: int
         raise ValueError(f"HTTP {status} 但响应不是 JSON：{snippet}") from None
     if "choices" not in payload:
         raise ValueError(f"响应缺少 choices：{str(payload)[:200]}")
-    return payload["choices"][0]["message"]["content"]
+
+    choice = payload["choices"][0]
+    message = choice.get("message", {}) or {}
+    content = (message.get("content") or "").strip()
+    if not content:
+        detail = {
+            "finish_reason": choice.get("finish_reason"),
+            "fields": [k for k in message if k != "content"],
+            "usage": payload.get("usage"),
+        }
+        raise ValueError(f"content 为空，诊断：{json.dumps(detail, ensure_ascii=False)[:300]}")
+    return content
 
 
 def _parse(content: str) -> list[dict]:
