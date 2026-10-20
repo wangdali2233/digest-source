@@ -67,7 +67,9 @@ extra = ["rates", "earnings", "cbank", "fx", "commodities", "inflation", "trade"
 id = "fed"
 name = "美联储"
 kind = "rss"
-url = "https://www.federalreserve.gov/feeds/press_all.xml"
+# 只用货币政策 feed：press_all 里混了执法行动、银行审批等监管流水，
+# 对"财经日报"的读者是噪音
+url = "https://www.federalreserve.gov/feeds/press_monetary.xml"
 weight = 1.0
 default_section = "macro"
 
