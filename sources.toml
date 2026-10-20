@@ -13,10 +13,10 @@ content_dir = "source/_posts"
 state_file = "data/seen.json"
 
 [quota]
-daily = 12               # 每期总条数上限
-per_section = 4          # 每个分节的条数上限
-max_other = 4            # 「其他」桶的独立上限。单源（HN）时泛技术条目多，
-                         # 实测 47 条里约 64% 不属于任何固定分节，卡太紧会浪费配额
+daily = 20               # 每期总条数上限
+per_section = 8          # 每个分节的条数上限。HN 的条目高度集中在 AI / 开源两节，
+                         # 卡 4 条会导致永远凑不满 20 条
+max_other = 4            # 「其他」桶的独立上限，防止没分好类的条目淹没版面
 min_items = 3            # 少于这个数就中止发布，宁可停更
 seen_days = 7            # 同一链接多少天内不重复
 

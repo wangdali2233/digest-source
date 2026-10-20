@@ -2,8 +2,10 @@ name: publish
 
 on:
   schedule:
-    # UTC 23:00 = 北京时间次日 07:00，与 sources.toml 的 publish_at 对齐
-    - cron: "0 23 * * *"
+    # UTC 23:17 = 北京次日 07:17。故意避开整点：整点是全球最拥堵的调度时刻，
+    # 实测整点触发会晚 10~16 分钟甚至卡在队列里。
+    # 内容窗口仍由 sources.toml 的 publish_at(07:00) 决定，与触发时刻无关。
+    - cron: "17 23 * * *"
   workflow_dispatch:
     inputs:
       date:
