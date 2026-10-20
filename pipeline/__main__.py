@@ -63,8 +63,14 @@ def build(args: argparse.Namespace) -> int:
 
     # 幂等保护：同一天只生成一次。否则 bot 提交触发的 push 会让管道重跑，
     # 而这时 seen.json 已把选过的条目记为已读，第二轮会选出另一批并覆盖当天版面。
-    content_dir = ROOT / cfg.get("output", {}).get("content_dir", "content/posts")
-    stem = day.isoformat() + (f"-{args.slot}" if args.slot else "")
+    # 目录按 栏目/年/月 分层，和站点 URL 保持一致；文件名只留「日」，
+    # 因为年月已经在路径里了。
+    content_dir = (
+        ROOT
+        / cfg.get("output", {}).get("content_dir", "content/posts")
+        / day.strftime("%Y/%m")
+    )
+    stem = day.strftime("%d") + (f"-{args.slot}" if args.slot else "")
     out_path = content_dir / f"{stem}.md"
     if out_path.exists() and not args.force and not args.stdout:
         print(f"= {out_path.relative_to(ROOT)} 已存在，跳过生成（--force 可覆盖）", file=sys.stderr)

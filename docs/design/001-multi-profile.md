@@ -57,10 +57,10 @@ profiles/
   finance.toml     财经
 pipeline/          核心管道（采集/归一化/去重/打分/渲染）
   profile.py       新增：加载并校验 profile
-source/_posts/
-  tech/2026-10-20.md
-  finance/2026-11-01-morning.md
-  finance/2026-11-01-evening.md
+source/_posts/         按 栏目/年/月 分层，文件名只留「日」
+  tech/2026/10/20.md
+  finance/2026/11/01-morning.md
+  finance/2026/11/01-evening.md
 data/seen.json     两个栏目共用
 ```
 

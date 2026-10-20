@@ -9,7 +9,7 @@
    文档必须包含：目标、非目标、现状、方案、验收标准、风险与回滚。
 2. **Markdown 是唯一真源。** frontmatter 只用 YAML 基础类型，正文只用 CommonMark。
    不许引入主题特有的 shortcode、标签、语法糖——否则换渲染器时内容全废。
-3. **幂等保护不许拆。** 同一天（含时段）的 `source/_posts/<profile>/<stem>.md`
+3. **幂等保护不许拆。** 同一天（含时段）的 `source/_posts/<profile>/<YYYY>/<MM>/<DD>[-slot].md`
    已存在时必须跳过生成，只有 `--force` 才覆盖。拆掉它，bot 的提交会触发 push、
    push 会重跑管道、重跑时 seen.json 已把条目记为已读，当天的版面会被一轮轮覆盖坏。
 4. **LLM 失败必须回退，不许抛错。** 缺凭据、超时、限流、返回垃圾、JSON 非法，
@@ -49,7 +49,7 @@ config.toml            全局：站点、输出、LLM、核心词表
 profiles/<id>.toml     栏目：发布时刻、窗口、分节、源、配额、排序策略
 pipeline/              核心管道（采集/归一化/去重/渲染/发布）
 docs/design/           设计文档，编号递增
-source/_posts/<id>/    按栏目分目录，避免同日撞名
+source/_posts/<id>/<YYYY>/<MM>/  按栏目/年/月分层，文件名只留「日」
 data/seen.json         两个栏目共用
 ```
 

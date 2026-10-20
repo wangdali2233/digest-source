@@ -49,8 +49,8 @@ pipeline/
   merge.py      归一化 → 去重 → 打分 → 选品
   render.py     → Markdown
   state.py      data/seen.json 跨天去重
-source/_posts/tech/      每天一篇 YYYY-MM-DD.md
-source/_posts/finance/   每天两篇 YYYY-MM-DD-morning.md / -evening.md
+source/_posts/tech/2026/10/19.md              每天一篇，文件名只留「日」
+source/_posts/finance/2026/10/20-morning.md   每天两篇，带时段后缀
   tags/         标签页（type: tags）
   archives/     归档页（type: archives）
 data/
