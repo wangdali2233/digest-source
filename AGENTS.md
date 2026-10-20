@@ -23,7 +23,7 @@
 6. **私钥绝不入库。** `site_deploy_key`、`.pem`、任何 `sk-` 开头的字符串。
    已确认历史干净，别把它弄脏。
 
-## 二、改配置前必读的四个坑
+## 二、改配置前必读的五个坑
 
 这些都是踩过、修好、有验证的：
 
@@ -33,6 +33,7 @@
 | `permalink` 用 `:year-:month-:day` | 用 `posts/:title/`，因为 Hexo 的 `:day` 取 UTC，07:00+08:00 会算成前一天 |
 | frontmatter 的 `date` 带 `+08:00` | 写成 `2026-10-20 07:00:00`（不带偏移），由 `timezone` 解释 |
 | cron 用整点 `0 23 * * *` | 用 `17 23 * * *`。整点最拥堵，实测晚 10–16 分钟甚至卡队列 |
+| LLM 请求不关 thinking | 必须 `thinking = "disabled"`。开着思考时 `max_tokens` 会被推理 token 吃光，正文返回空字符串，表现为「返回空 content」而非报错 |
 
 ## 三、工作流
 
@@ -47,6 +48,9 @@ DIGEST_LLM_FAKE=data/fixtures/llm_fake.json \
 node -e "require('js-yaml').load(require('fs').readFileSync('.github/workflows/pipeline.yml','utf8'))"
 
 npx hexo clean && npx hexo generate
+
+# 模型清单探测（每两周自动跑，改完也能手动验）
+python3 scripts/check_models.py --fixture /tmp/fx/a.json
 ```
 
 ## 四、判断标准
