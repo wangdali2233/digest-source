@@ -1,6 +1,6 @@
 # digest-source
 
-每天 07:00 抓取多个信息源，去重、打分、选品，渲染成一篇 Markdown，用 Hexo 构建成静态站点后
+每天 07:17 触发（内容窗口到 07:00 为止），抓取信息源、去重、打分、选品，渲染成一篇 Markdown，用 Hexo 构建成静态站点后
 推送到 `wangdali2233.github.io` 仓库发布。
 
 - 源码与内容仓库：本仓库（`digest-source`）

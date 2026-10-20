@@ -63,15 +63,19 @@ jobs:
           python3 -m pipeline build "${ARGS[@]}"
 
       - name: 提交 Markdown 与去重状态
+        env:
+          # 07:17 北京 = 23:17 UTC 前一天，必须用本地时区取日期，否则提交信息会错一天
+          DIGEST_DATE: ${{ github.event.inputs.date }}
         run: |
           set -euo pipefail
+          DAY="${DIGEST_DATE:-$(TZ=Asia/Shanghai date +%F)}"
           git config user.name  "digest-bot"
           git config user.email "bot@users.noreply.github.com"
           git add source/_posts data/seen.json
           if git diff --cached --quiet; then
             echo "无内容变更，跳过提交"
           else
-            git commit -m "digest: $(date -u +%F)"
+            git commit -m "digest: $DAY"
             git push origin HEAD:main
           fi
 
