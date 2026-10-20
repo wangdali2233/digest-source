@@ -42,6 +42,7 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
         f'1. 只输出 JSON，形如 {{"picks":[3,0,7]}}，按重要性从高到低，最多 {want} 条',
         "2. 数字是候选编号，必须真实存在，不要编造",
         f"3. 目标是 {want} 条；候选不足就全部选出。只有明显无关的（娱乐八卦、生活琐事）才剔除",
+        "4. 尽量覆盖不同来源，同一来源别超过半数；官方机构（美联储/欧洲央行/SEC/BLS）优先",
         "",
         "候选：",
     ]
@@ -56,11 +57,45 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
             chosen = [candidates[i] for i in picks if 0 <= i < len(candidates)]
             if not chosen:
                 raise ValueError("模型没有给出有效编号")
-            return chosen[:want], f"模型选品（{label}）：{len(candidates)} 条候选挑 {len(chosen)} 条"
+            chosen = _ensure_diversity(chosen[:want], candidates, want)
+            return chosen, (
+                f"模型选品（{label}）：{len(candidates)} 条候选挑 {len(chosen)} 条，"
+                f"来源 {len({x['source'] for x in chosen})} 个"
+            )
         except Exception as exc:  # noqa: BLE001 - 选品失败不能拖垮发布
             last = exc
 
     return _recent(items, want), f"模型选品失败（{type(last).__name__}），按时间取最新"
+
+
+def _ensure_diversity(chosen: list[dict], candidates: list[dict], want: int) -> list[dict]:
+    """每个有候选的来源至少保留一条。
+
+    模型会习惯性地把名额给单一来源（实测 12 条全给 CNBC，把唯一的 ECB 挤掉了），
+    光靠 prompt 约束不可靠，这里做确定性兜底。挤掉名额时只动"该来源还有别的代表"的条目，
+    避免拆东墙补西墙。
+    """
+    by_source: dict[str, list[dict]] = {}
+    for item in candidates:
+        by_source.setdefault(item["source"], []).append(item)
+
+    result = list(chosen)
+    covered = {item["source"] for item in result}
+    missing = [src for src in by_source if src not in covered]
+
+    for src in missing:
+        best = max(by_source[src], key=lambda x: x["published"])
+        if len(result) >= want:
+            # 从尾部找一条「所在来源还有别的代表」的，腾出位置
+            for index in range(len(result) - 1, -1, -1):
+                source = result[index]["source"]
+                if sum(1 for x in result if x["source"] == source) > 1:
+                    result.pop(index)
+                    break
+            else:
+                break  # 实在腾不出来，就放弃这条
+        result.append(best)
+    return result
 
 
 def _recent(items: list[dict], want: int) -> list[dict]:
