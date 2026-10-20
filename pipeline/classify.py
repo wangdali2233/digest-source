@@ -57,6 +57,12 @@ def _parse_span(text: str) -> tuple[int, int]:
     return sh * 60 + sm, eh * 60 + em
 
 
+def _spans(value) -> list[tuple[int, int]]:
+    """接受 "09:00-12:00" 或 ["09:00-12:00", "14:00-18:00"]。"""
+    items = value if isinstance(value, (list, tuple)) else [value]
+    return [_parse_span(str(item)) for item in items]
+
+
 def _in_span(minute: int, start: int, end: int) -> bool:
     if start <= end:
         return start <= minute < end
@@ -66,15 +72,15 @@ def _in_span(minute: int, start: int, end: int) -> bool:
 def budget(cfg: dict, now: dt.datetime | None = None) -> dict:
     """按北京时间决定这轮可以花多少 token。
 
-    DeepSeek 官方模型的错峰优惠是 00:30-08:30（北京时间），其余时段是高峰。
-    高峰时段压低输出：少送候选、限制 max_tokens、摘要缩短。
+    高峰时段（北京时间 09:00-12:00、14:00-18:00，可配置多个区间）压低输出：
+    少送候选、限制 max_tokens、摘要缩短。其余时段视为错峰，放开预算。
     """
     llm = cfg.get("llm", {}) or {}
     conf = llm.get("budget", {}) or {}
     tz = ZoneInfo(str(llm.get("timezone", "Asia/Shanghai")))
     now = now or dt.datetime.now(tz)
-    start, end = _parse_span(str(conf.get("peak", "08:30-00:30")))
-    peak = _in_span(now.hour * 60 + now.minute, start, end)
+    minute = now.hour * 60 + now.minute
+    peak = any(_in_span(minute, s, e) for s, e in _spans(conf.get("peak", ["09:00-12:00", "14:00-18:00"])))
 
     if peak:
         return {
