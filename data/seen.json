@@ -14,6 +14,11 @@
 "last": "2026-10-19",
 "max_points": 476
 },
+"bls.gov/bls": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 0
+},
 "boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -40,6 +45,16 @@
 "max_points": 0
 },
 "cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 0
+},
+"cnbc.com/2026/10/19/cornell-sexual-assault-case-concerns-applicants.html": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 0
+},
+"cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 0
@@ -95,6 +110,11 @@
 "max_points": 0
 },
 "cnbc.com/2026/10/20/venture-capital-jenny-lee-granite-asia-startups.html": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 0
+},
+"cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 0
@@ -243,6 +263,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 322
+},
+"sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 0
 },
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
