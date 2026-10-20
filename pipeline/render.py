@@ -80,11 +80,18 @@ def render(
     for item in picked:
         for tag in item.get("tags") or []:
             counts[tag] += 1
-    if counts:
-        ranked = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
-        top_tags = [tag for tag, _ in ranked[: int(site_cfg.get("max_front_tags", 8))]]
-    else:
-        top_tags = section_ids
+    ranked = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+    # 分节排前面：分节是版面结构，读者能从目录看到它，标签页不该缺页
+    ordered = list(section_ids) + [tag for tag, _ in ranked]
+    limit = int(site_cfg.get("max_front_tags", 10))
+    top_tags: list[str] = []
+    for tag in ordered:
+        if tag not in top_tags:
+            top_tags.append(tag)
+        if len(top_tags) >= limit:
+            break
+    if not top_tags:
+        top_tags = ["daily"]
     tags = ", ".join(f'"{tag}"' for tag in top_tags) or '"daily"'
 
     lines = [

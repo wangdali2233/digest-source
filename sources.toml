@@ -6,7 +6,7 @@ base_url = "https://wangdali2233.github.io/"
 timezone = "Asia/Shanghai"
 publish_at = "07:00"     # 每期出稿时刻，也是时间窗的右边界
 window_hours = 24        # 窗口 = [出稿时刻 - 24h, 出稿时刻)
-max_front_tags = 8       # 文章 frontmatter 最多挂几个标签（按出现频次取前 N）
+max_front_tags = 10       # 文章 frontmatter 最多挂几个标签（按出现频次取前 N）
 window_slack_hours = 6   # 额外向前放宽，避免跑晚了导致 feed 全军覆没
 
 [output]
@@ -59,7 +59,7 @@ title = "其他"
 max_per_item = 3         # 每条最多几个标签
 vocab = [
   "ai", "llm", "agents", "oss", "release", "rust", "python", "javascript",
-  "database", "infra", "security", "linux", "web", "hardware", "science",
+  "database", "infra", "essay", "security", "linux", "web", "hardware", "science",
   "policy", "startup", "business", "design", "productivity", "graphics",
   "video", "privacy", "mobile",
 ]
