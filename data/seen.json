@@ -27,12 +27,17 @@
 "colo.to/cyberspace.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 279
+"max_points": 281
 },
 "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 258
+"max_points": 261
+},
+"cretezy.com/2026/ad-free-android-tv": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 219
 },
 "crystl.dev/guides/tmux-for-ai-agents": {
 "first": "2026-10-20",
@@ -67,7 +72,7 @@
 "github.com/kksimp/Mac.apk": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 304
+"max_points": 318
 },
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
@@ -82,17 +87,17 @@
 "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 332
+"max_points": 342
 },
 "inceptionlabs.ai/blog/introducing-mercury-3": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 238
+"max_points": 248
 },
 "josie.lol/blog/linux-rtx-spark": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 219
+"max_points": 239
 },
 "jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
 "first": "2026-10-19",
@@ -107,12 +112,12 @@
 "lwn.net/Articles/1101143": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 605
+"max_points": 617
 },
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 544
+"max_points": 570
 },
 "meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day": {
 "first": "2026-10-19",
@@ -122,32 +127,32 @@
 "minimax.io/blog/minimax-m31f": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 437
+"max_points": 467
 },
 "mistral.ai/news/timestral": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 577
+"max_points": 588
 },
 "nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 225
+"max_points": 296
 },
 "news.ycombinator.com/item?id=50151036": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 380
+"max_points": 460
 },
 "peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 212
+"max_points": 220
 },
 "po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 458
+"max_points": 478
 },
 "politico.com/news/magazine/2026/10/18/egg-prices-conspiracy-affordability-issue-01100411": {
 "first": "2026-10-20",
@@ -159,6 +164,11 @@
 "last": "2026-10-19",
 "max_points": 626
 },
+"reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19": {
+"first": "2026-10-20",
+"last": "2026-10-20",
+"max_points": 263
+},
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -167,7 +177,7 @@
 "spectrum.ieee.org/alternatives-to-animal-testing": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 335
+"max_points": 338
 },
 "sphinx-six-theta.vercel.app/": {
 "first": "2026-10-19",
@@ -177,7 +187,7 @@
 "starcraft-shooter-2026.pages.dev/": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 410
+"max_points": 463
 },
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
@@ -192,7 +202,7 @@
 "wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 638
+"max_points": 641
 },
 "wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink": {
 "first": "2026-10-20",
@@ -202,6 +212,6 @@
 "youtube.com/watch?v=Ndftcft6XhU": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 494
+"max_points": 553
 }
 }
