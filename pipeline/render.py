@@ -7,6 +7,7 @@ frontmatter 只用 YAML 基础类型，正文只用 CommonMark，
 from __future__ import annotations
 
 import datetime as dt
+from collections import Counter
 from zoneinfo import ZoneInfo
 
 from .merge import OTHER
@@ -74,7 +75,17 @@ def render(
     if section_titles:
         description += " · " + "、".join(section_titles[:3])
 
-    tags = ", ".join(f'"{sid}"' for sid in section_ids) or '"daily"'
+    # 标签优先用模型打的（受控词表），没有就退回分节名
+    counts: Counter = Counter()
+    for item in picked:
+        for tag in item.get("tags") or []:
+            counts[tag] += 1
+    if counts:
+        ranked = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+        top_tags = [tag for tag, _ in ranked[: int(site_cfg.get("max_front_tags", 8))]]
+    else:
+        top_tags = section_ids
+    tags = ", ".join(f'"{tag}"' for tag in top_tags) or '"daily"'
 
     lines = [
         "---",
@@ -112,6 +123,8 @@ def render(
             lines += [f"### {_heading(item)}", "", _meta_line(item), ""]
             if item.get("summary"):
                 lines += [item["summary"], ""]
+            if item.get("tags"):
+                lines += ["`#" + "` `#".join(item["tags"]) + "`", ""]
             if item.get("see_also"):
                 others = "、".join(_link(x["title"], x["url"]) for x in item["see_also"])
                 lines += [f"另见：{others}", ""]

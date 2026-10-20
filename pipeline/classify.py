@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 MAX_SUMMARY = 80
 # 最近一次调用的 usage，用来把 token 消耗打进口志（成本可观测）
 LAST_USAGE: dict = {}
-EXAMPLE = '{"items":[{"i":0,"section":"ai","summary":"模型发布，上下文扩到 1M"}]}'
+EXAMPLE = '{"items":[{"i":0,"section":"ai","tags":["ai","llm"],"summary":"模型发布，上下文扩到 1M"}]}'
 
 # 默认指向 DeepSeek。任何 OpenAI 兼容服务（Moonshot / 智谱 / 硅基流动 / 自建 vLLM）
 # 都能通过 sources.toml 的 [llm] 覆盖这三个值
@@ -119,7 +119,12 @@ def enabled(cfg: dict) -> bool:
     return bool(_fake_path()) or resolve(cfg) is not None
 
 
-def _build_prompt(items: list[dict], sections: list[dict], summary_chars: int = 30) -> str:
+def _build_prompt(
+    items: list[dict],
+    sections: list[dict],
+    summary_chars: int = 35,
+    vocab: list[str] | None = None,
+) -> str:
     lines = ["你是技术信息聚合的编辑。把下面每条标题分到唯一的分类，并写一句中文摘要。", ""]
     lines.append("分类表（section 只能取这些 id）：")
     for section in sections:
@@ -132,9 +137,11 @@ def _build_prompt(items: list[dict], sections: list[dict], summary_chars: int = 
         "2. i 是输入编号，必须逐条对应，不能遗漏，也不要编造不存在的编号",
         f"3. summary 用中文，不超过 {summary_chars} 字，只陈述事实，不要评价",
         "4. 拿不准时选最接近的，只有完全无关才用 other",
-        "",
-        "标题列表：",
     ]
+    if vocab:
+        lines.append("5. tags：从下面的受控词表里选 1-3 个最贴切的，**只能选词表里的**，不确定就少选")
+        lines.append("   词表：" + ", ".join(vocab))
+    lines += ["", "标题列表："]
     for index, item in enumerate(items):
         lines.append(f'{index}. {item["title"]}')
     return "\n".join(lines)
@@ -221,7 +228,13 @@ def _parse(content: str) -> list[dict]:
     return rows
 
 
-def apply(items: list[dict], sections: list[dict], rows: list[dict]) -> int:
+def apply(
+    items: list[dict],
+    sections: list[dict],
+    rows: list[dict],
+    vocab: list[str] | None = None,
+    max_per_item: int = 3,
+) -> int:
     """把模型结果写回 items，返回改判的条数。越界编号和非法分节一律丢弃。"""
     valid = {section["id"] for section in sections} | {"other"}
     by_index: dict[int, dict] = {}
@@ -233,11 +246,23 @@ def apply(items: list[dict], sections: list[dict], rows: list[dict]) -> int:
         except (TypeError, ValueError):
             continue
 
+    allowed = {str(t).strip().lower() for t in (vocab or [])}
     changed = 0
     for index, item in enumerate(items):
         row = by_index.get(index)
         if not row:
             continue
+        raw_tags = row.get("tags")
+        if isinstance(raw_tags, list):
+            picked: list[str] = []
+            for raw in raw_tags:
+                tag = str(raw).strip().lower()
+                if tag and tag not in picked and (not allowed or tag in allowed):
+                    picked.append(tag)
+                if len(picked) >= max_per_item:
+                    break
+            if picked:
+                item["tags"] = picked
         section = str(row.get("section", "")).strip().lower()
         if section in valid and section != item["section"]:
             item["section"] = section
@@ -256,7 +281,9 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
     profile, key, label = creds
 
     plan = budget(cfg)
-    prompt = _build_prompt(items, sections, plan["summary_chars"])
+    tags_cfg = cfg.get("tags", {}) or {}
+    vocab = [str(t) for t in tags_cfg.get("vocab", [])]
+    prompt = _build_prompt(items, sections, plan["summary_chars"], vocab)
     # 第一次带 response_format；不支持 JSON 模式的端点会在第二次去掉它重试
     attempts = [True, False] if profile.get("json_mode", True) else [False]
 
@@ -264,7 +291,7 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
     for json_mode in attempts:
         try:
             rows = _parse(_call(prompt, profile, key, json_mode, plan["max_tokens"]))
-            changed = apply(items, sections, rows)
+            changed = apply(items, sections, rows, vocab, int(tags_cfg.get("max_per_item", 3)))
             phase = "高峰省流" if plan["peak"] else "错峰"
             usage = usage_text()
             return changed, (

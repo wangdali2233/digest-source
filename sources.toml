@@ -6,6 +6,7 @@ base_url = "https://wangdali2233.github.io/"
 timezone = "Asia/Shanghai"
 publish_at = "07:00"     # 每期出稿时刻，也是时间窗的右边界
 window_hours = 24        # 窗口 = [出稿时刻 - 24h, 出稿时刻)
+max_front_tags = 8       # 文章 frontmatter 最多挂几个标签（按出现频次取前 N）
 window_slack_hours = 6   # 额外向前放宽，避免跑晚了导致 feed 全军覆没
 
 [output]
@@ -51,6 +52,17 @@ domains = ["simonwillison.net", "paulgraham.com"]
 
 [other]
 title = "其他"
+
+# 受控词表：模型只能从这里选标签，防止标签无限膨胀（M3.1、gsbase 这种会毁掉标签页）。
+# 想加词就加一行，模型下次就会用；删词同理。
+[tags]
+max_per_item = 3         # 每条最多几个标签
+vocab = [
+  "ai", "llm", "agents", "oss", "release", "rust", "python", "javascript",
+  "database", "infra", "security", "linux", "web", "hardware", "science",
+  "policy", "startup", "business", "design", "productivity", "graphics",
+  "video", "privacy", "mobile",
+]
 
 # ---- 源 ----
 # 目前只启用 HN。加 RSS 源时追加一个 [[sources]] 块即可：
