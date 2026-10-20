@@ -134,6 +134,16 @@ key_env  = "DEEPSEEK_API_KEY"      # 从哪个环境变量读密钥
 日志里会打印 `LLM 分类（deepseek-chat，高峰省流，max_tokens=800）` 或 `（…，错峰，…）`。
 配置在 `sources.toml` 的 `[llm.budget]`。
 
+### 模型清单探测（每两周）
+
+模型名会变（`deepseek-chat` 就是这样悄悄从文档消失的），所以加了一个独立的定时任务
+`.github/workflows/model-check.yml`：每月 1 号、15 号各跑一次
+`scripts/check_models.py`，调 `GET {base}/models` 拿当前清单，和 `data/models.json`
+里的快照对比。有新增、下线，或**配置的模型不见了**，就开一个 issue 提醒，不自动改配置——
+换模型要人判断质量。
+
+原则：**继续选低价档**（`-flash`），除非分类质量明显不够用。
+
 **离线验证**（不需要任何凭据）：
 
 ```bash

@@ -76,7 +76,10 @@ limit = 100
 [llm]
 enabled = true
 endpoint = "https://api.deepseek.com/chat/completions"
-model = "deepseek-chat"
+# 官方当前可用的模型：deepseek-flash（轻量低价档，本管道用这个）
+#                       deepseek-v4-pro（强推理档，标题分类用不上）
+# 旧别名 deepseek-chat 已不在文档中，虽然还能用，但随时可能下线
+model = "deepseek-flash"
 key_env = "DEEPSEEK_API_KEY"
 limit = 60          # 只把分数最高的这么多条送去分类，控制 token
 json_mode = true    # 首次请求用 response_format，不支持时自动去掉重试

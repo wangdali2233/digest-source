@@ -1,0 +1,73 @@
+name: model-check
+
+# 每两周探测一次 DeepSeek 的可用模型清单。
+# 为什么不放在 publish 里：模型名变化是低频事件，没必要每天跑；
+# 但也不能不管——deepseek-chat 就是这样从文档里消失的。
+on:
+  schedule:
+    # UTC 06:23 = 北京 14:23。选 1 号和 15 号而不是 */14，
+    # 因为 */14 会在月末出现 29 号到次月 1 号只隔两三天的空档。
+    - cron: "23 6 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: model-check
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: 探测模型清单
+        id: probe
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          if [ -z "${DEEPSEEK_API_KEY:-}" ]; then
+            echo "未配置 DEEPSEEK_API_KEY，跳过探测"
+            echo "code=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          set +e
+          python3 scripts/check_models.py --json --body /tmp/body.md > /tmp/report.json
+          code=$?
+          set -e
+          cat /tmp/report.json
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          # 只有 0（无变化）和 2（有变化）是可接受的结果
+          if [ "$code" != "0" ] && [ "$code" != "2" ]; then exit "$code"; fi
+
+      - name: 记录新快照
+        # 不带条件：首次运行要落基线，否则快照永远建不起来
+        run: |
+          set -euo pipefail
+          git config user.name  "digest-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/models.json
+          if git diff --cached --quiet; then
+            echo "快照无变化，跳过提交"
+          else
+            git commit -m "chore: 更新模型清单快照"
+            git push origin HEAD:main
+          fi
+
+      - name: 开 issue 提醒
+        if: steps.probe.outputs.code == '2'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          existing=$(gh issue list --state open --search '模型清单变化 in:title' --json number -q '.[0].number')
+          if [ -n "$existing" ]; then
+            echo "已有未关闭的提醒（#$existing），不重复创建"
+          else
+            gh issue create \
+              --title "模型清单变化（需确认 sources.toml 的 model）" \
+              --body-file /tmp/body.md
+          fi
