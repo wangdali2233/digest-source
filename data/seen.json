@@ -37,7 +37,7 @@
 "cretezy.com/2026/ad-free-android-tv": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 225
+"max_points": 228
 },
 "crystl.dev/guides/tmux-for-ai-agents": {
 "first": "2026-10-20",
@@ -87,17 +87,17 @@
 "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 342
+"max_points": 343
 },
 "inceptionlabs.ai/blog/introducing-mercury-3": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 248
+"max_points": 249
 },
 "josie.lol/blog/linux-rtx-spark": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 242
+"max_points": 244
 },
 "jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
 "first": "2026-10-19",
@@ -127,7 +127,7 @@
 "minimax.io/blog/minimax-m31f": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 467
+"max_points": 468
 },
 "mistral.ai/news/timestral": {
 "first": "2026-10-20",
@@ -137,12 +137,12 @@
 "nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 296
+"max_points": 297
 },
 "news.ycombinator.com/item?id=50151036": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 463
+"max_points": 464
 },
 "peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
 "first": "2026-10-20",
@@ -167,7 +167,7 @@
 "reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 270
+"max_points": 275
 },
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
@@ -212,6 +212,6 @@
 "youtube.com/watch?v=Ndftcft6XhU": {
 "first": "2026-10-20",
 "last": "2026-10-20",
-"max_points": 553
+"max_points": 555
 }
 }
