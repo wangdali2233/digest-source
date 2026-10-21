@@ -34,6 +34,11 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"blog.cloudflare.com/typescript-rust-port": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 344
+},
 "bls.gov/bls": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -194,10 +199,30 @@
 "last": "2026-10-20",
 "max_points": 155
 },
+"dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 122
+},
 "ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 0
+},
+"efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 290
+},
+"emudhra.we-have-a-problem.com/": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 629
+},
+"entropicthoughts.com/nixos-is-making-me-less-afraid": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 168
 },
 "getlazarus.org/dynamic": {
 "first": "2026-10-20",
@@ -209,6 +234,11 @@
 "last": "2026-10-19",
 "max_points": 211
 },
+"github.com/KatrielMoses/voidaccess": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 127
+},
 "github.com/VikOlliver/RepRapMicron/wiki": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -219,15 +249,35 @@
 "last": "2026-10-19",
 "max_points": 144
 },
+"github.com/deepseek-ai/DeepInfer": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 2135
+},
 "github.com/finereli/whatsapp-mcp": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 148
 },
+"github.com/golang/go/issues/82345": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 135
+},
+"github.com/google-pytorch/torch_tpu": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 258
+},
 "github.com/kksimp/Mac.apk": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 329
+},
+"github.com/microg/GmsCore/wiki": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 382
 },
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
@@ -239,10 +289,20 @@
 "last": "2026-10-20",
 "max_points": 154
 },
+"heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 369
+},
 "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 346
+},
+"ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 168
 },
 "inceptionlabs.ai/blog/introducing-mercury-3": {
 "first": "2026-10-20",
@@ -259,6 +319,11 @@
 "last": "2026-10-19",
 "max_points": 260
 },
+"kaba.cx/posts/20261020_Tor": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 320
+},
 "karrisaarinen.com/posts/someone-behind-the-software": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -273,6 +338,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 579
+},
+"mastodon.gamedev.place/@AshleyGullen/117473851565913919": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 417
 },
 "meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day": {
 "first": "2026-10-19",
@@ -289,6 +359,11 @@
 "last": "2026-10-20",
 "max_points": 591
 },
+"mistral.ai/news/voxtral-3": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 525
+},
 "nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -298,6 +373,16 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 493
+},
+"peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 323
+},
+"permit.petercai.com/": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 549
 },
 "peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
 "first": "2026-10-20",
@@ -313,6 +398,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 218
+},
+"redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 714
 },
 "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
 "first": "2026-10-19",
@@ -359,6 +449,11 @@
 "last": "2026-10-20",
 "max_points": 485
 },
+"teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 492
+},
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -383,5 +478,10 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 573
+},
+"yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 163
 }
 }
