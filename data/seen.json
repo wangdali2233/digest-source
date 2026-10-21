@@ -14,9 +14,24 @@
 "last": "2026-10-19",
 "max_points": 476
 },
+"bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-20",
 "last": "2026-10-20",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-21",
+"last": "2026-10-21",
 "max_points": 0
 },
 "bls.gov/bls": {
@@ -84,9 +99,24 @@
 "last": "2026-10-20",
 "max_points": 0
 },
+"cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
+"cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
 "cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
+"max_points": 0
+},
+"cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
 "max_points": 0
 },
 "cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html": {
@@ -104,9 +134,29 @@
 "last": "2026-10-20",
 "max_points": 0
 },
+"cnbc.com/2026/10/20/novo-cagrisema-women-weight-loss-analysis.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
+"cnbc.com/2026/10/20/oil-price-wti-brent-crude.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
+"cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
 "cnbc.com/2026/10/20/singapore-haze-shanmugam-indonesia-malaysia.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
+"max_points": 0
+},
+"cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html": {
+"first": "2026-10-21",
+"last": "2026-10-21",
 "max_points": 0
 },
 "cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html": {
@@ -277,6 +327,16 @@
 "sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence": {
 "first": "2026-10-20",
 "last": "2026-10-20",
+"max_points": 0
+},
+"sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue": {
+"first": "2026-10-21",
+"last": "2026-10-21",
+"max_points": 0
+},
+"sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service": {
+"first": "2026-10-21",
+"last": "2026-10-21",
 "max_points": 0
 },
 "simonwillison.net/2026/Oct/17/document-currentscript": {
