@@ -14,6 +14,11 @@
 "last": "2026-10-19",
 "max_points": 476
 },
+"aws.amazon.com/security/security-bulletins/2026-143-aws": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 107
+},
 "bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -59,6 +64,11 @@
 "last": "2026-10-21",
 "max_points": 344
 },
+"blog.railway.com/p/security-disclosure-wednesday-october-21st": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 299
+},
 "bls.gov/bls": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -73,6 +83,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 143
+},
+"claude.com/product/claude-duet": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 313
 },
 "cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html": {
 "first": "2026-10-20",
@@ -242,7 +257,7 @@
 "cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html": {
 "first": "2026-10-22",
 "last": "2026-10-22",
-"max_points": 0
+"max_points": 368
 },
 "cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html": {
 "first": "2026-10-22",
@@ -313,6 +328,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 122
+},
+"docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 245
 },
 "ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html": {
 "first": "2026-10-20",
@@ -404,10 +424,25 @@
 "last": "2026-10-19",
 "max_points": 172
 },
+"github.com/php/php-src/releases/tag/php-8.2.35": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 969
+},
+"github.com/zion-sati/NetWasm": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 153
+},
 "githubstatus.com/incidents/8tzbpcnl75jp": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 154
+},
+"google.github.io/styleguide/rustguide.html": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 200
 },
 "heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right": {
 "first": "2026-10-21",
@@ -494,6 +529,21 @@
 "last": "2026-10-20",
 "max_points": 493
 },
+"openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 234
+},
+"openai.com/index/openai-models-google-cloud": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 238
+},
+"openai.com/index/scaling-ai-research-for-complex-biological-data": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 134
+},
 "peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -508,6 +558,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 224
+},
+"php.net/archive/2026.php": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 1506
 },
 "po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository": {
 "first": "2026-10-20",
@@ -533,6 +588,16 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 322
+},
+"safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 434
+},
+"scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 842
 },
 "sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence": {
 "first": "2026-10-20",
@@ -569,20 +634,50 @@
 "last": "2026-10-20",
 "max_points": 485
 },
+"techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 493
+},
 "teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads": {
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 492
+},
+"thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 677
+},
+"theverge.com/games/1015647/ea-is-shutting-down-bioware": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 518
 },
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 965
 },
+"unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 614
+},
+"unsung.aresluna.org/good-type-against-all-odds": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 197
+},
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 132
+},
+"wiz.io/blog/php2shell-php-rce": {
+"first": "2026-10-22",
+"last": "2026-10-22",
+"max_points": 433
 },
 "wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816": {
 "first": "2026-10-20",
