@@ -17,6 +17,7 @@ from __future__ import annotations
 import concurrent.futures
 import html as htmllib
 import re
+import time
 import urllib.request
 
 from . import classify
@@ -154,7 +155,8 @@ def summarize(items: list[dict], cfg: dict, offline: bool = False) -> tuple[int,
         content = classify.chat(prompt, profile, key, plan["summary_max_tokens"], json_mode)
         return classify.parse_rows(content)
 
-    rows, last_error = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)))
+    rows, last_error = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)),
+        time.monotonic() + float(profile.get("retry_deadline", 180)))
     if rows is not None:
         written = _apply(items, rows)
         usage = classify.usage_text()

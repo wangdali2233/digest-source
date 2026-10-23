@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import json
+import time
 
 from . import classify, merge
 
@@ -62,7 +63,8 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
         return picks, groups
 
     attempts = [True, False] if profile.get("json_mode", True) else [False]
-    parsed, last = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)))
+    parsed, last = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)),
+        time.monotonic() + float(profile.get("retry_deadline", 180)))
 
     if parsed is not None:
         picks, dup_groups = parsed

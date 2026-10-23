@@ -15,6 +15,7 @@ import datetime as dt
 import json
 import os
 import re
+import time
 import urllib.request
 from zoneinfo import ZoneInfo
 
@@ -237,15 +238,20 @@ def usage_text() -> str:
     return f"{LAST_USAGE.get('prompt_tokens', 0)}/{LAST_USAGE.get('completion_tokens', 0)} tokens"
 
 
-def run_attempts(call, json_modes, retries: int = 0):
+def run_attempts(call, json_modes, retries: int = 0, deadline: float | None = None):
     """按 json_mode 变体依次尝试，每个变体最多重试 retries 次。
 
     重试的价值来自实测：openrouter/free 是路由器，同样的请求会落到不同的免费后端，
     线上出现过一次 HTTP 400，而本地同参数连发两次都成功。
+
+    ``deadline`` 是 time.monotonic() 的绝对时刻。单次请求超时只约束一次调用，
+    挡不住「每次都慢」；总预算到了就停止重试，避免一次出稿卡十几分钟。
     """
     last: Exception | None = None
     for json_mode in json_modes:
         for _ in range(1 + max(0, retries)):
+            if deadline is not None and time.monotonic() >= deadline:
+                return None, last or TimeoutError("重试总预算已用尽")
             try:
                 return call(json_mode), None
             except Exception as exc:  # noqa: BLE001 - 网络/限流/格式，统一话术
@@ -337,6 +343,7 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
         lambda json_mode: _parse(_call(prompt, plan, key, json_mode, tokens["max_tokens"])),
         attempts,
         int(plan.get("retries", 0)),
+        time.monotonic() + float(plan.get("retry_deadline", 180)),
     )
     if rows is not None:
         changed = apply(items, sections, rows, vocab, int(tags_cfg.get("max_per_item", 3)))
