@@ -190,6 +190,14 @@ def _call(prompt: str, profile: dict, key: str, json_mode: bool, max_tokens: int
     if thinking and thinking != "auto":
         body["thinking"] = {"type": thinking}
 
+    # OpenRouter 的推理开关叫 reasoning。免费路由默认会开推理，
+    # 把 max_tokens 全烧在 reasoning 上，正文返回空（finish_reason=length）。
+    reasoning = profile.get("reasoning")
+    if reasoning is False:
+        body["reasoning"] = {"enabled": False}
+    elif isinstance(reasoning, dict):
+        body["reasoning"] = reasoning
+
     request = urllib.request.Request(
         profile["endpoint"],
         data=json.dumps(body).encode("utf-8"),
@@ -313,9 +321,9 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
     last_error: Exception | None = None
     for json_mode in attempts:
         try:
-            rows = _parse(_call(prompt, profile, key, json_mode, plan["max_tokens"]))
+            rows = _parse(_call(prompt, plan, key, json_mode, tokens["max_tokens"]))
             changed = apply(items, sections, rows, vocab, int(tags_cfg.get("max_per_item", 3)))
-            phase = "高峰省流" if plan["peak"] else "错峰"
+            phase = "高峰省流" if tokens["peak"] else "错峰"
             usage = usage_text()
             return changed, (
                 f"LLM 分类（{label}，{phase}，max_tokens={tokens['max_tokens']}）："

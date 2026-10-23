@@ -45,6 +45,7 @@ model = "openrouter/free"
 key_env = "OPENROUTER_API_KEY"
 json_mode = true
 thinking = "auto"      # 不要发 thinking 字段，OpenRouter 不认
+reasoning = false      # 必须关掉：免费路由默认开推理，会把 max_tokens 烧光、正文返回空
 
 # 备用：DeepSeek 官方（按量计费，质量更稳定）
 [llm.deepseek]
