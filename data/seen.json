@@ -9,6 +9,11 @@
 "last": "2026-10-19",
 "max_points": 585
 },
+"arc.net/": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 232
+},
 "arxiv.org/abs/2610.18861": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -138,6 +143,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 160
+},
+"cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 233
 },
 "claude.com/product/claude-duet": {
 "first": "2026-10-22",
@@ -487,7 +497,7 @@
 "emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 943
+"max_points": 946
 },
 "emudhra.we-have-a-problem.com/": {
 "first": "2026-10-21",
@@ -522,7 +532,7 @@
 "github.com/NVIDIA/OpenShell": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 311
+"max_points": 314
 },
 "github.com/VikOlliver/RepRapMicron/wiki": {
 "first": "2026-10-19",
@@ -577,7 +587,7 @@
 "github.com/oosexgang/hackios-xnu-kernel": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 331
+"max_points": 333
 },
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
@@ -587,7 +597,7 @@
 "github.com/openai/openai-cli": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 231
+"max_points": 232
 },
 "github.com/php/php-src/releases/tag/php-8.2.35": {
 "first": "2026-10-22",
@@ -674,6 +684,11 @@
 "last": "2026-10-20",
 "max_points": 481
 },
+"mistral.ai/news/mistral-large-4": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 323
+},
 "mistral.ai/news/timestral": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -698,6 +713,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 493
+},
+"nvd.nist.gov/vuln/detail/cve-2026-111943": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 332
 },
 "openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
 "first": "2026-10-22",
@@ -754,10 +774,15 @@
 "last": "2026-10-20",
 "max_points": 218
 },
+"pwn.watch/": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 350
+},
 "quad9.net/news/blog/au-revoir-france": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 1019
+"max_points": 1022
 },
 "redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
 "first": "2026-10-21",
@@ -824,6 +849,11 @@
 "last": "2026-10-20",
 "max_points": 485
 },
+"taler.net/en/news/2026-13.html": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 231
+},
 "techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -832,7 +862,7 @@
 "techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 525
+"max_points": 530
 },
 "teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads": {
 "first": "2026-10-21",
@@ -872,7 +902,7 @@
 "vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations": {
 "first": "2026-10-23",
 "last": "2026-10-23",
-"max_points": 341
+"max_points": 342
 },
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
