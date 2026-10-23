@@ -32,16 +32,27 @@ vocab = [
 # 注意：GitHub Models 已于 2026-07-30 完全下线，不要再指向 models.github.ai。
 [llm]
 enabled = true
+# 默认用哪个 provider。找不到它的密钥时会自动回退到另一个有密钥的。
+provider = "openrouter"
+limit = 60          # 只把分数最高的这么多条送去分类，控制 token
+timeout = 90
+
+# OpenRouter 免费路由。注意它是「路由器」：具体落到哪个免费模型由平台决定，
+# 所以输出质量和延迟会有波动。支持 response_format，用 reasoning 参数而不是 thinking。
+[llm.openrouter]
+endpoint = "https://openrouter.ai/api/v1/chat/completions"
+model = "openrouter/free"
+key_env = "OPENROUTER_API_KEY"
+json_mode = true
+thinking = "auto"      # 不要发 thinking 字段，OpenRouter 不认
+
+# 备用：DeepSeek 官方（按量计费，质量更稳定）
+[llm.deepseek]
 endpoint = "https://api.deepseek.com/chat/completions"
-# 官方当前可用的模型：deepseek-flash（轻量低价档，本管道用这个）
-#                       deepseek-v4-pro（强推理档，标题分类用不上）
-# 旧别名 deepseek-chat 已不在文档中，虽然还能用，但随时可能下线
 model = "deepseek-flash"
 key_env = "DEEPSEEK_API_KEY"
-limit = 60          # 只把分数最高的这么多条送去分类，控制 token
-json_mode = true    # 首次请求用 response_format，不支持时自动去掉重试
-thinking = "disabled"  # 关闭思考。开着会把 max_tokens 烧在 reasoning 上，正文返回空
-timeout = 90
+json_mode = true
+thinking = "disabled"  # 开着会把 max_tokens 烧在 reasoning 上，正文返回空
 
 # 高峰省流：北京时间 09:00-12:00 与 14:00-18:00 为高峰，压缩输出；
 # 其余时段视为错峰，放开预算。区间可增删，格式 "HH:MM-HH:MM"。

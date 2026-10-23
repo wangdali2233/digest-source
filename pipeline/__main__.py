@@ -118,7 +118,7 @@ def build(args: argparse.Namespace) -> int:
         print(f"  {note}", file=sys.stderr)
     else:
         print(
-            "  · 没有可用的模型凭据（DEEPSEEK_API_KEY），使用关键词分类",
+            f'  · 没有可用的模型凭据（{classify.profile(cfg)["key_env"]}），使用关键词分类',
             file=sys.stderr,
         )
 

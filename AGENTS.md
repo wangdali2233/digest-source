@@ -20,6 +20,8 @@
    - 其余时段（含 12:00–14:00、18:00–次日 09:00）视为错峰：
      候选 60 条、`max_tokens` 4000、摘要 35 字。
    - 实现见 `pipeline/classify.py::budget()`，配置见 `config.toml` 的 `[llm.budget] peak`。
+   **该预算只对按量计费的 provider 有意义**（如 deepseek）；默认的 `openrouter/free` 免费，
+   预算仍然生效但只起到「少调几次、更快」的作用。
    - **修改这段逻辑前先问：这会让人在高峰时段多花钱吗？** 会，就别改。
 6. **站点仓只放产物。** 构建在源码仓完成，`public/` 单提交 force push 过去。
    不许往站点仓放源码、md、`seen.json`。
@@ -48,7 +50,7 @@
 ## 三、目录约定
 
 ```
-config.toml            全局：站点、输出、LLM、核心词表
+config.toml            全局：站点、输出、LLM（provider 列表 + 预算）、核心词表
 profiles/<id>.toml     栏目：发布时刻、窗口、分节、源、配额、排序策略
 pipeline/              核心管道（采集/归一化/去重/渲染/发布）
 docs/design/           设计文档，编号递增

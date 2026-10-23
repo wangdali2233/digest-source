@@ -38,17 +38,39 @@ def _fake_path() -> str | None:
     return os.environ.get("DIGEST_LLM_FAKE") or None
 
 
-def _profile(cfg: dict) -> dict:
-    profile = dict(DEFAULTS)
-    profile.update(cfg.get("llm", {}) or {})
-    return profile
+def _profile_for(cfg: dict, name: str) -> dict:
+    """全局 [llm] 的标量设置 + [llm.<provider>] 的覆盖。嵌套表（budget/summary）不参与合并。"""
+    llm = cfg.get("llm", {}) or {}
+    merged = dict(DEFAULTS)
+    merged.update({k: v for k, v in llm.items() if not isinstance(v, dict)})
+    block = llm.get(name) or {}
+    if isinstance(block, dict):
+        merged.update({k: v for k, v in block.items() if not isinstance(v, dict)})
+    merged["provider"] = name
+    return merged
+
+
+def profile(cfg: dict) -> dict:
+    """当前默认 provider 的有效配置。"""
+    llm = cfg.get("llm", {}) or {}
+    return _profile_for(cfg, str(llm.get("provider", "deepseek")).lower())
+
+
+PROVIDERS = ("openrouter", "deepseek")
 
 
 def resolve(cfg: dict) -> tuple[dict, str] | None:
-    """返回 (配置, 密钥)；没有密钥返回 None。"""
-    profile = _profile(cfg)
-    key = (os.environ.get(str(profile["key_env"])) or "").strip()
-    return (profile, key) if key else None
+    """返回 (配置, 密钥)。先试默认 provider，没密钥再试另一个。"""
+    llm = cfg.get("llm", {}) or {}
+    preferred = str(llm.get("provider", "deepseek")).lower()
+    order = [preferred] + [name for name in PROVIDERS if name != preferred]
+
+    for name in order:
+        plan = _profile_for(cfg, name)
+        key = (os.environ.get(str(plan["key_env"])) or "").strip()
+        if key:
+            return plan, key
+    return None
 
 
 def _parse_span(text: str) -> tuple[int, int]:
@@ -105,10 +127,11 @@ def credentials(cfg: dict) -> tuple[dict, str, str] | None:
     """返回 (profile, key, label)；fake 模式也算「有凭据」，否则离线测试跑不通摘要阶段。"""
     resolved = resolve(cfg)
     if resolved:
-        profile, key = resolved
-        return profile, key, str(profile["model"])
+        plan, key = resolved
+        return plan, key, f'{plan["provider"]}:{plan["model"]}'
     if _fake_path():
-        return _profile(cfg), "", "fake"
+        plan = profile(cfg)
+        return plan, "", "fake"
     return None
 
 
@@ -277,15 +300,15 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
     """返回 (改判条数, 说明)。异常一律吞掉并回退。"""
     creds = credentials(cfg)
     if not creds:
-        return 0, f'没有可用的模型凭据（{_profile(cfg)["key_env"]}），使用关键词分类'
-    profile, key, label = creds
+        return 0, f'没有可用的模型凭据（{profile(cfg)["key_env"]}），使用关键词分类'
+    plan, key, label = creds
 
-    plan = budget(cfg)
+    tokens = budget(cfg)
     tags_cfg = cfg.get("tags", {}) or {}
     vocab = [str(t) for t in tags_cfg.get("vocab", [])]
-    prompt = _build_prompt(items, sections, plan["summary_chars"], vocab)
+    prompt = _build_prompt(items, sections, tokens["summary_chars"], vocab)
     # 第一次带 response_format；不支持 JSON 模式的端点会在第二次去掉它重试
-    attempts = [True, False] if profile.get("json_mode", True) else [False]
+    attempts = [True, False] if plan.get("json_mode", True) else [False]
 
     last_error: Exception | None = None
     for json_mode in attempts:
@@ -295,7 +318,7 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
             phase = "高峰省流" if plan["peak"] else "错峰"
             usage = usage_text()
             return changed, (
-                f"LLM 分类（{label}，{phase}，max_tokens={plan['max_tokens']}）："
+                f"LLM 分类（{label}，{phase}，max_tokens={tokens['max_tokens']}）："
                 f"返回 {len(rows)} 条，改判 {changed} 条"
                 + (f"，{usage}" if usage else "")
             )

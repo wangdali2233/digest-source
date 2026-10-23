@@ -24,7 +24,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from pipeline import config  # noqa: E402
+from pipeline import classify, config  # noqa: E402
 
 SNAPSHOT = ROOT / "data" / "models.json"
 
@@ -101,10 +101,10 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     cfg = config.load()
-    llm = cfg.get("llm", {}) or {}
-    endpoint = str(llm.get("endpoint", "https://api.deepseek.com/chat/completions"))
-    configured = str(llm.get("model", "deepseek-chat"))
-    key_env = str(llm.get("key_env", "DEEPSEEK_API_KEY"))
+    plan = classify.profile(cfg)
+    endpoint = str(plan["endpoint"])
+    configured = str(plan["model"])
+    key_env = str(plan["key_env"])
 
     if args.fixture:
         payload = json.loads(pathlib.Path(args.fixture).read_text(encoding="utf-8"))
@@ -116,8 +116,22 @@ def main(argv: list[str] | None = None) -> int:
             return 1
         current = fetch_ids(endpoint, key)
 
-    previous = load_snapshot()
+    # 大目录（如 OpenRouter 的 468 个模型）不记快照：新增是常态，记了只会天天报警。
+    # 只校验「配置的模型还在不在」。
+    previous = load_snapshot() if len(current) <= 100 else None
     report = build_report(configured, previous, current)
+    report["catalog_too_large"] = len(current) > 100
+
+    if report["catalog_too_large"]:
+        if args.body:
+            pathlib.Path(args.body).write_text(to_markdown(report), encoding="utf-8")
+        if args.json:
+            print(json.dumps({**report, "changed": report["configured_missing"]}, ensure_ascii=False))
+        else:
+            print("配置的模型:", configured)
+            print("目录过大（%d 个），只校验存在性" % len(current))
+            print("判定:", "配置的模型不存在" if report["configured_missing"] else "存在，正常")
+        return 2 if report["configured_missing"] else 0
 
     changed = bool(report["baseline"] or report["added"] or report["removed"] or report["configured_missing"])
     if report["baseline"]:

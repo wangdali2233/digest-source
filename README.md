@@ -122,21 +122,30 @@ Hexo 会按 `_config.yml` 的 `timezone` 解释，避免日期漂移。
 
 ### 接哪个模型
 
-只认 **OpenAI 兼容端点**（`/chat/completions`），换服务商只改 `sources.toml` 里三行：
+配置是「provider 列表 + 默认选择」，每个 provider 一组 endpoint/model/密钥变量名：
 
 ```toml
 [llm]
+provider = "openrouter"        # 默认用哪个
+
+[llm.openrouter]
+endpoint = "https://openrouter.ai/api/v1/chat/completions"
+model    = "openrouter/free"
+key_env  = "OPENROUTER_API_KEY"
+
+[llm.deepseek]
 endpoint = "https://api.deepseek.com/chat/completions"
-model    = "deepseek-chat"
-key_env  = "DEEPSEEK_API_KEY"      # 从哪个环境变量读密钥
+model    = "deepseek-flash"
+key_env  = "DEEPSEEK_API_KEY"
 ```
 
-| 服务 | endpoint | 说明 |
-|---|---|---|
-| DeepSeek | `https://api.deepseek.com/chat/completions` | 默认值，一天成本在厘级 |
-| Moonshot | `https://api.moonshot.cn/v1/chat/completions` | 国内直连 |
-| 硅基流动 | `https://api.siliconflow.cn/v1/chat/completions` | 有免费额度 |
-| 自建 vLLM / Ollama | `http://host:8000/v1/chat/completions` | CI 里需要公网可达 |
+| provider | 说明 |
+|---|---|
+| **openrouter** | 默认。`openrouter/free` 是**免费路由**，平台决定落到哪个免费模型，质量和延迟有波动；有速率限制 |
+| **deepseek** | 备用。按量计费，质量稳定，一天成本厘级 |
+
+**回退规则**：默认 provider 的密钥不存在时，自动改用另一个有密钥的；两个都没有则退回关键词分类。
+所以只配 `OPENROUTER_API_KEY`、或只配 `DEEPSEEK_API_KEY`，都能工作。
 
 > **GitHub Models 已于 2026-07-30 完全下线**，不要再指向 `models.github.ai`——
 > 那个域名现在只返回一个 4 字节的 `OK` 健康检查，看起来像成功，实际拿不到任何内容。
