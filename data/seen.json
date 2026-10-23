@@ -29,6 +29,11 @@
 "last": "2026-10-22",
 "max_points": 107
 },
+"bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -479,9 +484,59 @@
 "last": "2026-10-22",
 "max_points": 0
 },
+"cnbc.com/2026/10/23/airfare-airline-capacity.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/american-express-job-cuts.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/fbi-hunter-biden-criminal-charges.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
 "cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
 "max_points": 0
 },
 "cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html": {
@@ -882,6 +937,11 @@
 "sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service": {
 "first": "2026-10-21",
 "last": "2026-10-21",
+"max_points": 0
+},
+"sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities": {
+"first": "2026-10-24",
+"last": "2026-10-24",
 "max_points": 0
 },
 "simedw.com/2026/10/21/world-model-terminal": {
