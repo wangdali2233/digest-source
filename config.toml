@@ -46,7 +46,9 @@ key_env = "OPENROUTER_API_KEY"
 json_mode = true
 thinking = "auto"      # 不要发 thinking 字段，OpenRouter 不认
 reasoning = false      # 必须关掉：免费路由默认开推理，会把 max_tokens 烧光、正文返回空
-retries = 1            # 路由器偶发落到不兼容后端（实测 400），同参数重发一次通常就好
+# 路由器偶发落到不兼容后端（线上实测过 400）。每个 json_mode 变体最多重试 3 次，
+# 加上降级到「不带 response_format」的那一轮，最坏共 8 次调用——免费模型成本为 0，只花时间。
+retries = 3
 
 # 备用：DeepSeek 官方（按量计费，质量更稳定）
 [llm.deepseek]
