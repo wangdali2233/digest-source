@@ -14,6 +14,11 @@
 "last": "2026-10-19",
 "max_points": 476
 },
+"aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 249
+},
 "aws.amazon.com/security/security-bulletins/2026-143-aws": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -128,6 +133,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 143
+},
+"canarytokens.org/": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 160
 },
 "claude.com/product/claude-duet": {
 "first": "2026-10-22",
@@ -474,6 +484,11 @@
 "last": "2026-10-21",
 "max_points": 290
 },
+"emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 927
+},
 "emudhra.we-have-a-problem.com/": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -483,6 +498,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 168
+},
+"forums.plex.tv/t/2026-20-0-beta-ios-and-tvos-4k-dovi-hdr10-won-t-play-infinite-spinning-circle/943966?page=5": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 159
 },
 "getlazarus.org/dynamic": {
 "first": "2026-10-20",
@@ -498,6 +518,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 127
+},
+"github.com/NVIDIA/OpenShell": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 295
 },
 "github.com/VikOlliver/RepRapMicron/wiki": {
 "first": "2026-10-19",
@@ -534,15 +559,35 @@
 "last": "2026-10-20",
 "max_points": 329
 },
+"github.com/maxilevi/project-hedra/tree/pre-ai": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 131
+},
 "github.com/microg/GmsCore/wiki": {
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 382
 },
+"github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 590
+},
+"github.com/oosexgang/hackios-xnu-kernel": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 321
+},
 "github.com/openai/codex/issues/25921": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 172
+},
+"github.com/openai/openai-cli": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 230
 },
 "github.com/php/php-src/releases/tag/php-8.2.35": {
 "first": "2026-10-22",
@@ -639,6 +684,11 @@
 "last": "2026-10-21",
 "max_points": 525
 },
+"modelcompare.ai/blog/ai-models-controversial-take-on-humans": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 234
+},
 "nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -669,6 +719,11 @@
 "last": "2026-10-21",
 "max_points": 323
 },
+"pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 719
+},
 "permit.petercai.com/": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -678,6 +733,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 224
+},
+"phoronix.com/news/LKML-New-Trend-Vulnerabilities": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 238
 },
 "php.net/archive/2026.php": {
 "first": "2026-10-22",
@@ -693,6 +753,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 218
+},
+"quad9.net/news/blog/au-revoir-france": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 997
 },
 "redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
 "first": "2026-10-21",
@@ -734,6 +799,11 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"simedw.com/2026/10/21/world-model-terminal": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 504
+},
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -759,6 +829,11 @@
 "last": "2026-10-22",
 "max_points": 493
 },
+"techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 492
+},
 "teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -774,6 +849,11 @@
 "last": "2026-10-22",
 "max_points": 518
 },
+"theverge.com/tech/1015844/airbnb-chores-house-rules-update": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 244
+},
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -788,6 +868,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 197
+},
+"vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations": {
+"first": "2026-10-23",
+"last": "2026-10-23",
+"max_points": 328
 },
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
