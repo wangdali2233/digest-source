@@ -1,10 +1,10 @@
 """探测 DeepSeek 当前可用的模型清单，和上次快照对比，有变化就报警。
 
 用法：
-    python3 scripts/check_models.py                 # 人类可读输出
-    python3 scripts/check_models.py --json          # 机器可读
-    python3 scripts/check_models.py --body out.md   # 生成 issue 正文
-    python3 scripts/check_models.py --fixture f.json  # 离线测试
+    python3 tools/check_models.py                 # 人类可读输出
+    python3 tools/check_models.py --json          # 机器可读
+    python3 tools/check_models.py --body out.md   # 生成 issue 正文
+    python3 tools/check_models.py --fixture f.json  # 离线测试
 
 退出码：0 = 无变化 / 首次建立基线；2 = 有变化，需要人看一眼。
 

@@ -54,6 +54,7 @@ config.toml            全局：站点、输出、LLM（provider 列表 + 预算
 profiles/<id>.toml     栏目：发布时刻、窗口、分节、源、配额、排序策略
 pipeline/              核心管道（采集/归一化/去重/渲染/发布）
 docs/design/           设计文档，编号递增
+tools/                 运维脚本。**不要放 scripts/**——Hexo 会把 scripts/ 当插件目录加载
 source/_posts/<id>/<YYYY>/<MM>/  按栏目/年/月分层，文件名只留「日」
 data/seen.json         两个栏目共用
 ```
@@ -81,7 +82,7 @@ node -e "const y=require('js-yaml'),f=require('fs');for(const p of f.readdirSync
 npx hexo clean && npx hexo generate
 
 # 模型清单探测（每两周自动跑）
-python3 scripts/check_models.py --fixture /tmp/fx/a.json
+python3 tools/check_models.py --fixture /tmp/fx/a.json
 ```
 
 ## 五、判断标准

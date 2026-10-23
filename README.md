@@ -209,7 +209,7 @@ key_env  = "DEEPSEEK_API_KEY"
 
 模型名会变（`deepseek-chat` 就是这样悄悄从文档消失的），所以加了一个独立的定时任务
 `.github/workflows/model-check.yml`：每月 1 号、15 号各跑一次
-`scripts/check_models.py`，调 `GET {base}/models` 拿当前清单，和 `data/models.json`
+`tools/check_models.py`，调 `GET {base}/models` 拿当前清单，和 `data/models.json`
 里的快照对比。有新增、下线，或**配置的模型不见了**，就开一个 issue 提醒，不自动改配置——
 换模型要人判断质量。
 

@@ -1,8 +1,8 @@
 """本地探测 LLM provider：复现「分类 400 / 摘要成功」这种不对称失败。
 
 用法：
-    OPENROUTER_API_KEY=sk-or-... python3 scripts/probe_llm.py
-    DEEPSEEK_API_KEY=sk-...     python3 scripts/probe_llm.py --provider deepseek
+    OPENROUTER_API_KEY=sk-or-... python3 tools/probe_llm.py
+    DEEPSEEK_API_KEY=sk-...     python3 tools/probe_llm.py --provider deepseek
 
 依次发 4 个请求，逐步排除变量：
     1. 最简请求（不带 response_format、不带 reasoning）
