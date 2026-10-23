@@ -237,6 +237,22 @@ def usage_text() -> str:
     return f"{LAST_USAGE.get('prompt_tokens', 0)}/{LAST_USAGE.get('completion_tokens', 0)} tokens"
 
 
+def run_attempts(call, json_modes, retries: int = 0):
+    """按 json_mode 变体依次尝试，每个变体最多重试 retries 次。
+
+    重试的价值来自实测：openrouter/free 是路由器，同样的请求会落到不同的免费后端，
+    线上出现过一次 HTTP 400，而本地同参数连发两次都成功。
+    """
+    last: Exception | None = None
+    for json_mode in json_modes:
+        for _ in range(1 + max(0, retries)):
+            try:
+                return call(json_mode), None
+            except Exception as exc:  # noqa: BLE001 - 网络/限流/格式，统一话术
+                last = exc
+    return None, last
+
+
 def chat(prompt: str, profile: dict, key: str, max_tokens: int, json_mode: bool = True) -> str:
     """给摘要阶段复用的底层调用。"""
     return _call(prompt, profile, key, json_mode, max_tokens)
@@ -317,21 +333,20 @@ def classify(items: list[dict], sections: list[dict], cfg: dict) -> tuple[int, s
     prompt = _build_prompt(items, sections, tokens["summary_chars"], vocab)
     # 第一次带 response_format；不支持 JSON 模式的端点会在第二次去掉它重试
     attempts = [True, False] if plan.get("json_mode", True) else [False]
-
-    last_error: Exception | None = None
-    for json_mode in attempts:
-        try:
-            rows = _parse(_call(prompt, plan, key, json_mode, tokens["max_tokens"]))
-            changed = apply(items, sections, rows, vocab, int(tags_cfg.get("max_per_item", 3)))
-            phase = "高峰省流" if tokens["peak"] else "错峰"
-            usage = usage_text()
-            return changed, (
-                f"LLM 分类（{label}，{phase}，max_tokens={tokens['max_tokens']}）："
-                f"返回 {len(rows)} 条，改判 {changed} 条"
-                + (f"，{usage}" if usage else "")
-            )
-        except Exception as exc:  # 网络、限流、格式，全都退回关键词
-            last_error = exc
+    rows, last_error = run_attempts(
+        lambda json_mode: _parse(_call(prompt, plan, key, json_mode, tokens["max_tokens"])),
+        attempts,
+        int(plan.get("retries", 0)),
+    )
+    if rows is not None:
+        changed = apply(items, sections, rows, vocab, int(tags_cfg.get("max_per_item", 3)))
+        phase = "高峰省流" if tokens["peak"] else "错峰"
+        usage = usage_text()
+        return changed, (
+            f"LLM 分类（{label}，{phase}，max_tokens={tokens['max_tokens']}）："
+            f"返回 {len(rows)} 条，改判 {changed} 条"
+            + (f"，{usage}" if usage else "")
+        )
 
     return 0, (
         f"LLM 分类失败（{label}，{type(last_error).__name__}：{str(last_error)[:200]}），"

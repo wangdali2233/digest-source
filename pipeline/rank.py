@@ -53,26 +53,29 @@ def _llm(cfg: dict, items: list[dict], quota: dict) -> tuple[list[dict], str]:
     for index, item in enumerate(candidates):
         lines.append(f'{index}. [{item.get("source_name", "")}] {item["title"]}')
 
-    attempts = [True, False] if profile.get("json_mode", True) else [False]
-    for json_mode in attempts:
-        try:
-            content = classify.chat(
-                "\n".join(lines), profile, key, plan["max_tokens"], json_mode
-            )
-            picks, dup_groups = _parse_picks(content)
-            chosen = [candidates[i] for i in picks if 0 <= i < len(candidates)]
-            if not chosen:
-                raise ValueError("模型没有给出有效编号")
-            chosen = _ensure_diversity(chosen[:want], candidates, want)
-            return chosen, (
-                f"模型选品（{label}）：{len(candidates)} 条候选挑 {len(chosen)} 条，"
-                f"来源 {len({x['source'] for x in chosen})} 个，"
-                f"合并重复 {len(dup_groups)} 组"
-            )
-        except Exception as exc:  # noqa: BLE001 - 选品失败不能拖垮发布
-            last = exc
+    def attempt(json_mode: bool):
+        content = classify.chat("\n".join(lines), profile, key, plan["max_tokens"], json_mode)
+        picks, groups = _parse_picks(content)
+        # 编号有效性放在 attempt 里，才能触发重试（路由器换个后端可能就正常了）
+        if not any(0 <= index < len(candidates) for index in picks):
+            raise ValueError("模型没有给出有效编号")
+        return picks, groups
 
-    return _recent(items, want), f"模型选品失败（{type(last).__name__}），按时间取最新"
+    attempts = [True, False] if profile.get("json_mode", True) else [False]
+    parsed, last = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)))
+
+    if parsed is not None:
+        picks, dup_groups = parsed
+        chosen = [candidates[i] for i in picks if 0 <= i < len(candidates)]
+        chosen = _ensure_diversity(chosen[:want], candidates, want)
+        return chosen, (
+            f"模型选品（{label}）：{len(candidates)} 条候选挑 {len(chosen)} 条，"
+            f"来源 {len({x['source'] for x in chosen})} 个，"
+            f"合并重复 {len(dup_groups)} 组"
+        )
+
+    reason = f"{type(last).__name__}：{str(last)[:120]}" if last else "未知原因"
+    return _recent(items, want), f"模型选品失败（{reason}），按时间取最新"
 
 
 def _ensure_diversity(chosen: list[dict], candidates: list[dict], want: int) -> list[dict]:

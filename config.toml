@@ -46,6 +46,7 @@ key_env = "OPENROUTER_API_KEY"
 json_mode = true
 thinking = "auto"      # 不要发 thinking 字段，OpenRouter 不认
 reasoning = false      # 必须关掉：免费路由默认开推理，会把 max_tokens 烧光、正文返回空
+retries = 1            # 路由器偶发落到不兼容后端（实测 400），同参数重发一次通常就好
 
 # 备用：DeepSeek 官方（按量计费，质量更稳定）
 [llm.deepseek]
@@ -54,6 +55,7 @@ model = "deepseek-flash"
 key_env = "DEEPSEEK_API_KEY"
 json_mode = true
 thinking = "disabled"  # 开着会把 max_tokens 烧在 reasoning 上，正文返回空
+retries = 0            # 官方接口稳定，失败重试只是浪费钱
 
 # 高峰省流：北京时间 09:00-12:00 与 14:00-18:00 为高峰，压缩输出；
 # 其余时段视为错峰，放开预算。区间可增删，格式 "HH:MM-HH:MM"。

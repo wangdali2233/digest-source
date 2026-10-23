@@ -150,22 +150,19 @@ def summarize(items: list[dict], cfg: dict, offline: bool = False) -> tuple[int,
     prompt = _build_prompt(items, excerpts, plan["summary_chars"], rules)
     attempts = [True, False] if profile.get("json_mode", True) else [False]
 
-    last_error: Exception | None = None
-    for json_mode in attempts:
-        try:
-            content = classify.chat(
-                prompt, profile, key, plan["summary_max_tokens"], json_mode
-            )
-            rows = classify.parse_rows(content)
-            written = _apply(items, rows)
-            usage = classify.usage_text()
-            return written, (
-                f"摘要（{label}）：抓到正文 {got}/{len(items)} 条，"
-                f"写入 {written} 条"
-                + (f"，{usage}" if usage else "")
-            )
-        except Exception as exc:
-            last_error = exc
+    def attempt(json_mode: bool) -> list[dict]:
+        content = classify.chat(prompt, profile, key, plan["summary_max_tokens"], json_mode)
+        return classify.parse_rows(content)
+
+    rows, last_error = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)))
+    if rows is not None:
+        written = _apply(items, rows)
+        usage = classify.usage_text()
+        return written, (
+            f"摘要（{label}）：抓到正文 {got}/{len(items)} 条，"
+            f"写入 {written} 条"
+            + (f"，{usage}" if usage else "")
+        )
 
     return 0, (
         f"摘要失败（{type(last_error).__name__}：{str(last_error)[:160]}），"
