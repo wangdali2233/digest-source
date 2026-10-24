@@ -39,6 +39,11 @@
 "last": "2026-10-24",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -107,6 +112,11 @@
 "bbc.co.uk/news/articles/cmzxj4e8w44vo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-22",
 "last": "2026-10-22",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-24",
+"last": "2026-10-24",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss": {
@@ -504,7 +514,17 @@
 "last": "2026-10-22",
 "max_points": 0
 },
+"cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
 "cnbc.com/2026/10/23/airfare-airline-capacity.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html": {
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 0
@@ -534,12 +554,22 @@
 "last": "2026-10-24",
 "max_points": 0
 },
+"cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
 "cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 0
 },
 "cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html": {
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 0
@@ -567,6 +597,31 @@
 "cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 0
+},
+"cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
@@ -617,6 +672,11 @@
 "ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
+"max_points": 0
+},
+"ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
 "max_points": 0
 },
 "ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf": {
