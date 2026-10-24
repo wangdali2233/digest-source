@@ -90,6 +90,10 @@ def render(
 
     source_names = {item["source_name"] for item in picked if item.get("source_name")}
 
+    # 覆盖区间：用名义窗口（不含 window_slack_hours，那是实现细节）
+    window_start = published - dt.timedelta(hours=int(site_cfg.get("window_hours", 24)))
+    span = f"{window_start:%m-%d %H:%M} → {published:%m-%d %H:%M}"
+
     # 分节名按配置顺序取，保证 description 和 tags 每天可复现
     present = {item["section"] for item in picked}
     section_ids = [s["id"] for s in sections_cfg if s["id"] in present]
@@ -129,7 +133,7 @@ def render(
         "comments: false",
         "---",
         "",
-        f"本期收录 {len(picked)} 条，来自 {len(source_names)} 个源。",
+        f"本期收录 {len(picked)} 条，来自 {len(source_names)} 个源，覆盖 {span}。",
         "",
         "## 今日要点",
         "",
