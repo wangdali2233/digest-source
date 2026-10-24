@@ -58,8 +58,8 @@ default_category: daily
 category_map:
 tag_map:
 
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+date_format: YYYY-MM-DD HH:mm
+time_format: ' '
 updated_option: mtime
 
 per_page: 10
