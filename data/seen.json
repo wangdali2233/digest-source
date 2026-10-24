@@ -4,6 +4,11 @@
 "last": "2026-10-20",
 "max_points": 146
 },
+"anthropic.com/research/formal-verification": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 440
+},
 "api-docs.deepseek.com/guides/search": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -129,6 +134,16 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"block.xyz/dessa": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 225
+},
+"blog.calif.io/p/iphone": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 742
+},
 "blog.cloudflare.com/typescript-rust-port": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -153,6 +168,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 143
+},
+"bugzilla.mozilla.org/show_bug.cgi?id=2083449": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 193
 },
 "canarytokens.org/": {
 "first": "2026-10-23",
@@ -554,6 +574,11 @@
 "last": "2026-10-20",
 "max_points": 0
 },
+"codeandcake.dev/posts/2026-10-22-docker-is-weird": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 824
+},
 "colo.to/cyberspace.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -573,6 +598,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 155
+},
+"cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 358
 },
 "dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html": {
 "first": "2026-10-21",
@@ -603,6 +633,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 0
+},
+"edjefferson.com/localwiki": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 1240
 },
 "efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference": {
 "first": "2026-10-21",
@@ -638,6 +673,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 211
+},
+"github.com/ClickHouse/ClickBench/pull/2165": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 182
 },
 "github.com/KatrielMoses/voidaccess": {
 "first": "2026-10-21",
@@ -714,6 +754,11 @@
 "last": "2026-10-23",
 "max_points": 232
 },
+"github.com/openssl/openssl/releases/tag/openssl-4.1.0": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 180
+},
 "github.com/php/php-src/releases/tag/php-8.2.35": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -769,10 +814,30 @@
 "last": "2026-10-21",
 "max_points": 320
 },
+"kadoa.com/energy-prices/insights/investor-owned-utilities": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 526
+},
 "karrisaarinen.com/posts/someone-behind-the-software": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 517
+},
+"keepandroidopen.org/": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 480
+},
+"kimi.ai/blog/kimi-k3-1-pro": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 713
+},
+"lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 195
 },
 "lwn.net/Articles/1101143": {
 "first": "2026-10-20",
@@ -819,6 +884,11 @@
 "last": "2026-10-23",
 "max_points": 254
 },
+"music.apple.com/this-url-doesnt-exist": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 583
+},
 "nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -828,6 +898,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 493
+},
+"news.ycombinator.com/item?id=50200997": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 593
 },
 "nvd.nist.gov/vuln/detail/cve-2026-111943": {
 "first": "2026-10-23",
@@ -969,6 +1044,11 @@
 "last": "2026-10-20",
 "max_points": 485
 },
+"sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 315
+},
 "taler.net/en/news/2026-13.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -1003,6 +1083,26 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 247
+},
+"theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 271
+},
+"tilschuenemann.de/job-loss-cortisone-mania": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 168
+},
+"tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 415
+},
+"twitter.com/jaredkushner/status/2113376217415958767": {
+"first": "2026-10-24",
+"last": "2026-10-24",
+"max_points": 288
 },
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
