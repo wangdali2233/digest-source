@@ -169,6 +169,11 @@
 "last": "2026-10-22",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cqp8gjz4k7g6o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -729,6 +734,41 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/2026/10/25/cnbc-survey-midterm-election-voter-fears.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/2026/10/25/wonder-ipo-texas-automation.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -739,9 +779,24 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
 "cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html": {
 "first": "2026-10-25",
 "last": "2026-10-25",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
 "max_points": 0
 },
 "codeandcake.dev/posts/2026-10-22-docker-is-weird": {
