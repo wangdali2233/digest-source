@@ -4,6 +4,16 @@
 "last": "2026-10-20",
 "max_points": 146
 },
+"aardappel.github.io/goose": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 229
+},
+"aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 274
+},
 "anthropic.com/research/formal-verification": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -14,6 +24,11 @@
 "last": "2026-10-19",
 "max_points": 585
 },
+"apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 469
+},
 "arc.net/": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -23,6 +38,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 476
+},
+"arxiv.org/abs/2610.29162": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 151
 },
 "aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot": {
 "first": "2026-10-23",
@@ -151,8 +171,8 @@
 },
 "block.xyz/dessa": {
 "first": "2026-10-24",
-"last": "2026-10-24",
-"max_points": 225
+"last": "2026-10-25",
+"max_points": 502
 },
 "blog.calif.io/p/iphone": {
 "first": "2026-10-24",
@@ -168,6 +188,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 299
+},
+"blog.roku.com/developer/gitlab-move": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 255
 },
 "bls.gov/bls": {
 "first": "2026-10-20",
@@ -704,6 +729,11 @@
 "last": "2026-10-20",
 "max_points": 262
 },
+"computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 191
+},
 "cretezy.com/2026/ad-free-android-tv": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -719,6 +749,11 @@
 "last": "2026-10-24",
 "max_points": 358
 },
+"cve.0xosprey.com/": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 213
+},
 "dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -728,6 +763,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 245
+},
+"dreamlabs.ai/research/dream-1": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 153
 },
 "ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html": {
 "first": "2026-10-20",
@@ -784,6 +824,11 @@
 "last": "2026-10-23",
 "max_points": 159
 },
+"freedns.afraid.org/": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 247
+},
 "getlazarus.org/dynamic": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -813,6 +858,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 433
+},
+"github.com/Zagitta/gpu-unlock": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 185
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
@@ -859,6 +909,11 @@
 "last": "2026-10-23",
 "max_points": 593
 },
+"github.com/obsproject/obs-studio/releases/tag/33.0.0": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 441
+},
 "github.com/oosexgang/hackios-xnu-kernel": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -898,6 +953,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 200
+},
+"grapheneos.social/@GrapheneOS/117492375462459244": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 616
 },
 "heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right": {
 "first": "2026-10-21",
@@ -1029,6 +1089,11 @@
 "last": "2026-10-23",
 "max_points": 332
 },
+"nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 246
+},
 "openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -1063,6 +1128,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 224
+},
+"philipotoole.com/twelve-years-of-distributed-sqlite": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 365
 },
 "phoronix.com/news/LKML-New-Trend-Vulnerabilities": {
 "first": "2026-10-23",
@@ -1109,6 +1179,11 @@
 "last": "2026-10-20",
 "max_points": 322
 },
+"rtfeldman.com/fp-vs-c": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 254
+},
 "safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -1149,6 +1224,11 @@
 "last": "2026-10-19",
 "max_points": 0
 },
+"southampton.ac.uk/~doug/quantum_physics/index.html": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 278
+},
 "spectrum.ieee.org/alternatives-to-animal-testing": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -1163,6 +1243,16 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 485
+},
+"stealmybitcoin.com/": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 386
+},
+"steveblank.com/2026/10/24/europe-gets-a-wake-up-call": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 417
 },
 "sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
 "first": "2026-10-24",
@@ -1223,6 +1313,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 288
+},
+"twitter.com/log4j/status/2113014142600953868?s=46": {
+"first": "2026-10-25",
+"last": "2026-10-25",
+"max_points": 485
 },
 "twitter.com/opencode/status/2111516673953935833": {
 "first": "2026-10-19",
