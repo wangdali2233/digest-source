@@ -14,6 +14,11 @@
 "last": "2026-10-25",
 "max_points": 274
 },
+"alfie.wtf/programming/why-i-am-a-programmer.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 122
+},
 "anthropic.com/research/formal-verification": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -28,6 +33,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 469
+},
+"apricitas.io/p/ai-and-the-fall-of-the-creative-class": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 503
 },
 "arc.net/": {
 "first": "2026-10-23",
@@ -258,6 +268,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 233
+},
+"cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 351
 },
 "claude.com/product/claude-duet": {
 "first": "2026-10-22",
@@ -839,6 +854,11 @@
 "last": "2026-10-25",
 "max_points": 213
 },
+"dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 198
+},
 "dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -929,6 +949,11 @@
 "last": "2026-10-24",
 "max_points": 182
 },
+"github.com/JetBrains/thinkrail": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 178
+},
 "github.com/KatrielMoses/voidaccess": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -973,6 +998,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 258
+},
+"github.com/ihhub/fheroes2": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 201
 },
 "github.com/kksimp/Mac.apk": {
 "first": "2026-10-20",
@@ -1024,6 +1054,11 @@
 "last": "2026-10-22",
 "max_points": 969
 },
+"github.com/slee-persis/GVS5H": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 182
+},
 "github.com/zion-sati/NetWasm": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -1038,6 +1073,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 200
+},
+"gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 120
 },
 "grapheneos.social/@GrapheneOS/117492375462459244": {
 "first": "2026-10-25",
@@ -1058,6 +1098,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 168
+},
+"imaginationlibrary.com/": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 361
 },
 "inceptionlabs.ai/blog/introducing-mercury-3": {
 "first": "2026-10-20",
@@ -1104,10 +1149,20 @@
 "last": "2026-10-24",
 "max_points": 195
 },
+"loeffelholz-codex.org/en": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 161
+},
 "lwn.net/Articles/1101143": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 619
+},
+"lynchlab.net/llm-skin-cancer": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 416
 },
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
@@ -1128,6 +1183,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 481
+},
+"minimaxir.com/2026/10/cheap-llms": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 123
 },
 "mistral.ai/news/mistral-large-4": {
 "first": "2026-10-23",
@@ -1193,6 +1253,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 134
+},
+"panamericandispatch.org/p/meta-ignores-brazilian-court-order": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 468
 },
 "peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
 "first": "2026-10-21",
@@ -1349,10 +1414,20 @@
 "last": "2026-10-23",
 "max_points": 231
 },
+"talkweb.eu/openweb/4558": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 381
+},
 "techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck": {
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 493
+},
+"techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 131
 },
 "techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html": {
 "first": "2026-10-23",
@@ -1363,6 +1438,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 492
+},
+"theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 374
 },
 "thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
 "first": "2026-10-22",
@@ -1393,6 +1473,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 415
+},
+"twitter.com/boneGPT/status/2114035719853265264": {
+"first": "2026-10-26",
+"last": "2026-10-26",
+"max_points": 94
 },
 "twitter.com/jaredkushner/status/2113376217415958767": {
 "first": "2026-10-24",
