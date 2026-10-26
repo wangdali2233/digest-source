@@ -24,24 +24,74 @@ from . import classify
 
 UA = "digest-bot/1.0 (+https://github.com/wangdali2233/digest-source)"
 
+# head 里全是 CSS/JS，整块丢掉；其余是常见的导航/页脚噪音
 _DROP_BLOCKS = re.compile(
-    r"<(script|style|noscript|nav|header|footer|aside|form|svg|iframe)\b[^>]*>.*?</\1>",
+    r"<(head|script|style|noscript|nav|header|footer|aside|form|svg|iframe)\b[^>]*>.*?</\1>",
     re.S | re.I,
 )
+# 读到 fetch_bytes 就停时，末尾可能出现没闭合的 <style>/<script>，正则匹配不到结束标签，
+# 整段 CSS/JS 会被当成正文（CNBC 实测过）。从第一个未闭合标签处直接切掉。
+_UNCLOSED_CODE = re.compile(r"<(script|style)\b[^>]*>", re.I)
+_BODY = re.compile(r"<body\b[^>]*>(.*?)</body>", re.S | re.I)
+# 正文一般是若干个像样的 <p>；导航/推广是短链，用长度过滤掉
+_PARAGRAPH = re.compile(r"<p\b[^>]*>(.*?)</p>", re.S | re.I)
+_CODE_CHARS = set("{};@")
+# 明显的页面骨架文案，出现在正文里只会污染摘要
+_BOILERPLATE = ("skip navigation", "sign up for", "newsletter", "subscribe", "all rights reserved")
 _COMMENT = re.compile(r"<!--.*?-->", re.S)
 _MAIN = re.compile(r"<(article|main)\b[^>]*>(.*?)</\1>", re.S | re.I)
 _TAGS = re.compile(r"<[^>]+>")
 _WS = re.compile(r"\s+")
 
 
+def _flatten(fragment: str) -> str:
+    return _WS.sub(" ", htmllib.unescape(_TAGS.sub(" ", fragment))).strip()
+
+
+def _looks_like_code(text: str) -> bool:
+    """抽出来的东西像 CSS/JS 就当作抓取失败，宁可只按标题写摘要，也不喂垃圾。"""
+    sample = text[:400].lstrip()
+    if not sample:
+        return True
+    if sample.startswith(("@charset", "{", "function", "var ", "const ", "!function")):
+        return True
+    if "@media" in sample or "background:" in sample or "color:" in sample:
+        return True
+    return sum(1 for ch in sample if ch in _CODE_CHARS) / len(sample) > 0.12
+
+
 def extract_text(html: str, limit: int = 1200) -> str:
-    """粗暴但够用的正文抽取：优先 article/main，去掉脚本样式，压平空白。"""
+    """粗暴但够用的正文抽取：优先 article/main/body，去掉脚本样式，压平空白。"""
     html = _COMMENT.sub(" ", html)
     html = _DROP_BLOCKS.sub(" ", html)
+
+    cut = _UNCLOSED_CODE.search(html)
+    if cut:
+        html = html[: cut.start()]
+
+    # 先缩小范围（article → main → 整页），再在范围内按段落密度取正文。
+    # 直接压平 <main> 会把导航也带进来（CNBC 实测），段落过滤能挡掉。
+    scope = None
     match = _MAIN.search(html)
-    body = match.group(2) if match else html
-    text = htmllib.unescape(_TAGS.sub(" ", body))
-    text = _WS.sub(" ", text).strip()
+    if match:
+        scope = match.group(2)
+    else:
+        body_match = _BODY.search(html)
+        scope = body_match.group(1) if body_match else html
+
+    paragraphs = []
+    for chunk in _PARAGRAPH.findall(scope):
+        text = _flatten(chunk)
+        lowered = text.lower()
+        if len(text) >= 60 and not any(mark in lowered for mark in _BOILERPLATE):
+            paragraphs.append(text)
+    joined = _WS.sub(" ", " ".join(paragraphs)).strip()
+    if joined and not _looks_like_code(joined):
+        return joined[:limit]
+
+    text = _flatten(scope)
+    if _looks_like_code(text):
+        return ""
     return text[:limit]
 
 
@@ -67,10 +117,18 @@ def gather(items: list[dict], conf: dict) -> dict[str, str]:
     max_bytes = int(conf.get("fetch_bytes", 200_000))
     limit = int(conf.get("excerpt_chars", 1200))
 
+    big_bytes = max(max_bytes, 1_000_000)
+
     def work(item: dict) -> tuple[str, str]:
         try:
             page = fetch_article(item["url"], timeout, max_bytes)
-            return item["id"], extract_text(page, limit) if page else ""
+            text = extract_text(page, limit) if page else ""
+            if not text:
+                # 重型页面（CNBC 约 900KB）在常规上限处被截断，抽不出正文；
+                # 只有这种失败的情况才用更大的上限重试，避免每个链接都拉 1MB。
+                page = fetch_article(item["url"], timeout, big_bytes)
+                text = extract_text(page, limit) if page else ""
+            return item["id"], text
         except Exception:  # 403、超时、DNS、非法编码，全都当抓不到
             return item["id"], ""
 
