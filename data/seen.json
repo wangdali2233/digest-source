@@ -74,9 +74,19 @@
 "last": "2026-10-22",
 "max_points": 107
 },
+"bbc.co.uk/news/articles/c317kpqv4njno?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-24",
 "last": "2026-10-24",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/c5rmy84np001o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-27",
+"last": "2026-10-27",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss": {
@@ -209,6 +219,11 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cqzjx1e9ylv1o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -224,9 +239,19 @@
 "last": "2026-10-27",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cwvg0ddz1z77o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
+"max_points": 0
+},
+"bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-27",
+"last": "2026-10-27",
 "max_points": 0
 },
 "block.xyz/dessa": {
@@ -804,6 +829,21 @@
 "last": "2026-10-26",
 "max_points": 0
 },
+"cnbc.com/2026/10/26/-as-ai-becomes-more-fractured-one-names-stands-out-amd.html": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
+"cnbc.com/2026/10/26/alaska-senate-peltola-doj-lawsuit-election-sullivan.html": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
+"cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
 "cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -845,6 +885,11 @@
 "max_points": 0
 },
 "cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/israeli-election-citizens-flying-back-vote.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 0
@@ -980,6 +1025,11 @@
 "max_points": 0
 },
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 0
+},
+"ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 0
