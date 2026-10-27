@@ -4,6 +4,11 @@
 "last": "2026-10-20",
 "max_points": 146
 },
+"404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 219
+},
 "aardappel.github.io/goose": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -16,8 +21,8 @@
 },
 "alfie.wtf/programming/why-i-am-a-programmer.html": {
 "first": "2026-10-26",
-"last": "2026-10-26",
-"max_points": 122
+"last": "2026-10-27",
+"max_points": 316
 },
 "anthropic.com/research/formal-verification": {
 "first": "2026-10-24",
@@ -43,6 +48,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 232
+},
+"arxiv.org/abs/2512.19428": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 186
 },
 "arxiv.org/abs/2610.18861": {
 "first": "2026-10-19",
@@ -253,6 +263,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 184
+},
+"brown.edu/news/2026-10-26/ai-data-workers": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 175
 },
 "bsd.network/@brynet/117407035545900963": {
 "first": "2026-10-20",
@@ -874,6 +889,11 @@
 "last": "2026-10-24",
 "max_points": 824
 },
+"cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 257
+},
 "colo.to/cyberspace.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -903,6 +923,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 358
+},
+"css-tricks.com/css-tricks-has-a-new-owner": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 386
 },
 "cve.0xosprey.com/": {
 "first": "2026-10-25",
@@ -1009,6 +1034,11 @@
 "last": "2026-10-24",
 "max_points": 182
 },
+"github.com/DilawarShafiq/nietzschian-debugger": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 130
+},
 "github.com/JetBrains/thinkrail": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -1018,6 +1048,16 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 127
+},
+"github.com/KillaBoi/StealMyBitcoin-PoC": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 163
+},
+"github.com/KrushnaVardhanReddy/PaperPilot": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 228
 },
 "github.com/NVIDIA/OpenShell": {
 "first": "2026-10-23",
@@ -1079,6 +1119,11 @@
 "last": "2026-10-21",
 "max_points": 382
 },
+"github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 194
+},
 "github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -1098,6 +1143,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 172
+},
+"github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 300
 },
 "github.com/openai/openai-cli": {
 "first": "2026-10-23",
@@ -1204,6 +1254,11 @@
 "last": "2026-10-24",
 "max_points": 713
 },
+"korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 191
+},
 "lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -1223,6 +1278,11 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 416
+},
+"magazine.sebastianraschka.com/p/building-reasoning-models": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 563
 },
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
@@ -1246,8 +1306,8 @@
 },
 "minimaxir.com/2026/10/cheap-llms": {
 "first": "2026-10-26",
-"last": "2026-10-26",
-"max_points": 123
+"last": "2026-10-27",
+"max_points": 416
 },
 "mistral.ai/news/mistral-large-4": {
 "first": "2026-10-23",
@@ -1268,6 +1328,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 254
+},
+"muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 121
 },
 "music.apple.com/this-url-doesnt-exist": {
 "first": "2026-10-24",
@@ -1299,10 +1364,20 @@
 "last": "2026-10-25",
 "max_points": 246
 },
+"openai.com/index/building-scientific-understanding-with-academic-communities": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 484
+},
 "openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 234
+},
+"openai.com/index/introducing-gpt-6-1-terra": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 503
 },
 "openai.com/index/openai-models-google-cloud": {
 "first": "2026-10-22",
@@ -1403,6 +1478,16 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 842
+},
+"seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 769
+},
+"sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 1484
 },
 "sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence": {
 "first": "2026-10-20",
@@ -1553,6 +1638,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 965
+},
+"ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
+"first": "2026-10-27",
+"last": "2026-10-27",
+"max_points": 146
 },
 "unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot": {
 "first": "2026-10-22",
