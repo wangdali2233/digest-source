@@ -9,6 +9,11 @@
 "last": "2026-10-27",
 "max_points": 219
 },
+"404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 315
+},
 "aardappel.github.io/goose": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -259,6 +264,11 @@
 "last": "2026-10-27",
 "max_points": 0
 },
+"bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 301
+},
 "block.xyz/dessa": {
 "first": "2026-10-24",
 "last": "2026-10-25",
@@ -273,6 +283,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 344
+},
+"blog.enlyth.com/posts/oldest-windows-gui-app-win-11": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 527
 },
 "blog.railway.com/p/security-disclosure-wednesday-october-21st": {
 "first": "2026-10-22",
@@ -1049,6 +1064,16 @@
 "last": "2026-10-21",
 "max_points": 122
 },
+"deepmind.google/blog/genie-4-a-new-generation-of-world-simulation": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 746
+},
+"discord.com/blog/making-content-from-discoverable-servers-easier-to-discover": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 255
+},
 "docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -1129,10 +1154,20 @@
 "last": "2026-10-25",
 "max_points": 247
 },
+"futurism.com/artificial-intelligence/amazon-ai-division-failure-nova": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 271
+},
 "getlazarus.org/dynamic": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 197
+},
+"ghostty.org/docs/install/release-notes/1-4-0": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 787
 },
 "github.com/0x23/MicroManipulatorStepper": {
 "first": "2026-10-19",
@@ -1256,8 +1291,8 @@
 },
 "github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf": {
 "first": "2026-10-27",
-"last": "2026-10-27",
-"max_points": 300
+"last": "2026-10-28",
+"max_points": 778
 },
 "github.com/openai/openai-cli": {
 "first": "2026-10-23",
@@ -1288,6 +1323,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 154
+},
+"gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 342
 },
 "google.github.io/styleguide/rustguide.html": {
 "first": "2026-10-22",
@@ -1328,6 +1368,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 249
+},
+"j11g.com/the-mythical-man-month-in-the-age-of-ai": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 437
 },
 "josie.lol/blog/linux-rtx-spark": {
 "first": "2026-10-20",
@@ -1383,6 +1428,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 619
+},
+"lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 451
 },
 "lynchlab.net/llm-skin-cancer": {
 "first": "2026-10-26",
@@ -1474,10 +1524,20 @@
 "last": "2026-10-25",
 "max_points": 246
 },
+"oioannou.com/blog/ai-promised-less-work": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 620
+},
+"open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 460
+},
 "openai.com/index/building-scientific-understanding-with-academic-communities": {
 "first": "2026-10-27",
-"last": "2026-10-27",
-"max_points": 484
+"last": "2026-10-28",
+"max_points": 1128
 },
 "openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
 "first": "2026-10-22",
@@ -1498,6 +1558,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 134
+},
+"panamericandispatch.org/p/meta-employees-denounce-interference": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 327
 },
 "panamericandispatch.org/p/meta-ignores-brazilian-court-order": {
 "first": "2026-10-26",
@@ -1548,6 +1613,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 218
+},
+"privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 213
 },
 "pwn.watch/": {
 "first": "2026-10-23",
@@ -1639,10 +1709,20 @@
 "last": "2026-10-20",
 "max_points": 338
 },
+"spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 455
+},
 "sphinx-six-theta.vercel.app/": {
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 249
+},
+"stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 475
 },
 "starcraft-shooter-2026.pages.dev/": {
 "first": "2026-10-20",
@@ -1663,6 +1743,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 315
+},
+"tailscale.com/ssh-investigation-update": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 199
 },
 "taler.net/en/news/2026-13.html": {
 "first": "2026-10-23",
@@ -1773,6 +1858,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 132
+},
+"wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 799
 },
 "wiz.io/blog/php2shell-php-rce": {
 "first": "2026-10-22",
