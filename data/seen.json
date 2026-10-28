@@ -134,6 +134,11 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6x29g1nlr51o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -889,9 +894,54 @@
 "last": "2026-10-27",
 "max_points": 0
 },
+"cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/cftc-probes-polymarket-over-2022-settlement.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/frozen-housing-market-sends-remodelers-mixed-messages.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/glp1-drug-coverage-weight-loss-options.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
 "cnbc.com/2026/10/27/israeli-election-citizens-flying-back-vote.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/margin-debt-growth-cools-after-2026-surge-may-signal-market-top.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/nvidia-invest-meta.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
+"max_points": 0
+},
+"cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
@@ -907,6 +957,11 @@
 "cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html": {
 "first": "2026-10-26",
 "last": "2026-10-26",
+"max_points": 0
+},
+"cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
 "max_points": 0
 },
 "cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html": {
@@ -927,6 +982,11 @@
 "cnbc.com/make-it/2026/10/26/mortgage-rates-above-7percent-are-the-new-normalheres-why.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/10/27/seasonal-hiring-2026-holiday-jobs.html": {
+"first": "2026-10-28",
+"last": "2026-10-28",
 "max_points": 0
 },
 "codeandcake.dev/posts/2026-10-22-docker-is-weird": {
