@@ -29,6 +29,11 @@
 "last": "2026-10-27",
 "max_points": 316
 },
+"anthropic.com/research/early-progress-drug-development": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 322
+},
 "anthropic.com/research/formal-verification": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -44,6 +49,11 @@
 "last": "2026-10-25",
 "max_points": 469
 },
+"apple.com/macbook-pro/proled-xdr-display": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 506
+},
 "apricitas.io/p/ai-and-the-fall-of-the-creative-class": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -53,6 +63,16 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 232
+},
+"arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 130
+},
+"arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 304
 },
 "arxiv.org/abs/2512.19428": {
 "first": "2026-10-27",
@@ -304,6 +324,11 @@
 "last": "2026-10-28",
 "max_points": 527
 },
+"blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 815
+},
 "blog.railway.com/p/security-disclosure-wednesday-october-21st": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -323,6 +348,16 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 184
+},
+"brangus.io/survival-llm": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 521
+},
+"bret.dk/raspberry-pi-zero-3-w-pi-4-model-a": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 216
 },
 "brown.edu/news/2026-10-26/ai-data-workers": {
 "first": "2026-10-27",
@@ -1129,6 +1164,11 @@
 "last": "2026-10-22",
 "max_points": 245
 },
+"dreamagainusa.org/": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 328
+},
 "dreamlabs.ai/research/dream-1": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -1189,6 +1229,11 @@
 "last": "2026-10-21",
 "max_points": 629
 },
+"emudhra.we-have-a-problem.com/apple.html": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 1050
+},
 "entropicthoughts.com/nixos-is-making-me-less-afraid": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -1199,6 +1244,11 @@
 "last": "2026-10-29",
 "max_points": 0
 },
+"felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 115
+},
 "forums.plex.tv/t/2026-20-0-beta-ios-and-tvos-4k-dovi-hdr10-won-t-play-infinite-spinning-circle/943966?page=5": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -1208,6 +1258,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 247
+},
+"furbo.org/2026/10/28/a-health-update": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 110
 },
 "futurism.com/artificial-intelligence/amazon-ai-division-failure-nova": {
 "first": "2026-10-28",
@@ -1394,6 +1449,11 @@
 "last": "2026-10-26",
 "max_points": 120
 },
+"gracefulliberty.com/articles/four-months-of-zig": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 176
+},
 "grapheneos.social/@GrapheneOS/117492375462459244": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -1408,6 +1468,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 346
+},
+"huggingface.co/blog/nvidia/nemotron-transcribe-granary": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 115
 },
 "ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
 "first": "2026-10-21",
@@ -1473,6 +1538,16 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 195
+},
+"lexifina.com/blog/git-for-the-us-code": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 429
+},
+"liquid.ai/blog/lfm3": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 167
 },
 "loeffelholz-codex.org/en": {
 "first": "2026-10-26",
@@ -1568,6 +1643,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 593
+},
+"nullpt.rs/fingerprinting-bioweapons": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 885
 },
 "nvd.nist.gov/vuln/detail/cve-2026-111943": {
 "first": "2026-10-23",
@@ -1794,6 +1874,11 @@
 "last": "2026-10-25",
 "max_points": 417
 },
+"surgehq.ai/blog/dayjob-tax": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 207
+},
 "sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -1818,6 +1903,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 493
+},
+"technologyreview.com/2026/10/20/1145399/emacs-turns-50": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 422
 },
 "techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html": {
 "first": "2026-10-26",
@@ -1913,6 +2003,16 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 132
+},
+"wiki.alpinebsd.org/": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 178
+},
+"wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history": {
+"first": "2026-10-29",
+"last": "2026-10-29",
+"max_points": 1100
 },
 "wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans": {
 "first": "2026-10-28",
