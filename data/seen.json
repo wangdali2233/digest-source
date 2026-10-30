@@ -19,6 +19,11 @@
 "last": "2026-10-25",
 "max_points": 229
 },
+"about.doordash.com/en-us/news/doordash-to-acquire-instacart": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 434
+},
 "aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -63,6 +68,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 232
+},
+"arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 786
 },
 "arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections": {
 "first": "2026-10-29",
@@ -319,6 +329,11 @@
 "last": "2026-10-27",
 "max_points": 0
 },
+"bbc.com/news/articles/cm8xz7pkd0jjo": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 164
+},
 "bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -348,6 +363,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 815
+},
+"blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 235
 },
 "blog.railway.com/p/security-disclosure-wednesday-october-21st": {
 "first": "2026-10-22",
@@ -1214,6 +1234,11 @@
 "last": "2026-10-29",
 "max_points": 328
 },
+"dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 295
+},
 "dreamlabs.ai/research/dream-1": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -1334,6 +1359,11 @@
 "last": "2026-10-28",
 "max_points": 787
 },
+"gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 561
+},
 "github.com/0x23/MicroManipulatorStepper": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -1374,6 +1404,11 @@
 "last": "2026-10-23",
 "max_points": 314
 },
+"github.com/SheepSeb/tinyworldformer": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 139
+},
 "github.com/VikOlliver/RepRapMicron/wiki": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -1413,6 +1448,11 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 201
+},
+"github.com/johncassil/dontallow": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 104
 },
 "github.com/kksimp/Mac.apk": {
 "first": "2026-10-20",
@@ -1468,6 +1508,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 180
+},
+"github.com/owls-on-wires/keplearn": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 91
 },
 "github.com/php/php-src/releases/tag/php-8.2.35": {
 "first": "2026-10-22",
@@ -1589,6 +1634,11 @@
 "last": "2026-10-27",
 "max_points": 191
 },
+"labs.ycombinator.com/projects/games/index.html": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 178
+},
 "lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -1634,6 +1684,11 @@
 "last": "2026-10-20",
 "max_points": 579
 },
+"martinfowler.com/bliki/LLM-Voice.html": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 357
+},
 "mastodon.gamedev.place/@AshleyGullen/117473851565913919": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -1658,6 +1713,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 323
+},
+"mistral.ai/news/mistral-large-4-oss": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 1225
 },
 "mistral.ai/news/timestral": {
 "first": "2026-10-20",
@@ -1713,6 +1773,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 246
+},
+"nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 2469
 },
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
@@ -1829,6 +1894,11 @@
 "last": "2026-10-19",
 "max_points": 626
 },
+"reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 134
+},
 "reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -1893,6 +1963,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 0
+},
+"smsofdeath.com/": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 314
 },
 "southampton.ac.uk/~doug/quantum_physics/index.html": {
 "first": "2026-10-25",
@@ -2014,6 +2089,11 @@
 "last": "2026-10-24",
 "max_points": 168
 },
+"trakkr.ai/trakkr-research/zombie-stats": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 148
+},
 "tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -2073,6 +2153,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 1100
+},
+"wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents": {
+"first": "2026-10-30",
+"last": "2026-10-30",
+"max_points": 414
 },
 "wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans": {
 "first": "2026-10-28",
