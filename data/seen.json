@@ -104,6 +104,11 @@
 "last": "2026-10-25",
 "max_points": 151
 },
+"atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 354
+},
 "aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -408,6 +413,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 255
+},
+"blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 233
 },
 "bls.gov/bls": {
 "first": "2026-10-20",
@@ -1514,6 +1524,11 @@
 "last": "2026-10-29",
 "max_points": 115
 },
+"firezone.dev/blog/introducing-sanstun": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 157
+},
 "forums.plex.tv/t/2026-20-0-beta-ios-and-tvos-4k-dovi-hdr10-won-t-play-infinite-spinning-circle/943966?page=5": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -1634,6 +1649,11 @@
 "last": "2026-10-21",
 "max_points": 258
 },
+"github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 86
+},
 "github.com/herdrdev/herdr-app": {
 "first": "2026-10-31",
 "last": "2026-10-31",
@@ -1734,6 +1754,11 @@
 "last": "2026-10-20",
 "max_points": 154
 },
+"githubstatus.com/incidents/pwxsjgnvrk6b": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 154
+},
 "gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -1814,6 +1839,11 @@
 "last": "2026-10-24",
 "max_points": 526
 },
+"karpathy.bearblog.dev/hacker-tube": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 746
+},
 "karrisaarinen.com/posts/someone-behind-the-software": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -1888,6 +1918,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 357
+},
+"mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 102
 },
 "mastodon.gamedev.place/@AshleyGullen/117473851565913919": {
 "first": "2026-10-21",
@@ -2024,6 +2059,11 @@
 "last": "2026-10-22",
 "max_points": 134
 },
+"otwstatus.org/": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 127
+},
 "panamericandispatch.org/p/meta-employees-denounce-interference": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -2033,6 +2073,11 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 468
+},
+"parameter.ai/labs/we-found-a-gap-at-openai": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 303
 },
 "peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
 "first": "2026-10-21",
@@ -2073,6 +2118,16 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 1506
+},
+"piefed.world/post/1503394": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 308
+},
+"pivotlake.io/blog/its-the-memory-latency-stupid": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 129
 },
 "po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository": {
 "first": "2026-10-20",
@@ -2129,10 +2184,20 @@
 "last": "2026-10-25",
 "max_points": 254
 },
+"ryanmadden.net/gpt-56-beats-factorio": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 157
+},
 "safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 434
+},
+"science.org/content/article/serbia-just-elected-world-s-brainiest-parliament": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 816
 },
 "scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
 "first": "2026-10-22",
@@ -2349,6 +2414,11 @@
 "last": "2026-10-24",
 "max_points": 288
 },
+"twitter.com/jiahaoshao1/status/2116475922190922088": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 204
+},
 "twitter.com/log4j/status/2113014142600953868?s=46": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -2383,6 +2453,11 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 252
+},
+"vitalik.eth.limo/general/2026/10/31/digital_minimalism.html": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 308
 },
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
@@ -2428,6 +2503,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 140
+},
+"wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5": {
+"first": "2026-11-01",
+"last": "2026-11-01",
+"max_points": 182
 },
 "youtube.com/watch?v=Ndftcft6XhU": {
 "first": "2026-10-20",
