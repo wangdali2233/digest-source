@@ -89,6 +89,11 @@
 "last": "2026-10-29",
 "max_points": 304
 },
+"arxiv.org/abs/2409.02292": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 182
+},
 "arxiv.org/abs/2512.19428": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -418,6 +423,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 235
+},
+"blog.raed.dev/posts/proton-loser-thinking": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 142
 },
 "blog.railway.com/p/security-disclosure-wednesday-october-21st": {
 "first": "2026-10-22",
@@ -1711,8 +1721,8 @@
 },
 "github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
 "first": "2026-11-01",
-"last": "2026-11-01",
-"max_points": 86
+"last": "2026-11-02",
+"max_points": 428
 },
 "github.com/herdrdev/herdr-app": {
 "first": "2026-10-31",
@@ -1723,6 +1733,11 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 201
+},
+"github.com/ivankovic/omnidiff": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 173
 },
 "github.com/johncassil/dontallow": {
 "first": "2026-10-30",
@@ -1844,10 +1859,20 @@
 "last": "2026-10-25",
 "max_points": 616
 },
+"hackerbooks.org/": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 964
+},
 "heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right": {
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 369
+},
+"help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 217
 },
 "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
 "first": "2026-10-20",
@@ -2064,6 +2089,11 @@
 "last": "2026-10-31",
 "max_points": 512
 },
+"nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 309
+},
 "nullpt.rs/fingerprinting-bioweapons": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -2223,6 +2253,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 714
+},
+"reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 180
 },
 "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
 "first": "2026-10-19",
@@ -2399,6 +2434,11 @@
 "last": "2026-10-31",
 "max_points": 236
 },
+"techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 187
+},
 "techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -2423,6 +2463,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 492
+},
+"thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 424
 },
 "theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee": {
 "first": "2026-10-26",
@@ -2454,6 +2499,11 @@
 "last": "2026-10-24",
 "max_points": 168
 },
+"tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 152
+},
 "trakkr.ai/trakkr-research/zombie-stats": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -2476,8 +2526,8 @@
 },
 "twitter.com/jiahaoshao1/status/2116475922190922088": {
 "first": "2026-11-01",
-"last": "2026-11-01",
-"max_points": 204
+"last": "2026-11-02",
+"max_points": 455
 },
 "twitter.com/log4j/status/2113014142600953868?s=46": {
 "first": "2026-10-25",
@@ -2514,10 +2564,20 @@
 "last": "2026-10-31",
 "max_points": 252
 },
+"visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 675
+},
 "vitalik.eth.limo/general/2026/10/31/digital_minimalism.html": {
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 308
+},
+"vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 384
 },
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
