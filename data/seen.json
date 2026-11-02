@@ -179,6 +179,11 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6x29g1nlr51o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -192,6 +197,11 @@
 "bbc.co.uk/news/articles/ckjwe90z56ewo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-25",
 "last": "2026-10-25",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-02",
+"last": "2026-11-02",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss": {
@@ -252,6 +262,11 @@
 "bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-22",
 "last": "2026-10-22",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-02",
+"last": "2026-11-02",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss": {
@@ -1269,6 +1284,46 @@
 "last": "2026-11-01",
 "max_points": 0
 },
+"cnbc.com/2026/11/01/ai-investments-company-earnings.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/ai-meta-ads-google-search.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/election-municipal-bonds.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/social-security-benefit-cuts-2032.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/social-security-senate-races.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
+"cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
+"max_points": 0
+},
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -1332,6 +1387,11 @@
 "cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html": {
 "first": "2026-11-01",
 "last": "2026-11-01",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/01/reconnect-partner-after-time-apart.html": {
+"first": "2026-11-02",
+"last": "2026-11-02",
 "max_points": 0
 },
 "codeandcake.dev/posts/2026-10-22-docker-is-weird": {
