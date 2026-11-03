@@ -199,6 +199,11 @@
 "last": "2026-10-23",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/ckjwe90z56ewo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -259,6 +264,11 @@
 "last": "2026-10-22",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -314,6 +324,11 @@
 "last": "2026-10-31",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -347,6 +362,11 @@
 "bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-31",
 "last": "2026-10-31",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-03",
+"last": "2026-11-03",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss": {
@@ -1334,12 +1354,47 @@
 "last": "2026-11-02",
 "max_points": 0
 },
+"cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
+"cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
 "cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html": {
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 0
 },
+"cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
+"cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
+"cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
 "cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
+"cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 0
+},
+"cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html": {
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 0
@@ -1517,6 +1572,11 @@
 "ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html": {
 "first": "2026-10-24",
 "last": "2026-10-24",
+"max_points": 0
+},
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html": {
+"first": "2026-11-03",
+"last": "2026-11-03",
 "max_points": 0
 },
 "ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf": {
