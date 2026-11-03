@@ -424,6 +424,11 @@
 "last": "2026-10-24",
 "max_points": 742
 },
+"blog.cloudflare.com/dns-targeted-zone-builds": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 163
+},
 "blog.cloudflare.com/typescript-rust-port": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -438,6 +443,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 815
+},
+"blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 440
 },
 "blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain": {
 "first": "2026-10-30",
@@ -463,6 +473,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 233
+},
+"bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 167
 },
 "bls.gov/bls": {
 "first": "2026-10-20",
@@ -504,6 +519,11 @@
 "last": "2026-10-24",
 "max_points": 193
 },
+"businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 299
+},
 "canarytokens.org/": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -518,6 +538,11 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 351
+},
+"chalmovsky.com/posts/wtf-ubuntu": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 1372
 },
 "claude.com/product/claude-duet": {
 "first": "2026-10-22",
@@ -1377,7 +1402,7 @@
 "cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html": {
 "first": "2026-11-03",
 "last": "2026-11-03",
-"max_points": 0
+"max_points": 173
 },
 "cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html": {
 "first": "2026-11-03",
@@ -1649,6 +1674,11 @@
 "last": "2026-10-29",
 "max_points": 1050
 },
+"en.wikipedia.org/wiki/Never_complain,_never_explain": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 158
+},
 "entropicthoughts.com/nixos-is-making-me-less-afraid": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -1678,6 +1708,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 247
+},
+"freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 379
 },
 "ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f": {
 "first": "2026-10-31",
@@ -2019,6 +2054,11 @@
 "last": "2026-10-27",
 "max_points": 191
 },
+"labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 151
+},
 "labs.ycombinator.com/projects/games/index.html": {
 "first": "2026-10-30",
 "last": "2026-10-31",
@@ -2129,6 +2169,11 @@
 "last": "2026-10-23",
 "max_points": 254
 },
+"momentic.ai/": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 133
+},
 "muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -2153,6 +2198,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 593
+},
+"news.ycombinator.com/item?id=50340088": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 592
 },
 "newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
 "first": "2026-10-31",
@@ -2299,6 +2349,11 @@
 "last": "2026-10-20",
 "max_points": 218
 },
+"polyend.com/whats-up/tracker-the-biggest-update-yet": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 97
+},
 "privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -2318,6 +2373,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 1022
+},
+"quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 167
 },
 "redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
 "first": "2026-10-21",
@@ -2344,6 +2404,11 @@
 "last": "2026-10-20",
 "max_points": 322
 },
+"rikiyat.github.io/blog/weight-space-programming": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 2132
+},
 "rtfeldman.com/fp-vs-c": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -2358,6 +2423,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 434
+},
+"science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 324
 },
 "science.org/content/article/serbia-just-elected-world-s-brainiest-parliament": {
 "first": "2026-11-01",
@@ -2413,6 +2483,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 507
+},
+"simonwillison.net/2026/Nov/2/census-bureau-super-intelligence": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 103
 },
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
@@ -2484,6 +2559,11 @@
 "last": "2026-10-24",
 "max_points": 315
 },
+"syscall.sh/": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 214
+},
 "tailscale.com/ssh-investigation-update": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -2534,6 +2614,11 @@
 "last": "2026-10-21",
 "max_points": 492
 },
+"terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 128
+},
 "thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -2583,6 +2668,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 415
+},
+"twitter.com/OcanaSantero/status/2115442964574908902": {
+"first": "2026-11-03",
+"last": "2026-11-03",
+"max_points": 125
 },
 "twitter.com/boneGPT/status/2114035719853265264": {
 "first": "2026-10-26",
