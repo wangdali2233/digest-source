@@ -89,6 +89,11 @@
 "last": "2026-10-29",
 "max_points": 304
 },
+"arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 452
+},
 "arxiv.org/abs/2409.02292": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -99,6 +104,11 @@
 "last": "2026-10-27",
 "max_points": 186
 },
+"arxiv.org/abs/2605.29713": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 253
+},
 "arxiv.org/abs/2610.18861": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -108,6 +118,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 151
+},
+"asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 283
 },
 "atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf": {
 "first": "2026-11-01",
@@ -1829,6 +1844,11 @@
 "last": "2026-10-26",
 "max_points": 178
 },
+"github.com/JiaFeiMiao-K-Cat/DiscImageStudio": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 345
+},
 "github.com/KatrielMoses/voidaccess": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -1849,6 +1869,11 @@
 "last": "2026-10-23",
 "max_points": 314
 },
+"github.com/NVIDIA/auto-ontology": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 263
+},
 "github.com/SheepSeb/tinyworldformer": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -1863,6 +1888,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 185
+},
+"github.com/aaitor/skill-video-studio": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 115
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
@@ -1983,6 +2013,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 969
+},
+"github.com/postmanlabs/postman-app-support/issues/14370": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 1067
 },
 "github.com/slee-persis/GVS5H": {
 "first": "2026-10-26",
@@ -2149,6 +2184,11 @@
 "last": "2026-10-26",
 "max_points": 161
 },
+"lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 119
+},
 "lwn.net/Articles/1101143": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2254,6 +2294,11 @@
 "last": "2026-10-20",
 "max_points": 326
 },
+"neufangled.com/": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 413
+},
 "news.ycombinator.com/item?id=50151036": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2269,10 +2314,20 @@
 "last": "2026-11-03",
 "max_points": 592
 },
+"news.ycombinator.com/item?id=50352757": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 439
+},
 "newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 512
+},
+"nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 455
 },
 "nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks": {
 "first": "2026-11-02",
@@ -2298,6 +2353,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 2469
+},
+"nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 567
 },
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
@@ -2333,6 +2393,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 134
+},
+"openai.com/index/scaling-git-at-openai": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 264
 },
 "otwstatus.org/": {
 "first": "2026-11-01",
@@ -2504,6 +2569,11 @@
 "last": "2026-10-22",
 "max_points": 842
 },
+"seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 140
+},
 "seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -2544,6 +2614,11 @@
 "last": "2026-10-31",
 "max_points": 0
 },
+"shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 172
+},
 "simedw.com/2026/10/21/world-model-terminal": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -2553,6 +2628,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 103
+},
+"simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 506
 },
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
@@ -2803,6 +2883,11 @@
 "first": "2026-11-02",
 "last": "2026-11-02",
 "max_points": 384
+},
+"webkit.org/blog/18541/introducing-adaptive-dark-mode": {
+"first": "2026-11-04",
+"last": "2026-11-04",
+"max_points": 317
 },
 "webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685": {
 "first": "2026-10-19",
