@@ -49,6 +49,11 @@
 "last": "2026-10-24",
 "max_points": 440
 },
+"anthropic.com/research/provable-inference": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 185
+},
 "api-docs.deepseek.com/guides/search": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -433,6 +438,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 164
+},
+"ben.stolovitz.com/posts/how-use-ai-oct-2026": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 250
 },
 "binarysecurity.no/posts/2026/10/one-root-case": {
 "first": "2026-10-31",
@@ -1984,6 +1994,11 @@
 "last": "2026-10-20",
 "max_points": 148
 },
+"github.com/finic-ai/kairos": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 104
+},
 "github.com/golang/go/issues/82345": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -2164,6 +2179,11 @@
 "last": "2026-10-29",
 "max_points": 115
 },
+"huggingface.co/moonshotai/Kimi-K3.1-Pro": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 413
+},
 "ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -2239,6 +2259,11 @@
 "last": "2026-10-31",
 "max_points": 397
 },
+"layer3intel.com/blog/residential-proxies-white-house-network": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 739
+},
 "lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -2313,6 +2338,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 591
+},
+"mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 593
 },
 "minimax.io/blog/minimax-m31f": {
 "first": "2026-10-20",
@@ -2394,6 +2424,11 @@
 "last": "2026-11-04",
 "max_points": 439
 },
+"news.ycombinator.com/item?id=50363461": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 634
+},
 "newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
 "first": "2026-10-31",
 "last": "2026-10-31",
@@ -2464,6 +2499,11 @@
 "last": "2026-10-22",
 "max_points": 238
 },
+"openai.com/index/openai-to-acquire-pierre": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 207
+},
 "openai.com/index/scaling-ai-research-for-complex-biological-data": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -2493,6 +2533,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 303
+},
+"pcdealcheck.com/": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 96
 },
 "peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
 "first": "2026-10-21",
@@ -2609,6 +2654,11 @@
 "last": "2026-10-20",
 "max_points": 322
 },
+"ricursive.com/ripple": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 241
+},
 "rikiyat.github.io/blog/weight-space-programming": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -2694,6 +2744,11 @@
 "last": "2026-11-05",
 "max_points": 0
 },
+"semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 315
+},
 "shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat": {
 "first": "2026-11-04",
 "last": "2026-11-04",
@@ -2728,6 +2783,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 278
+},
+"spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 1111
 },
 "spectrum.ieee.org/alternatives-to-animal-testing": {
 "first": "2026-10-20",
@@ -2849,6 +2909,11 @@
 "last": "2026-11-02",
 "max_points": 424
 },
+"theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 302
+},
 "theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -2858,6 +2923,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 677
+},
+"theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 586
 },
 "theverge.com/games/1015647/ea-is-shutting-down-bioware": {
 "first": "2026-10-22",
@@ -2878,6 +2948,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 168
+},
+"tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections": {
+"first": "2026-11-05",
+"last": "2026-11-05",
+"max_points": 494
 },
 "tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy": {
 "first": "2026-11-02",
