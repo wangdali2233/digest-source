@@ -234,6 +234,11 @@
 "last": "2026-11-05",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/ckjwe90z56ewo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -521,7 +526,7 @@
 },
 "bls.gov/bls": {
 "first": "2026-10-20",
-"last": "2026-10-29",
+"last": "2026-11-06",
 "max_points": 0
 },
 "boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html": {
@@ -1524,9 +1529,19 @@
 "last": "2026-11-04",
 "max_points": 0
 },
+"cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
 "cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html": {
 "first": "2026-11-05",
 "last": "2026-11-05",
+"max_points": 0
+},
+"cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
 "max_points": 0
 },
 "cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html": {
@@ -1594,12 +1609,42 @@
 "last": "2026-11-06",
 "max_points": 0
 },
+"cnbc.com/2026/11/05/as-california-billionaire-tax-fizzles-democrats-plan-taxes-on-wealthy.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
+"cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
 "cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html": {
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 0
 },
+"cnbc.com/2026/11/05/emocratic-midterm-economy.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
+"cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
 "cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
+"cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
+"cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html": {
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 0
@@ -1812,6 +1857,16 @@
 "ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html": {
 "first": "2026-10-31",
 "last": "2026-10-31",
+"max_points": 0
+},
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 0
+},
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
 "max_points": 0
 },
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
