@@ -39,6 +39,16 @@
 "last": "2026-10-27",
 "max_points": 316
 },
+"alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 312
+},
+"alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 605
+},
 "anthropic.com/research/early-progress-drug-development": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -453,6 +463,11 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 268
+},
+"birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 307
 },
 "bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible": {
 "first": "2026-10-28",
@@ -1589,6 +1604,11 @@
 "last": "2026-11-05",
 "max_points": 0
 },
+"cnbc.com/2026/11/04/stock-market-today-live-updates.html": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 206
+},
 "cnbc.com/2026/11/04/trump-midterm-election-results-congress.html": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -1759,6 +1779,11 @@
 "last": "2026-10-20",
 "max_points": 258
 },
+"criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 291
+},
 "crystl.dev/guides/tmux-for-ai-agents": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -1778,6 +1803,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 213
+},
+"cve.org/CVERecord?id=CVE-2026-83844": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 356
 },
 "cyberplace.social/@GossiTheDog/117528831681803563": {
 "first": "2026-10-31",
@@ -1929,6 +1959,11 @@
 "last": "2026-10-21",
 "max_points": 168
 },
+"erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 280
+},
 "federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -2058,6 +2093,11 @@
 "first": "2026-11-04",
 "last": "2026-11-04",
 "max_points": 115
+},
+"github.com/anthropics/claude-code/issues/107757": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 634
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
@@ -2189,6 +2229,11 @@
 "last": "2026-11-04",
 "max_points": 1067
 },
+"github.com/saragordic/window-sweaters": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 266
+},
 "github.com/slee-persis/GVS5H": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -2213,6 +2258,11 @@
 "first": "2026-10-28",
 "last": "2026-10-28",
 "max_points": 342
+},
+"go.dev/blog/jsonv2": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 387
 },
 "google.github.io/styleguide/rustguide.html": {
 "first": "2026-10-22",
@@ -2304,6 +2354,11 @@
 "last": "2026-10-24",
 "max_points": 526
 },
+"kagi.com/changelog": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 579
+},
 "karpathy.bearblog.dev/hacker-tube": {
 "first": "2026-11-01",
 "last": "2026-11-01",
@@ -2394,6 +2449,11 @@
 "last": "2026-10-20",
 "max_points": 579
 },
+"markblah.github.io/lemmings": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 388
+},
 "martinfowler.com/bliki/LLM-Voice.html": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -2408,6 +2468,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 417
+},
+"mcp-explained.com/": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 257
 },
 "medpagetoday.com/opinion/second-opinions/123553?trw=no": {
 "first": "2026-10-31",
@@ -2463,6 +2528,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 133
+},
+"motorolanews.com/motorola-signature-27-2": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 410
 },
 "muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": {
 "first": "2026-10-27",
@@ -2559,6 +2629,11 @@
 "last": "2026-10-28",
 "max_points": 460
 },
+"openai.com/index/a-thousand-fewer-paths-to-root": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 476
+},
 "openai.com/index/building-scientific-understanding-with-academic-communities": {
 "first": "2026-10-27",
 "last": "2026-10-28",
@@ -2573,6 +2648,11 @@
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 503
+},
+"openai.com/index/introducing-images-2-6": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 376
 },
 "openai.com/index/openai-models-google-cloud": {
 "first": "2026-10-22",
@@ -2709,6 +2789,11 @@
 "last": "2026-11-03",
 "max_points": 167
 },
+"rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 325
+},
 "redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -2758,6 +2843,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 434
+},
+"salon.com/2026/11/05/goodbye-from-salon": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 477
 },
 "science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span": {
 "first": "2026-11-03",
@@ -2883,6 +2973,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 249
+},
+"sshhole.com/": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 2395
 },
 "stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude": {
 "first": "2026-10-28",
@@ -3013,6 +3108,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 518
+},
+"theverge.com/news/1027379/discord-ditching-electron-web-app": {
+"first": "2026-11-06",
+"last": "2026-11-06",
+"max_points": 404
 },
 "theverge.com/tech/1015844/airbnb-chores-house-rules-update": {
 "first": "2026-10-23",
