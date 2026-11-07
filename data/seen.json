@@ -274,6 +274,11 @@
 "last": "2026-10-22",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -399,6 +404,11 @@
 "last": "2026-10-22",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -437,6 +447,11 @@
 "bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
+"max_points": 0
+},
+"bbc.co.uk/news/videos/cq369l9r634ro?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-07",
+"last": "2026-11-07",
 "max_points": 0
 },
 "bbc.co.uk/news/videos/cqn49vy2jlx0o?at_medium=RSS&at_campaign=rss": {
@@ -1674,6 +1689,21 @@
 "last": "2026-11-06",
 "max_points": 0
 },
+"cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
+"cnbc.com/2026/11/06/automakers-rising-costs-flat-production-2027.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
+"cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
 "cnbc.com/2026/11/06/democrats-corporate-oversight-trump.html": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -1684,12 +1714,37 @@
 "last": "2026-11-07",
 "max_points": 0
 },
+"cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
+"cnbc.com/2026/11/06/montana-initiative-194-corporate-spending.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
+"cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
 "cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html": {
 "first": "2026-11-07",
 "last": "2026-11-07",
 "max_points": 0
 },
 "cnbc.com/2026/11/06/robert-garcia-trump-congress-oversight-investigations.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
+"cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 0
+},
+"cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html": {
 "first": "2026-11-07",
 "last": "2026-11-07",
 "max_points": 0
@@ -1737,6 +1792,11 @@
 "cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html": {
 "first": "2026-11-06",
 "last": "2026-11-06",
+"max_points": 0
+},
+"cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
 "max_points": 0
 },
 "cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html": {
