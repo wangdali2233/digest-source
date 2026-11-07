@@ -79,6 +79,11 @@
 "last": "2026-10-29",
 "max_points": 506
 },
+"apps.metaebene.me/en/kugelblitz": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 244
+},
 "apricitas.io/p/ai-and-the-fall-of-the-creative-class": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -524,6 +529,11 @@
 "last": "2026-10-29",
 "max_points": 815
 },
+"blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 300
+},
 "blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -553,6 +563,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 233
+},
+"bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 241
 },
 "bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near": {
 "first": "2026-11-03",
@@ -2064,6 +2079,16 @@
 "last": "2026-10-29",
 "max_points": 115
 },
+"filfre.net/2026/11/deus-ex": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 342
+},
+"finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 496
+},
 "firezone.dev/blog/introducing-sanstun": {
 "first": "2026-11-01",
 "last": "2026-11-01",
@@ -2164,6 +2189,11 @@
 "last": "2026-11-04",
 "max_points": 263
 },
+"github.com/PrivSec-dev/banking-apps-compat-report/issues/105": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 622
+},
 "github.com/SheepSeb/tinyworldformer": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -2184,10 +2214,15 @@
 "last": "2026-11-04",
 "max_points": 115
 },
+"github.com/anomalyco/rune": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 155
+},
 "github.com/anthropics/claude-code/issues/107757": {
 "first": "2026-11-06",
-"last": "2026-11-06",
-"max_points": 634
+"last": "2026-11-07",
+"max_points": 1554
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
@@ -2319,6 +2354,11 @@
 "last": "2026-11-04",
 "max_points": 1067
 },
+"github.com/ppmpreetham/BUI": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 686
+},
 "github.com/saragordic/window-sweaters": {
 "first": "2026-11-06",
 "last": "2026-11-06",
@@ -2388,6 +2428,11 @@
 "first": "2026-11-02",
 "last": "2026-11-02",
 "max_points": 217
+},
+"hightouch.com/blog/llm-judges-identity-resolution": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 352
 },
 "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
 "first": "2026-10-20",
@@ -2464,6 +2509,11 @@
 "last": "2026-10-24",
 "max_points": 480
 },
+"kevinboone.me/efitest_index.html": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 195
+},
 "kimi.ai/blog/kimi-k3-1-pro": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -2488,6 +2538,11 @@
 "first": "2026-11-05",
 "last": "2026-11-05",
 "max_points": 739
+},
+"lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 180
 },
 "lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images": {
 "first": "2026-10-24",
@@ -2634,6 +2689,11 @@
 "last": "2026-10-24",
 "max_points": 583
 },
+"nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 867
+},
 "nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2668,6 +2728,11 @@
 "first": "2026-11-05",
 "last": "2026-11-05",
 "max_points": 634
+},
+"news.ycombinator.com/item?id=50393105": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 182
 },
 "newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
 "first": "2026-10-31",
@@ -2839,6 +2904,11 @@
 "last": "2026-11-01",
 "max_points": 129
 },
+"planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 212
+},
 "po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2863,6 +2933,16 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 626
+},
+"pwn.ai/blog/firecracker-escape": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 180
+},
+"pwn.college/": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 306
 },
 "pwn.watch/": {
 "first": "2026-10-23",
@@ -2898,6 +2978,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 626
+},
+"reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 565
 },
 "reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28": {
 "first": "2026-10-30",
@@ -3189,6 +3274,11 @@
 "last": "2026-10-22",
 "max_points": 677
 },
+"thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 302
+},
 "theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -3213,6 +3303,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 271
+},
+"thinkingmachines.ai/news/inkling-2-small": {
+"first": "2026-11-07",
+"last": "2026-11-07",
+"max_points": 283
 },
 "tilschuenemann.de/job-loss-cortisone-mania": {
 "first": "2026-10-24",
