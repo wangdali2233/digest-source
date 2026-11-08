@@ -19,6 +19,11 @@
 "last": "2026-10-31",
 "max_points": 263
 },
+"8rank.ai/game/apple-intelligence-personal-knowledge-graph": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 608
+},
 "aardappel.github.io/goose": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -49,6 +54,11 @@
 "last": "2026-11-06",
 "max_points": 605
 },
+"anthropic.com/research/components-of-agent-memory": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 151
+},
 "anthropic.com/research/early-progress-drug-development": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -68,6 +78,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 585
+},
+"apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 191
 },
 "apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
 "first": "2026-10-25",
@@ -134,10 +149,20 @@
 "last": "2026-10-19",
 "max_points": 476
 },
+"arxiv.org/abs/2610.21375": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 115
+},
 "arxiv.org/abs/2610.29162": {
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 151
+},
+"asahilinux.org/2026/11/progress-report-7-3": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 326
 },
 "asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months": {
 "first": "2026-11-04",
@@ -503,6 +528,11 @@
 "first": "2026-10-24",
 "last": "2026-10-25",
 "max_points": 502
+},
+"blog.bosscher.ch/posts/openstick": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 351
 },
 "blog.calif.io/p/iphone": {
 "first": "2026-10-24",
@@ -2199,6 +2229,11 @@
 "last": "2026-10-30",
 "max_points": 561
 },
+"github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 220
+},
 "github.com/0x23/MicroManipulatorStepper": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -2318,6 +2353,11 @@
 "first": "2026-11-01",
 "last": "2026-11-02",
 "max_points": 428
+},
+"github.com/hedgerow-dev/coldframe": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 193
 },
 "github.com/herdrdev/herdr-app": {
 "first": "2026-10-31",
@@ -2509,6 +2549,11 @@
 "last": "2026-11-05",
 "max_points": 413
 },
+"hunch.net/?p=13764006": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 396
+},
 "ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -2523,6 +2568,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 249
+},
+"infohawk.com/news/2026-11-05-scamwich-restaurant-skimming": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 165
 },
 "j11g.com/the-mythical-man-month-in-the-age-of-ai": {
 "first": "2026-10-28",
@@ -2674,6 +2724,11 @@
 "last": "2026-10-21",
 "max_points": 417
 },
+"mceglowski.substack.com/p/how-long-can-life-wait": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 129
+},
 "mcp-explained.com/": {
 "first": "2026-11-06",
 "last": "2026-11-06",
@@ -2798,6 +2853,11 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 512
+},
+"nfsu2.xyz/": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 830
 },
 "nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html": {
 "first": "2026-11-04",
@@ -3038,6 +3098,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 626
+},
+"reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 106
 },
 "reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05": {
 "first": "2026-11-07",
@@ -3319,6 +3384,11 @@
 "last": "2026-11-02",
 "max_points": 424
 },
+"theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 374
+},
 "theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -3328,6 +3398,11 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 374
+},
+"thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 201
 },
 "thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
 "first": "2026-10-22",
@@ -3464,6 +3539,11 @@
 "last": "2026-11-02",
 "max_points": 384
 },
+"washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 144
+},
 "webkit.org/blog/18541/introducing-adaptive-dark-mode": {
 "first": "2026-11-04",
 "last": "2026-11-04",
@@ -3478,6 +3558,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 178
+},
+"windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in": {
+"first": "2026-11-08",
+"last": "2026-11-08",
+"max_points": 224
 },
 "wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history": {
 "first": "2026-10-29",
