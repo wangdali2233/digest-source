@@ -4,6 +4,11 @@
 "last": "2026-10-20",
 "max_points": 146
 },
+"247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 181
+},
 "404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -81,8 +86,8 @@
 },
 "apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
 "first": "2026-11-08",
-"last": "2026-11-08",
-"max_points": 191
+"last": "2026-11-09",
+"max_points": 593
 },
 "apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
 "first": "2026-10-25",
@@ -183,6 +188,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 107
+},
+"axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 382
 },
 "bbc.co.uk/news/articles/c317kpqv4njno?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-27",
@@ -536,8 +546,8 @@
 },
 "blog.bosscher.ch/posts/openstick": {
 "first": "2026-11-08",
-"last": "2026-11-08",
-"max_points": 351
+"last": "2026-11-09",
+"max_points": 778
 },
 "blog.calif.io/p/iphone": {
 "first": "2026-10-24",
@@ -599,6 +609,11 @@
 "last": "2026-11-01",
 "max_points": 233
 },
+"bloomberg.com/features/2026-police-phone-tracking-advertising-tech": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 113
+},
 "bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -653,6 +668,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 299
+},
+"caleb.software/posts/claude-to-pi.html": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 706
 },
 "canarytokens.org/": {
 "first": "2026-10-23",
@@ -2289,6 +2309,11 @@
 "last": "2026-10-30",
 "max_points": 561
 },
+"github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 186
+},
 "github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
 "first": "2026-11-08",
 "last": "2026-11-08",
@@ -2384,10 +2409,20 @@
 "last": "2026-10-19",
 "max_points": 144
 },
+"github.com/crmne/zapfast": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 99
+},
 "github.com/deepseek-ai/DeepInfer": {
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 2135
+},
+"github.com/dmunozv04/isponsorblocktv": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 127
 },
 "github.com/finereli/whatsapp-mcp": {
 "first": "2026-10-20",
@@ -2528,6 +2563,16 @@
 "first": "2026-10-26",
 "last": "2026-10-26",
 "max_points": 182
+},
+"github.com/synchopate/llama-modchip": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 372
+},
+"github.com/torvalds/linux": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 120
 },
 "github.com/zion-sati/NetWasm": {
 "first": "2026-10-22",
@@ -2679,6 +2724,11 @@
 "last": "2026-10-24",
 "max_points": 480
 },
+"ketchup3d.github.io/app": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 237
+},
 "kevinboone.me/efitest_index.html": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -2693,6 +2743,11 @@
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 191
+},
+"krthr.co/person-of-interest": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 291
 },
 "labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2": {
 "first": "2026-11-03",
@@ -2759,6 +2814,11 @@
 "last": "2026-10-27",
 "max_points": 563
 },
+"mailroute.net/blog/outlook-rejecting-email-without-dmarc": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 263
+},
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2783,6 +2843,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 417
+},
+"maxxbench.unlap.ai/research/why-maxxbench": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 389
 },
 "mceglowski.substack.com/p/how-long-can-life-wait": {
 "first": "2026-11-08",
@@ -2858,6 +2923,11 @@
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 121
+},
+"muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 286
 },
 "music.apple.com/this-url-doesnt-exist": {
 "first": "2026-10-24",
@@ -2938,6 +3008,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 332
+},
+"nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 404
 },
 "nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report": {
 "first": "2026-10-25",
@@ -3159,6 +3234,11 @@
 "last": "2026-10-19",
 "max_points": 626
 },
+"respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 216
+},
 "reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06": {
 "first": "2026-11-08",
 "last": "2026-11-08",
@@ -3278,6 +3358,11 @@
 "first": "2026-11-05",
 "last": "2026-11-05",
 "max_points": 315
+},
+"sergeykuhne.com/blog/fighting-ai-brain-fry": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 164
 },
 "shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat": {
 "first": "2026-11-04",
@@ -3478,6 +3563,11 @@
 "first": "2026-11-05",
 "last": "2026-11-05",
 "max_points": 586
+},
+"thestateofai.com/news/goldman-sachs-claude-code-traders-bankers": {
+"first": "2026-11-09",
+"last": "2026-11-09",
+"max_points": 624
 },
 "theverge.com/games/1015647/ea-is-shutting-down-bioware": {
 "first": "2026-10-22",
