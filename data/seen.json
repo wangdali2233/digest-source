@@ -59,6 +59,11 @@
 "last": "2026-11-06",
 "max_points": 605
 },
+"anthropic.com/claude-fable-and-mythos-5-2": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 967
+},
 "anthropic.com/research/components-of-agent-memory": {
 "first": "2026-11-08",
 "last": "2026-11-08",
@@ -78,6 +83,11 @@
 "first": "2026-11-05",
 "last": "2026-11-05",
 "max_points": 185
+},
+"anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 291
 },
 "api-docs.deepseek.com/guides/search": {
 "first": "2026-10-19",
@@ -133,6 +143,11 @@
 "first": "2026-11-04",
 "last": "2026-11-04",
 "max_points": 452
+},
+"artificialanalysis.ai/models/claude-fable-5-2": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 315
 },
 "arxiv.org/abs/2409.02292": {
 "first": "2026-11-02",
@@ -2094,6 +2109,11 @@
 "last": "2026-11-09",
 "max_points": 0
 },
+"cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 289
+},
 "codeandcake.dev/posts/2026-10-22-docker-is-weird": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -2199,6 +2219,16 @@
 "last": "2026-10-25",
 "max_points": 153
 },
+"duxlabs.dev/": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 340
+},
+"e-means.github.io/": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 314
+},
 "ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2269,6 +2299,11 @@
 "last": "2026-10-30",
 "max_points": 0
 },
+"economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 472
+},
 "edjefferson.com/localwiki": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -2338,6 +2373,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 157
+},
+"foldableflight.com/": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 899
 },
 "forums.plex.tv/t/2026-20-0-beta-ios-and-tvos-4k-dovi-hdr10-won-t-play-infinite-spinning-circle/943966?page=5": {
 "first": "2026-10-23",
@@ -2644,6 +2684,11 @@
 "last": "2026-11-09",
 "max_points": 372
 },
+"github.com/thisisme6598/gemini_files": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 479
+},
 "github.com/torvalds/linux": {
 "first": "2026-11-09",
 "last": "2026-11-09",
@@ -2759,6 +2804,11 @@
 "last": "2026-10-28",
 "max_points": 437
 },
+"joshstrange.com/2026/11/09/i-saw-your-hn-comment": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 412
+},
 "josie.lol/blog/linux-rtx-spark": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2801,8 +2851,8 @@
 },
 "ketchup3d.github.io/app": {
 "first": "2026-11-09",
-"last": "2026-11-09",
-"max_points": 237
+"last": "2026-11-10",
+"max_points": 735
 },
 "kevinboone.me/efitest_index.html": {
 "first": "2026-11-07",
@@ -2891,8 +2941,8 @@
 },
 "mailroute.net/blog/outlook-rejecting-email-without-dmarc": {
 "first": "2026-11-09",
-"last": "2026-11-09",
-"max_points": 263
+"last": "2026-11-10",
+"max_points": 537
 },
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
@@ -2918,6 +2968,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 417
+},
+"matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 545
 },
 "maxxbench.unlap.ai/research/why-maxxbench": {
 "first": "2026-11-09",
@@ -3024,6 +3079,11 @@
 "last": "2026-11-04",
 "max_points": 413
 },
+"news.ycombinator.com/front?day=2024-11-08": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 311
+},
 "news.ycombinator.com/item?id=50151036": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -3083,6 +3143,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 332
+},
+"nvidianews.nvidia.com/news/a-message-to-our-company": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 952
 },
 "nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors": {
 "first": "2026-11-09",
@@ -3179,6 +3244,11 @@
 "last": "2026-11-01",
 "max_points": 303
 },
+"payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 491
+},
 "pcdealcheck.com/": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -3254,6 +3324,11 @@
 "last": "2026-11-03",
 "max_points": 97
 },
+"postalpro.usps.com/zcb": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 546
+},
 "privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -3308,6 +3383,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 626
+},
+"research.meta.ai/blog/muse-ember": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 266
 },
 "respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman": {
 "first": "2026-11-09",
@@ -3443,6 +3523,11 @@
 "first": "2026-11-04",
 "last": "2026-11-04",
 "max_points": 172
+},
+"shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 602
 },
 "simedw.com/2026/10/21/world-model-terminal": {
 "first": "2026-10-23",
@@ -3723,6 +3808,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 965
+},
+"twitter.com/shanemelaugh/status/2119192075505893695": {
+"first": "2026-11-10",
+"last": "2026-11-10",
+"max_points": 768
 },
 "ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
 "first": "2026-10-27",
