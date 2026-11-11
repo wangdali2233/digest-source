@@ -599,6 +599,11 @@
 "last": "2026-10-28",
 "max_points": 301
 },
+"blender.org/download/releases/5-3": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 442
+},
 "block.xyz/dessa": {
 "first": "2026-10-24",
 "last": "2026-10-25",
@@ -628,6 +633,11 @@
 "first": "2026-10-28",
 "last": "2026-10-28",
 "max_points": 527
+},
+"blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 276
 },
 "blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon": {
 "first": "2026-10-29",
@@ -714,6 +724,11 @@
 "last": "2026-10-27",
 "max_points": 175
 },
+"broyojo.com/python-formalization": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 129
+},
 "bsd.network/@brynet/117407035545900963": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -758,6 +773,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 313
+},
+"claude.com/resources/articles/sheets-whiteboards-data": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 161
 },
 "cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html": {
 "first": "2026-10-20",
@@ -1829,6 +1849,11 @@
 "last": "2026-11-07",
 "max_points": 0
 },
+"cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 191
+},
 "cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -2299,10 +2324,20 @@
 "last": "2026-10-28",
 "max_points": 746
 },
+"deepmind.google/blog/introducing-alphaproof-code": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 583
+},
 "discord.com/blog/making-content-from-discoverable-servers-easier-to-discover": {
 "first": "2026-10-28",
 "last": "2026-10-28",
 "max_points": 255
+},
+"docodethatmatters.com/home-automation-overnight-success": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 735
 },
 "docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released": {
 "first": "2026-10-22",
@@ -2459,6 +2494,11 @@
 "last": "2026-11-06",
 "max_points": 280
 },
+"evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 399
+},
 "federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -2559,6 +2599,16 @@
 "last": "2026-10-27",
 "max_points": 130
 },
+"github.com/GoogleChrome/modern-web-guidance": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 274
+},
+"github.com/HolyArrs/HolyArrs": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 165
+},
 "github.com/JetBrains/thinkrail": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -2649,6 +2699,11 @@
 "last": "2026-11-09",
 "max_points": 127
 },
+"github.com/expo/exact": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 132
+},
 "github.com/finereli/whatsapp-mcp": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2718,6 +2773,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 382
+},
+"github.com/microsoft/Procexp-Mac": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 142
 },
 "github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md": {
 "first": "2026-10-27",
@@ -3039,6 +3099,11 @@
 "last": "2026-10-28",
 "max_points": 451
 },
+"lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 313
+},
 "lynchlab.net/llm-skin-cancer": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -3184,6 +3249,11 @@
 "last": "2026-10-20",
 "max_points": 326
 },
+"neil.fraser.name/news/2026/11/10": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 699
+},
 "neufangled.com/": {
 "first": "2026-11-04",
 "last": "2026-11-04",
@@ -3243,6 +3313,11 @@
 "first": "2026-11-02",
 "last": "2026-11-02",
 "max_points": 309
+},
+"notion.com/help/security-incident-involving-a-third-party-ai-vendor": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 159
 },
 "nullpt.rs/fingerprinting-bioweapons": {
 "first": "2026-10-29",
@@ -3659,6 +3734,11 @@
 "last": "2026-11-04",
 "max_points": 506
 },
+"simonwillison.net/2026/Nov/9/mysterious-beeps": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 318
+},
 "simonwillison.net/2026/Oct/17/document-currentscript": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -3799,6 +3879,11 @@
 "last": "2026-11-03",
 "max_points": 128
 },
+"theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 349
+},
 "thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -3874,6 +3959,11 @@
 "last": "2026-10-24",
 "max_points": 168
 },
+"tinyvalencia.com/": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 201
+},
 "tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -3934,6 +4024,11 @@
 "last": "2026-10-27",
 "max_points": 146
 },
+"ultorg.com/": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 142
+},
 "unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -3968,6 +4063,11 @@
 "first": "2026-11-02",
 "last": "2026-11-02",
 "max_points": 384
+},
+"vulncheck.com/blog/anthropic-glasswing-november-update": {
+"first": "2026-11-11",
+"last": "2026-11-11",
+"max_points": 274
 },
 "washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning": {
 "first": "2026-11-08",
