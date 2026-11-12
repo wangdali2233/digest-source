@@ -574,6 +574,11 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
 "bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -2224,6 +2229,46 @@
 "last": "2026-11-12",
 "max_points": 0
 },
+"cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2284,6 +2329,11 @@
 "last": "2026-11-12",
 "max_points": 0
 },
+"cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
 "cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -2332,6 +2382,16 @@
 "cnbc.com/make-it/2026/11/10/ex-google-recruiter-how-to-avoid-3-common-job-interview-mistakes.html": {
 "first": "2026-11-11",
 "last": "2026-11-11",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
 "max_points": 0
 },
 "cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385": {
