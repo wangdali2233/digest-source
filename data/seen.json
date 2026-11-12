@@ -29,6 +29,11 @@
 "last": "2026-11-08",
 "max_points": 608
 },
+"9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 521
+},
 "aardappel.github.io/goose": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -193,6 +198,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 354
+},
+"av.github.io/safe-sand": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 329
 },
 "aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot": {
 "first": "2026-10-23",
@@ -624,6 +634,11 @@
 "last": "2026-10-25",
 "max_points": 502
 },
+"blog.atuin.sh/threads-agent-sessions": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 196
+},
 "blog.bosscher.ch/posts/openstick": {
 "first": "2026-11-08",
 "last": "2026-11-09",
@@ -659,6 +674,11 @@
 "last": "2026-10-29",
 "max_points": 815
 },
+"blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 309
+},
 "blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -668,6 +688,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 440
+},
+"blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 264
 },
 "blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain": {
 "first": "2026-10-30",
@@ -693,6 +718,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 233
+},
+"blog.val.town/winding-down": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 418
 },
 "bloomberg.com/features/2026-police-phone-tracking-advertising-tech": {
 "first": "2026-11-09",
@@ -773,6 +803,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 233
+},
+"cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 446
 },
 "cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
 "first": "2026-10-26",
@@ -2394,6 +2429,11 @@
 "last": "2026-10-28",
 "max_points": 255
 },
+"discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 945
+},
 "docodethatmatters.com/home-automation-overnight-success": {
 "first": "2026-11-11",
 "last": "2026-11-11",
@@ -2559,6 +2599,11 @@
 "last": "2026-11-11",
 "max_points": 399
 },
+"experimental-history.com/p/we-need-more-goat-sacrifices": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 191
+},
 "federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -2619,6 +2664,11 @@
 "last": "2026-10-28",
 "max_points": 271
 },
+"gatezh.com/posts/macos-secure-enclave-ssh-keys": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 384
+},
 "getlazarus.org/dynamic": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -2658,6 +2708,11 @@
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 130
+},
+"github.com/FrigadeHQ/yogurt": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 191
 },
 "github.com/GoogleChrome/modern-web-guidance": {
 "first": "2026-11-11",
@@ -2743,6 +2798,11 @@
 "first": "2026-10-19",
 "last": "2026-10-19",
 "max_points": 144
+},
+"github.com/aws/aws-emulator": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 735
 },
 "github.com/crmne/zapfast": {
 "first": "2026-11-09",
@@ -3234,6 +3294,11 @@
 "last": "2026-10-19",
 "max_points": 591
 },
+"michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 435
+},
 "mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -3414,6 +3479,11 @@
 "last": "2026-11-04",
 "max_points": 567
 },
+"nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 286
+},
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -3543,6 +3613,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 308
+},
+"pietromiotti.com/latest/maya-site": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 943
 },
 "pivotlake.io/blog/its-the-memory-latency-stupid": {
 "first": "2026-11-01",
@@ -3849,6 +3924,11 @@
 "last": "2026-10-20",
 "max_points": 485
 },
+"starlink.com/mini-2": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 504
+},
 "status.bunny.net/incidents/p6gf1by9kr7m": {
 "first": "2026-10-31",
 "last": "2026-10-31",
@@ -3934,6 +4014,11 @@
 "last": "2026-10-21",
 "max_points": 492
 },
+"termsheetplease.com/": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 196
+},
 "terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -3998,6 +4083,11 @@
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 404
+},
+"theverge.com/tech/1012372/tv-privacy-acr-questions": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 342
 },
 "theverge.com/tech/1015844/airbnb-chores-house-rules-update": {
 "first": "2026-10-23",
@@ -4149,6 +4239,11 @@
 "last": "2026-10-29",
 "max_points": 178
 },
+"wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 214
+},
 "windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in": {
 "first": "2026-11-08",
 "last": "2026-11-08",
@@ -4183,6 +4278,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 643
+},
+"wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad": {
+"first": "2026-11-12",
+"last": "2026-11-12",
+"max_points": 651
 },
 "wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink": {
 "first": "2026-10-20",
