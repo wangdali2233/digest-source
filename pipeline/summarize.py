@@ -147,10 +147,11 @@ def _build_prompt(
         "你是技术信息聚合的编辑。为下面每一条写一句中文摘要。",
         "",
         "要求：",
-        f'1. 只输出 JSON，形如 {{"items":[{{"i":0,"summary":"…"}}]}}',
+        f'1. 只输出 JSON，形如 {{"items":[{{"i":0,"k":"标题前8个字符","summary":"…"}}]}}',
         f"2. summary 不超过 {chars} 字，说明这条到底讲了什么，不要重复标题",
         "3. 只写正文里出现的事实，正文没提的不要编",
         "4. 编号逐条对应，不能遗漏",
+        "5. k 是该条标题的前 8 个字符（原样照抄，不要改写），用于校验编号有没有对错",
     ]
     if rules:
         lines.append(f"5. {rules}")
@@ -165,26 +166,51 @@ def _build_prompt(
     return "\n".join(lines)
 
 
-def _apply(items: list[dict], rows: list[dict]) -> int:
-    by_index: dict[int, dict] = {}
+def _norm(text: str) -> str:
+    return re.sub(r"\s+", "", str(text)).lower()
+
+
+def _apply(items: list[dict], rows: list[dict]) -> tuple[int, int]:
+    """按「标题片段」对齐摘要，对不上才退回编号。
+
+    模型偶尔会把摘要整体错位一条（免费模型尤其明显）。它回显的 k（标题前 8 字）
+    比编号可靠得多，所以优先用 k 找人；k 找不到对应标题就丢弃，绝不张冠李戴。
+    """
+    norm_titles = [_norm(item["title"]) for item in items]
+    written = 0
+    dropped = 0
+    used: set[int] = set()
+
     for row in rows:
         if not isinstance(row, dict):
             continue
-        try:
-            by_index[int(row.get("i"))] = row
-        except (TypeError, ValueError):
+        summary = str(row.get("summary", "")).strip()
+        if not summary:
             continue
 
-    written = 0
-    for index, item in enumerate(items):
-        row = by_index.get(index)
-        if not row:
-            continue
-        summary = str(row.get("summary", "")).strip()
-        if summary:
-            item["summary"] = summary
-            written += 1
-    return written
+        key = str(row.get("k", "")).strip()
+        target: int | None = None
+        if key:
+            needle = _norm(key)
+            for index, title in enumerate(norm_titles):
+                if needle and needle in title and index not in used:
+                    target = index
+                    break
+            if target is None:
+                dropped += 1
+                continue
+        else:
+            try:
+                target = int(row.get("i"))
+            except (TypeError, ValueError):
+                continue
+            if not 0 <= target < len(items) or target in used:
+                continue
+
+        used.add(target)
+        items[target]["summary"] = summary
+        written += 1
+    return written, dropped
 
 
 def summarize(items: list[dict], cfg: dict, offline: bool = False) -> tuple[int, str]:
@@ -216,11 +242,12 @@ def summarize(items: list[dict], cfg: dict, offline: bool = False) -> tuple[int,
     rows, last_error = classify.run_attempts(attempt, attempts, int(profile.get("retries", 0)),
         time.monotonic() + float(profile.get("retry_deadline", 180)))
     if rows is not None:
-        written = _apply(items, rows)
+        written, dropped = _apply(items, rows)
         usage = classify.usage_text()
+        tail = f"，丢弃错位 {dropped} 条" if dropped else ""
         return written, (
             f"摘要（{label}）：抓到正文 {got}/{len(items)} 条，"
-            f"写入 {written} 条"
+            f"写入 {written} 条{tail}"
             + (f"，{usage}" if usage else "")
         )
 
