@@ -59,6 +59,11 @@
 "last": "2026-11-06",
 "max_points": 312
 },
+"allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 111
+},
 "alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass": {
 "first": "2026-11-06",
 "last": "2026-11-06",
@@ -103,6 +108,11 @@
 "first": "2026-11-08",
 "last": "2026-11-09",
 "max_points": 593
+},
+"apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 3084
 },
 "apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
 "first": "2026-10-25",
@@ -594,6 +604,11 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"bbc.co.uk/news/live/c6zjry11v8w1t": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 168
+},
 "bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-13",
 "last": "2026-11-13",
@@ -699,6 +714,11 @@
 "last": "2026-10-29",
 "max_points": 815
 },
+"blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 479
+},
 "blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -738,6 +758,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 255
+},
+"blog.rust-lang.org/2026/11/12/Rust-1.100.0": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 475
 },
 "blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer": {
 "first": "2026-11-01",
@@ -2794,6 +2819,11 @@
 "last": "2026-10-20",
 "max_points": 197
 },
+"getlazarus.org/forums/topic/17": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 122
+},
 "ghostty.org/docs/install/release-notes/1-4-0": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -2979,6 +3009,16 @@
 "last": "2026-10-31",
 "max_points": 350
 },
+"github.com/huawei-csl/MACaQ": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 132
+},
+"github.com/hyperionaidev/smolmaxxing": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 289
+},
 "github.com/ihhub/fheroes2": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -3084,6 +3124,11 @@
 "last": "2026-11-06",
 "max_points": 266
 },
+"github.com/simpsoka/zigzag": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 372
+},
 "github.com/slee-persis/GVS5H": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -3103,6 +3148,11 @@
 "first": "2026-11-09",
 "last": "2026-11-09",
 "max_points": 120
+},
+"github.com/tylertms/Stela": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 140
 },
 "github.com/zion-sati/NetWasm": {
 "first": "2026-10-22",
@@ -3184,10 +3234,20 @@
 "last": "2026-11-05",
 "max_points": 413
 },
+"hugovk.dev/blog/2026/lock-github-actions": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 326
+},
 "hunch.net/?p=13764006": {
 "first": "2026-11-08",
 "last": "2026-11-08",
 "max_points": 396
+},
+"ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 279
 },
 "ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
 "first": "2026-10-21",
@@ -3208,6 +3268,11 @@
 "first": "2026-11-08",
 "last": "2026-11-08",
 "max_points": 165
+},
+"ipo.anthropic.com/us": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 844
 },
 "j11g.com/the-mythical-man-month-in-the-age-of-ai": {
 "first": "2026-10-28",
@@ -3329,6 +3394,11 @@
 "last": "2026-11-04",
 "max_points": 119
 },
+"lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 165
+},
 "lwn.net/Articles/1101143": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -3358,6 +3428,11 @@
 "first": "2026-11-09",
 "last": "2026-11-10",
 "max_points": 537
+},
+"makepad.github.io/relax": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 128
 },
 "marc.info/?l=openbsd-ports&m=179236125692175": {
 "first": "2026-10-20",
@@ -3398,6 +3473,11 @@
 "first": "2026-11-08",
 "last": "2026-11-08",
 "max_points": 129
+},
+"mcmillen.dev/sigbovik": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 566
 },
 "mcp-explained.com/": {
 "first": "2026-11-06",
@@ -4054,6 +4134,11 @@
 "last": "2026-10-31",
 "max_points": 204
 },
+"status.cloud.microsoft/": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 576
+},
 "status.northflank.com/": {
 "first": "2026-10-31",
 "last": "2026-10-31",
@@ -4078,6 +4163,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 315
+},
+"synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 116
 },
 "syscall.sh/": {
 "first": "2026-11-03",
@@ -4299,6 +4389,11 @@
 "last": "2026-11-11",
 "max_points": 142
 },
+"unemploymentlabs.com/checkpoint-forensics": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 193
+},
 "unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -4388,6 +4483,11 @@
 "first": "2026-10-28",
 "last": "2026-10-28",
 "max_points": 799
+},
+"wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability": {
+"first": "2026-11-13",
+"last": "2026-11-13",
+"max_points": 357
 },
 "wiz.io/blog/php2shell-php-rce": {
 "first": "2026-10-22",
