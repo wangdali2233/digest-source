@@ -2779,6 +2779,11 @@
 "last": "2026-11-10",
 "max_points": 472
 },
+"edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 338
+},
 "edjefferson.com/localwiki": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -2899,6 +2904,11 @@
 "last": "2026-10-28",
 "max_points": 271
 },
+"garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 264
+},
 "gatezh.com/posts/macos-secure-enclave-ssh-keys": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -2998,6 +3008,11 @@
 "first": "2026-11-04",
 "last": "2026-11-04",
 "max_points": 263
+},
+"github.com/Parcha-ai/agentrun/blob/main/README.md": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 134
 },
 "github.com/PrivSec-dev/banking-apps-compat-report/issues/105": {
 "first": "2026-11-07",
@@ -3133,6 +3148,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 329
+},
+"github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 132
 },
 "github.com/maxilevi/project-hedra/tree/pre-ai": {
 "first": "2026-10-23",
@@ -3639,6 +3659,11 @@
 "last": "2026-11-06",
 "max_points": 410
 },
+"mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 214
+},
 "muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -3653,6 +3678,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 583
+},
+"nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 1370
 },
 "nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817": {
 "first": "2026-11-07",
@@ -3829,6 +3859,11 @@
 "last": "2026-11-04",
 "max_points": 264
 },
+"orcasairband.com/": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 223
+},
 "otwstatus.org/": {
 "first": "2026-11-01",
 "last": "2026-11-01",
@@ -3984,6 +4019,11 @@
 "last": "2026-10-21",
 "max_points": 714
 },
+"reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 306
+},
 "reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -4064,10 +4104,20 @@
 "last": "2026-11-01",
 "max_points": 816
 },
+"science.org/doi/10.1126/science.132.3436.1291": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 463
+},
 "scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 842
+},
+"scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 691
 },
 "seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights": {
 "first": "2026-11-04",
@@ -4174,6 +4224,11 @@
 "last": "2026-10-19",
 "max_points": 0
 },
+"slopmanifesto.com/": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 186
+},
 "smsofdeath.com/": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -4228,6 +4283,11 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 204
+},
+"status.claude.com/incidents/nn11wk485zfn": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 484
 },
 "status.cloud.microsoft/": {
 "first": "2026-11-13",
@@ -4329,6 +4389,11 @@
 "last": "2026-11-03",
 "max_points": 128
 },
+"theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 316
+},
 "theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america": {
 "first": "2026-11-11",
 "last": "2026-11-11",
@@ -4338,6 +4403,11 @@
 "first": "2026-11-02",
 "last": "2026-11-02",
 "max_points": 424
+},
+"theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 343
 },
 "theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you": {
 "first": "2026-11-08",
@@ -4438,6 +4508,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 415
+},
+"twitter.com/LibreOffice/status/2121205272479998268": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 839
 },
 "twitter.com/OcanaSantero/status/2115442964574908902": {
 "first": "2026-11-03",
@@ -4568,6 +4643,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 414
+},
+"wired.com/story/nvidia-employees-petition-for-jensen-huangs-return": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 793
 },
 "wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes": {
 "first": "2026-10-31",
