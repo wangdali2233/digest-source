@@ -599,6 +599,11 @@
 "last": "2026-10-27",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -637,6 +642,11 @@
 "bbc.co.uk/news/videos/cw1m4k1nx5r0o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-30",
 "last": "2026-10-30",
+"max_points": 0
+},
+"bbc.co.uk/news/videos/cw772xkxjm37o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-14",
+"last": "2026-11-14",
 "max_points": 0
 },
 "bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss": {
@@ -796,7 +806,7 @@
 },
 "bls.gov/bls": {
 "first": "2026-10-20",
-"last": "2026-11-06",
+"last": "2026-11-14",
 "max_points": 0
 },
 "boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html": {
@@ -2359,7 +2369,22 @@
 "last": "2026-11-14",
 "max_points": 0
 },
+"cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
 "cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
+"cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
+"cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html": {
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 0
@@ -2374,12 +2399,37 @@
 "last": "2026-11-14",
 "max_points": 0
 },
+"cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
 "cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html": {
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 0
 },
+"cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
 "cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
+"cnbc.com/2026/11/13/treasury-yields-fed-rates.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
+"cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html": {
+"first": "2026-11-14",
+"last": "2026-11-14",
+"max_points": 0
+},
+"cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html": {
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 0
@@ -4072,6 +4122,11 @@
 "sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026": {
 "first": "2026-11-11",
 "last": "2026-11-11",
+"max_points": 0
+},
+"sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms": {
+"first": "2026-11-14",
+"last": "2026-11-14",
 "max_points": 0
 },
 "semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures": {
