@@ -339,6 +339,11 @@
 "last": "2026-11-11",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -627,6 +632,11 @@
 "bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-12",
 "last": "2026-11-12",
+"max_points": 0
+},
+"bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-15",
+"last": "2026-11-15",
 "max_points": 0
 },
 "bbc.co.uk/news/videos/cq369l9r634ro?at_medium=RSS&at_campaign=rss": {
@@ -2432,6 +2442,46 @@
 "cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html": {
 "first": "2026-11-14",
 "last": "2026-11-14",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/hsa-investing-tax-benefits.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
+"max_points": 0
+},
+"cnbc.com/2026/11/14/retailers-invest-entertainment.html": {
+"first": "2026-11-15",
+"last": "2026-11-15",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
