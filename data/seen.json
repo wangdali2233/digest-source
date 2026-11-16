@@ -229,6 +229,11 @@
 "last": "2026-11-09",
 "max_points": 382
 },
+"baron.by.dai.studio/": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 95
+},
 "bbc.co.uk/news/articles/c317kpqv4njno?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -3529,6 +3534,11 @@
 "last": "2026-10-28",
 "max_points": 437
 },
+"jakub.jankiewicz.org/blog/ai-code-open-source": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 1100
+},
 "joshstrange.com/2026/11/09/i-saw-your-hn-comment": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -3669,10 +3679,20 @@
 "last": "2026-10-26",
 "max_points": 416
 },
+"macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 429
+},
 "magazine.sebastianraschka.com/p/building-reasoning-models": {
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 563
+},
+"magazine.sebastianraschka.com/p/understanding-positional-embeddings": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 211
 },
 "mailroute.net/blog/outlook-rejecting-email-without-dmarc": {
 "first": "2026-11-09",
@@ -3953,6 +3973,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 286
+},
+"nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 466
 },
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
@@ -4244,6 +4269,11 @@
 "last": "2026-10-25",
 "max_points": 254
 },
+"runkiri.com/": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 91
+},
 "ryanmadden.net/gpt-56-beats-factorio": {
 "first": "2026-11-01",
 "last": "2026-11-01",
@@ -4404,10 +4434,20 @@
 "last": "2026-10-25",
 "max_points": 278
 },
+"space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 122
+},
+"space.stackexchange.com/questions/37775": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 233
+},
 "spacex.com/launches/starship-flight-15": {
 "first": "2026-11-15",
-"last": "2026-11-15",
-"max_points": 769
+"last": "2026-11-16",
+"max_points": 1650
 },
 "spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability": {
 "first": "2026-11-05",
@@ -4864,6 +4904,11 @@
 "last": "2026-10-20",
 "max_points": 643
 },
+"wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 86
+},
 "wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -4878,6 +4923,21 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 182
+},
+"www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 413
+},
+"ykiko.me/en/articles/2105384023094834022": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 108
+},
+"youtube.com/watch?v=7_JF3etiAv8": {
+"first": "2026-11-16",
+"last": "2026-11-16",
+"max_points": 181
 },
 "youtube.com/watch?v=Ndftcft6XhU": {
 "first": "2026-10-20",
