@@ -109,6 +109,11 @@
 "last": "2026-11-09",
 "max_points": 593
 },
+"apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 740
+},
 "apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f": {
 "first": "2026-11-13",
 "last": "2026-11-13",
@@ -804,6 +809,11 @@
 "last": "2026-11-13",
 "max_points": 475
 },
+"blog.startifact.com/posts/how-rust-changed-me": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 222
+},
 "blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer": {
 "first": "2026-11-01",
 "last": "2026-11-01",
@@ -849,6 +859,11 @@
 "last": "2026-10-29",
 "max_points": 521
 },
+"breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 352
+},
 "bret.dk/raspberry-pi-zero-3-w-pi-4-model-a": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -864,15 +879,30 @@
 "last": "2026-11-11",
 "max_points": 129
 },
+"bruceroettgers.eu/blog/protomaps": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 456
+},
 "bsd.network/@brynet/117407035545900963": {
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 143
 },
+"bugmenot.com/": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 415
+},
 "bugzilla.mozilla.org/show_bug.cgi?id=2083449": {
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 193
+},
+"burntsushi.net/jiff": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 345
 },
 "businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11": {
 "first": "2026-11-03",
@@ -2719,6 +2749,11 @@
 "last": "2026-11-17",
 "max_points": 0
 },
+"cnn.com/2026/11/16/us/united-airlines-outage": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 216
+},
 "cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -2768,6 +2803,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 155
+},
+"cs.cmu.edu/learn": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 1018
 },
 "cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html": {
 "first": "2026-10-24",
@@ -2848,6 +2888,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 153
+},
+"ductus.sorenblank.com/": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 459
 },
 "duxlabs.dev/": {
 "first": "2026-11-10",
@@ -3519,6 +3564,11 @@
 "last": "2026-10-25",
 "max_points": 616
 },
+"groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 867
+},
 "hackerbooks.org/": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -3594,10 +3644,20 @@
 "last": "2026-11-13",
 "max_points": 844
 },
+"iter.ca/post/ubo-uxss": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 602
+},
 "j11g.com/the-mythical-man-month-in-the-age-of-ai": {
 "first": "2026-10-28",
 "last": "2026-10-28",
 "max_points": 437
+},
+"jack.cab/blog/siterate": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 318
 },
 "jakub.jankiewicz.org/blog/ai-code-open-source": {
 "first": "2026-11-16",
@@ -4099,6 +4159,11 @@
 "last": "2026-11-04",
 "max_points": 264
 },
+"opencode.ai/product/browse": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 177
+},
 "orcasairband.com/": {
 "first": "2026-11-14",
 "last": "2026-11-14",
@@ -4234,6 +4299,11 @@
 "last": "2026-10-31",
 "max_points": 626
 },
+"pub.cba.mit.edu/863.26/site": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 857
+},
 "pwn.ai/blog/firecracker-escape": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -4258,6 +4328,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 167
+},
+"qwen.ai/blog?id=qwen4-max": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 855
 },
 "rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me": {
 "first": "2026-11-06",
@@ -4584,6 +4659,11 @@
 "last": "2026-10-25",
 "max_points": 417
 },
+"steveblank.com/2026/11/15/whats-next-for-nvidia": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 466
+},
 "surgehq.ai/blog/dayjob-tax": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -4719,6 +4799,11 @@
 "last": "2026-11-07",
 "max_points": 302
 },
+"theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 259
+},
 "theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -4788,6 +4873,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 148
+},
+"trmnl.com/blog/introducing-frame": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 347
 },
 "tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c": {
 "first": "2026-11-15",
@@ -4993,6 +5083,16 @@
 "first": "2026-11-16",
 "last": "2026-11-16",
 "max_points": 413
+},
+"xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 293
+},
+"xusheng.dev/posts/windows-coding-agent-telemetry": {
+"first": "2026-11-17",
+"last": "2026-11-17",
+"max_points": 386
 },
 "ykiko.me/en/articles/2105384023094834022": {
 "first": "2026-11-16",
