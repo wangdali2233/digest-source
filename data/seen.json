@@ -344,6 +344,11 @@
 "last": "2026-11-13",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -622,6 +627,11 @@
 "bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-27",
 "last": "2026-10-27",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-18",
+"last": "2026-11-18",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cwvg0ddz1z77o?at_medium=RSS&at_campaign=rss": {
@@ -2604,6 +2614,11 @@
 "last": "2026-11-17",
 "max_points": 0
 },
+"cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
 "cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html": {
 "first": "2026-11-17",
 "last": "2026-11-17",
@@ -2614,7 +2629,27 @@
 "last": "2026-11-17",
 "max_points": 0
 },
+"cnbc.com/2026/11/17/2026-election-political-ad-spending.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
+"cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
+"cnbc.com/2026/11/17/anthropic-ipo-price.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
 "cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
+"cnbc.com/2026/11/17/big-short-investor-steve-eisman-to-discuss-nvidia-anthropic-and-ai-bull-on-cnbc.html": {
 "first": "2026-11-18",
 "last": "2026-11-18",
 "max_points": 0
@@ -2634,7 +2669,27 @@
 "last": "2026-11-18",
 "max_points": 0
 },
+"cnbc.com/2026/11/17/homebuilder-sentiment-plunges-to-14-year-low-leading-more-builders-to-drop-prices.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
+"cnbc.com/2026/11/17/kalshi-takes-down-trump-mention-markets.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
+"cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
 "cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 0
+},
+"cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html": {
 "first": "2026-11-18",
 "last": "2026-11-18",
 "max_points": 0
@@ -3012,6 +3067,11 @@
 "ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html": {
 "first": "2026-11-17",
 "last": "2026-11-17",
+"max_points": 0
+},
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf": {
+"first": "2026-11-18",
+"last": "2026-11-18",
 "max_points": 0
 },
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
