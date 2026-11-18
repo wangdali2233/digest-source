@@ -754,6 +754,11 @@
 "last": "2026-11-03",
 "max_points": 163
 },
+"blog.cloudflare.com/quad9-withdrawal-from-france": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 361
+},
 "blog.cloudflare.com/typescript-rust-port": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -813,6 +818,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 299
+},
+"blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 672
 },
 "blog.roku.com/developer/gitlab-move": {
 "first": "2026-10-25",
@@ -929,6 +939,11 @@
 "last": "2026-11-09",
 "max_points": 706
 },
+"calif.io/java4shell": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 637
+},
 "canarytokens.org/": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -954,6 +969,11 @@
 "last": "2026-11-03",
 "max_points": 1372
 },
+"chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 338
+},
 "claude.com/product/claude-duet": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -963,6 +983,11 @@
 "first": "2026-11-11",
 "last": "2026-11-11",
 "max_points": 161
+},
+"claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 275
 },
 "cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html": {
 "first": "2026-10-20",
@@ -2854,6 +2879,11 @@
 "last": "2026-11-17",
 "max_points": 216
 },
+"cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 516
+},
 "cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -2906,8 +2936,8 @@
 },
 "cs.cmu.edu/learn": {
 "first": "2026-11-17",
-"last": "2026-11-17",
-"max_points": 1018
+"last": "2026-11-18",
+"max_points": 2292
 },
 "cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html": {
 "first": "2026-10-24",
@@ -2953,6 +2983,11 @@
 "first": "2026-11-11",
 "last": "2026-11-11",
 "max_points": 583
+},
+"developer.apple.com/system-status": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 650
 },
 "discord.com/blog/making-content-from-discoverable-servers-easier-to-discover": {
 "first": "2026-10-28",
@@ -3229,6 +3264,11 @@
 "last": "2026-10-31",
 "max_points": 285
 },
+"ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 433
+},
 "furbo.org/2026/10/28/a-health-update": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -3488,6 +3528,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 104
+},
+"github.com/jquery/jquery/releases/tag/4.1.0": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 270
 },
 "github.com/kevinraymond/florilegium": {
 "first": "2026-10-31",
@@ -3769,6 +3814,11 @@
 "last": "2026-11-16",
 "max_points": 1100
 },
+"jordankrueger.com/blog/better-open-source-not-more-apps": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 345
+},
 "joshstrange.com/2026/11/09/i-saw-your-hn-comment": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -3999,6 +4049,11 @@
 "last": "2026-11-12",
 "max_points": 435
 },
+"microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 308
+},
 "mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop": {
 "first": "2026-11-05",
 "last": "2026-11-05",
@@ -4103,6 +4158,11 @@
 "first": "2026-11-04",
 "last": "2026-11-04",
 "max_points": 413
+},
+"news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 325
 },
 "news.ycombinator.com/front?day=2024-11-08": {
 "first": "2026-11-10",
@@ -4209,6 +4269,11 @@
 "last": "2026-11-16",
 "max_points": 466
 },
+"nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 1196
+},
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -4238,6 +4303,11 @@
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 503
+},
+"openai.com/index/introducing-gpt-6-2-astra-sol": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 1152
 },
 "openai.com/index/introducing-images-2-6": {
 "first": "2026-11-06",
@@ -4353,6 +4423,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 1506
+},
+"phrack.org/issues/73/introduction_md": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 308
 },
 "piefed.world/post/1503394": {
 "first": "2026-11-01",
@@ -4489,6 +4564,11 @@
 "last": "2026-10-30",
 "max_points": 134
 },
+"reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 334
+},
 "reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -4519,6 +4599,11 @@
 "last": "2026-11-16",
 "max_points": 91
 },
+"runta.com/blog/introducing-frontierharness-eval-v1-1": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 345
+},
 "ryanmadden.net/gpt-56-beats-factorio": {
 "first": "2026-11-01",
 "last": "2026-11-01",
@@ -4548,6 +4633,11 @@
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 463
+},
+"sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 273
 },
 "scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
 "first": "2026-10-22",
@@ -4673,6 +4763,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 314
+},
+"solidjs.com/blog/solid-2-0-the-long-hold": {
+"first": "2026-11-18",
+"last": "2026-11-18",
+"max_points": 255
 },
 "southampton.ac.uk/~doug/quantum_physics/index.html": {
 "first": "2026-10-25",
