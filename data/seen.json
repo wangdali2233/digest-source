@@ -454,6 +454,11 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -2739,12 +2744,27 @@
 "last": "2026-11-19",
 "max_points": 0
 },
+"cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "cnbc.com/2026/11/18/fda-canarx-case-informant.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
 "max_points": 0
 },
 "cnbc.com/2026/11/18/fed-minutes-october-2026.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
 "max_points": 0
@@ -2759,6 +2779,11 @@
 "last": "2026-11-19",
 "max_points": 0
 },
+"cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "cnbc.com/2026/11/18/nvidia-reverses-metals-crash-ahead-of-anthropic-ipo-options-action-live.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -2769,7 +2794,27 @@
 "last": "2026-11-19",
 "max_points": 0
 },
+"cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
 "max_points": 0
@@ -3159,6 +3204,11 @@
 "last": "2026-11-18",
 "max_points": 0
 },
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -3172,6 +3222,11 @@
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html": {
 "first": "2026-10-27",
 "last": "2026-10-27",
+"max_points": 0
+},
+"ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
 "max_points": 0
 },
 "ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html": {
@@ -3262,6 +3317,11 @@
 "federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm": {
 "first": "2026-11-13",
 "last": "2026-11-13",
+"max_points": 0
+},
+"federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm": {
+"first": "2026-11-19",
+"last": "2026-11-19",
 "max_points": 0
 },
 "felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers": {
