@@ -61,6 +61,19 @@ def build(args: argparse.Namespace) -> int:
     slack = dt.timedelta(hours=int(site_cfg.get("window_slack_hours", 0)))
     floor = start - slack
 
+    # 未来窗口守卫：窗口右边界还没到就拒绝。
+    # 延迟的补跑可能跨过午夜，此时「今天」已经翻篇，会用明天的窗口去抓未来 12 小时的数据，
+    # 结果是只抓到几分钟的量、写出一篇残缺期，还会挡住当天真正的运行。
+    now = dt.datetime.now(tz)
+    guard = dt.timedelta(minutes=int(site_cfg.get("window_guard_minutes", 5)))
+    if end > now + guard:
+        print(
+            f"! 窗口尚未结束：现在 {now:%m-%d %H:%M}，本期窗口到 {end:%m-%d %H:%M}，跳过。"
+            "（防止延迟的补跑跨午夜后生成残缺期）",
+            file=sys.stderr,
+        )
+        return 0
+
     # 幂等保护：同一天只生成一次。否则 bot 提交触发的 push 会让管道重跑，
     # 而这时 seen.json 已把选过的条目记为已读，第二轮会选出另一批并覆盖当天版面。
     # 目录按 栏目/年/月 分层，和站点 URL 保持一致；文件名只留「日」，

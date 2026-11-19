@@ -6,6 +6,7 @@ title = "每日信息"
 base_url = "https://wangdali2233.github.io/"
 timezone = "Asia/Shanghai"
 max_front_tags = 10        # 文章 frontmatter 最多挂几个标签（按频次取前 N）
+window_guard_minutes = 5   # 窗口右边界之后至少过几分钟才允许出稿，防时钟偏差
 
 [output]
 # 每个栏目一个子目录，避免同一天文件名相撞
