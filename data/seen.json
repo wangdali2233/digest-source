@@ -279,6 +279,16 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -432,6 +442,11 @@
 "bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-21",
 "last": "2026-10-21",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-19",
+"last": "2026-11-19",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cm9qzgg5z89no?at_medium=RSS&at_campaign=rss": {
@@ -677,6 +692,11 @@
 "bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-15",
 "last": "2026-11-15",
+"max_points": 0
+},
+"bbc.co.uk/news/videos/cmx2ryw97x4go?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-19",
+"last": "2026-11-19",
 "max_points": 0
 },
 "bbc.co.uk/news/videos/cq369l9r634ro?at_medium=RSS&at_campaign=rss": {
@@ -2749,6 +2769,11 @@
 "last": "2026-11-18",
 "max_points": 0
 },
+"cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -2804,6 +2829,11 @@
 "last": "2026-11-19",
 "max_points": 0
 },
+"cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
 "cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -2825,6 +2855,36 @@
 "max_points": 0
 },
 "cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/elon-musk-zelenskyy-starshield-ukraine.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
 "max_points": 0
