@@ -74,6 +74,11 @@
 "last": "2026-11-10",
 "max_points": 967
 },
+"anthropic.com/research/claude-black-hole-physics": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 333
+},
 "anthropic.com/research/components-of-agent-memory": {
 "first": "2026-11-08",
 "last": "2026-11-08",
@@ -3139,6 +3144,11 @@
 "last": "2026-10-25",
 "max_points": 191
 },
+"contralabs.com/frontierdesign": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 114
+},
 "cretezy.com/2026/ad-free-android-tv": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -3394,6 +3404,11 @@
 "last": "2026-10-31",
 "max_points": 534
 },
+"element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 639
+},
 "emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -3538,6 +3553,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 384
+},
+"gdmunion.co.uk/": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 111
 },
 "getlazarus.org/dynamic": {
 "first": "2026-10-20",
@@ -3854,6 +3874,11 @@
 "last": "2026-10-23",
 "max_points": 232
 },
+"github.com/openjdk/jdk/pull/32781": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 334
+},
 "github.com/openssl/openssl/releases/tag/openssl-4.1.0": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -4074,6 +4099,11 @@
 "last": "2026-11-16",
 "max_points": 1100
 },
+"jimmyhmiller.com/magic-of-partial-evaluation": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 115
+},
 "jordankrueger.com/blog/better-open-source-not-more-apps": {
 "first": "2026-11-18",
 "last": "2026-11-18",
@@ -4108,6 +4138,11 @@
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 579
+},
+"kapteko.com/15-million-webservers": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 372
 },
 "karpathy.bearblog.dev/hacker-tube": {
 "first": "2026-11-01",
@@ -4148,6 +4183,11 @@
 "first": "2026-10-27",
 "last": "2026-10-27",
 "max_points": 191
+},
+"krthr.co/paper-folds-and-whats-new-in-fanzines-app": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 220
 },
 "krthr.co/person-of-interest": {
 "first": "2026-11-09",
@@ -4228,6 +4268,11 @@
 "first": "2026-11-16",
 "last": "2026-11-16",
 "max_points": 429
+},
+"macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 439
 },
 "magazine.sebastianraschka.com/p/building-reasoning-models": {
 "first": "2026-10-27",
@@ -4313,6 +4358,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 435
+},
+"micjm.com/blog/gemini-4-neon-looks-like-a-top-model": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 249
 },
 "microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash": {
 "first": "2026-11-18",
@@ -4463,6 +4513,11 @@
 "first": "2026-11-07",
 "last": "2026-11-07",
 "max_points": 182
+},
+"newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 418
 },
 "newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
 "first": "2026-10-31",
@@ -4634,6 +4689,11 @@
 "last": "2026-11-01",
 "max_points": 127
 },
+"ounapuu.ee/posts/2026/11/19/unsafeguards": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 444
+},
 "panamericandispatch.org/p/meta-employees-denounce-interference": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -4669,6 +4729,11 @@
 "last": "2026-10-23",
 "max_points": 733
 },
+"perishablepress.com/chrome-ai-wasting-much-bandwidth": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 120
+},
 "permit.petercai.com/": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -4703,6 +4768,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 1506
+},
+"php.net/releases/8.6/en.php": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 264
 },
 "phrack.org/issues/73/introduction_md": {
 "first": "2026-11-18",
@@ -4834,6 +4904,11 @@
 "last": "2026-11-09",
 "max_points": 216
 },
+"reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 791
+},
 "reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06": {
 "first": "2026-11-08",
 "last": "2026-11-08",
@@ -4883,6 +4958,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 254
+},
+"ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 332
 },
 "runkiri.com/": {
 "first": "2026-11-16",
@@ -5058,6 +5138,11 @@
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 186
+},
+"slowchronicle.com/posts/llm-assisted-reverse-engineering": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 296
 },
 "smsofdeath.com/": {
 "first": "2026-10-30",
@@ -5264,6 +5349,11 @@
 "last": "2026-11-11",
 "max_points": 349
 },
+"thedataexchange.media/pete-warden-moonshine": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 199
+},
 "thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -5469,6 +5559,11 @@
 "last": "2026-10-23",
 "max_points": 342
 },
+"verialabs.com/ruby2shell": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 371
+},
 "virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii": {
 "first": "2026-10-31",
 "last": "2026-10-31",
@@ -5628,5 +5723,10 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 163
+},
+"zerodha.tech/blog/high-performance-distributed-blob-storage": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 248
 }
 }
