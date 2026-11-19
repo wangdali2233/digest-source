@@ -109,7 +109,8 @@ def decide(
     if now > end + dt.timedelta(hours=max_hours):
         return "expired", f"已过 {end + dt.timedelta(hours=max_hours):%m-%d %H:%M}，放弃当天"
     if last_dispatch and now - last_dispatch < dt.timedelta(minutes=cooldown_minutes):
-        return "cooling", f"{(now - last_dispatch).seconds // 60} 分钟前刚触发过"
+        elapsed = int((now - last_dispatch).total_seconds() // 60)
+        return "cooling", f"{elapsed} 分钟前触发过（冷却 {cooldown_minutes} 分钟）"
     return "fire", "缺失，触发"
 
 

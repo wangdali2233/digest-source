@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| 状态 | **待评审** |
+| 状态 | **已实施**（2026-11-19 部署并验证） |
 | 作者 | agent |
 | 日期 | 2026-11-19 |
 | 影响范围 | 新增运维脚本、服务器部署，不改核心管道 |
@@ -139,7 +139,27 @@ Persistent=true
 
 ---
 
-## 6. 待确认
+## 6. 实施记录（2026-11-19）
 
-- 服务器上是否已装 Python 3.9+（只需标准库）
-- 用 systemd timer 还是面板的计划任务（取决于机器形态）
+服务器：Ubuntu 24.04 / Python 3.12.3 / systemd 255。
+
+| 项 | 位置 |
+|---|---|
+| 仓库副本 | `/opt/digest-source`（每轮 `git pull --rebase`） |
+| 令牌 | `/etc/digest-watchdog.env`，`chmod 600` |
+| 状态文件 | `/var/lib/digest-watchdog/state.json` |
+| 服务/定时器 | `/etc/systemd/system/digest-watchdog.{service,timer}`，`OnCalendar=*:0/10` |
+| 日志 | `journalctl -u digest-watchdog.service` |
+
+首轮实跑：11-19 技术期缺失 → 触发 → 运行成功 → 生成 18 条 → 线上 200。
+第二轮进入冷却，未重复触发。
+
+### 待办：换更小的令牌
+
+当前用的是操作者账号的 OAuth 令牌（`repo` + `workflow`），**权限比需要的宽**
+（可读写全部仓库）。应替换为细粒度 PAT：仅 `wangdali2233/digest-source` 的
+`Actions: Read and write`，其余全部 No access。替换后重跑一轮确认。
+
+## 7. 待确认
+
+- 无（timer 方案已确认可用）
