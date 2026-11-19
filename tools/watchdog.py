@@ -139,6 +139,11 @@ def main() -> int:
         print("! 缺少 GITHUB_TOKEN，无法检查远端", file=sys.stderr)
         return 2
 
+    if not token:
+        # 没令牌就看不出远端有没有文件，所有判断都会当成"缺失"。
+        # 这种状态绝不能挂到定时器上，否则每 10 分钟发一次重复触发。
+        print("! 警告：未提供 GITHUB_TOKEN，存在性判断不可信（仅可用于验证脚本能跑）", file=sys.stderr)
+
     if args.pull and not args.dry_run:
         subprocess.run(["git", "-C", str(ROOT), "pull", "--rebase", "--quiet"], check=False)
 
