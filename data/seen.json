@@ -766,8 +766,8 @@
 },
 "blog.cloudflare.com/quad9-withdrawal-from-france": {
 "first": "2026-11-18",
-"last": "2026-11-18",
-"max_points": 361
+"last": "2026-11-19",
+"max_points": 884
 },
 "blog.cloudflare.com/typescript-rust-port": {
 "first": "2026-10-21",
@@ -793,6 +793,16 @@
 "first": "2026-11-13",
 "last": "2026-11-13",
 "max_points": 479
+},
+"blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 519
+},
+"blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 201
 },
 "blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api": {
 "first": "2026-11-12",
@@ -3004,6 +3014,11 @@
 "last": "2026-10-20",
 "max_points": 262
 },
+"complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 320
+},
 "computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -3299,10 +3314,20 @@
 "last": "2026-11-06",
 "max_points": 280
 },
+"europeanbusinessmagazine.com/ai-agents-better-questions-kpmg": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 379
+},
 "evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
 "first": "2026-11-11",
 "last": "2026-11-11",
 "max_points": 399
+},
+"evilgeniuslabs.org/why-fibonacci": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 81
 },
 "experimental-history.com/p/we-need-more-goat-sacrifices": {
 "first": "2026-11-12",
@@ -3674,6 +3699,11 @@
 "last": "2026-11-11",
 "max_points": 142
 },
+"github.com/microsoft/onnxruntime": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 450
+},
 "github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -3899,6 +3929,11 @@
 "last": "2026-11-08",
 "max_points": 165
 },
+"inside-db.com/": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 573
+},
 "ipo.anthropic.com/us": {
 "first": "2026-11-13",
 "last": "2026-11-13",
@@ -3973,6 +4008,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 480
+},
+"kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 266
 },
 "ketchup3d.github.io/app": {
 "first": "2026-11-09",
@@ -4319,10 +4359,20 @@
 "last": "2026-11-08",
 "max_points": 830
 },
+"nginx2root.com/": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 94
+},
 "nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html": {
 "first": "2026-11-04",
 "last": "2026-11-04",
 "max_points": 455
+},
+"nicolasbouliane.com/blog/death-by-ai": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 762
 },
 "nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks": {
 "first": "2026-11-02",
@@ -4398,6 +4448,11 @@
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 476
+},
+"openai.com/index/advancing-chip-design-with-our-models": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 167
 },
 "openai.com/index/building-scientific-understanding-with-academic-communities": {
 "first": "2026-10-27",
@@ -4624,6 +4679,11 @@
 "last": "2026-11-17",
 "max_points": 855
 },
+"radixark.com/blog/daisyrose-27b": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 151
+},
 "rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me": {
 "first": "2026-11-06",
 "last": "2026-11-06",
@@ -4688,6 +4748,11 @@
 "first": "2026-11-15",
 "last": "2026-11-15",
 "max_points": 340
+},
+"revscope.co/blog/search-seo-geo-2026": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 691
 },
 "ricursive.com/ripple": {
 "first": "2026-11-05",
@@ -4838,6 +4903,11 @@
 "first": "2026-11-10",
 "last": "2026-11-10",
 "max_points": 602
+},
+"siderolabs.com/talos-linux": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 102
 },
 "simedw.com/2026/10/21/world-model-terminal": {
 "first": "2026-10-23",
@@ -5043,6 +5113,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 530
+},
+"techstackups.com/articles/quad9-leaves-france-dns-blocking": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 615
 },
 "teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads": {
 "first": "2026-10-21",
@@ -5359,6 +5434,11 @@
 "last": "2026-11-13",
 "max_points": 357
 },
+"wiz.io/blog/nginx-http2-rce-vulnerabilities": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 1177
+},
 "wiz.io/blog/php2shell-php-rce": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -5403,6 +5483,11 @@
 "first": "2026-11-17",
 "last": "2026-11-17",
 "max_points": 386
+},
+"yahoo.com/news/world/articles/russia-reportedly-planned-mass-casualty-090500574.html": {
+"first": "2026-11-19",
+"last": "2026-11-19",
+"max_points": 353
 },
 "ykiko.me/en/articles/2105384023094834022": {
 "first": "2026-11-16",
