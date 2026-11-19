@@ -1,23 +1,16 @@
-name: publish-tech
-
-# 技术信息聚合：每天 07:17（北京），内容窗口到 07:00 为止
 on:
-  schedule:
-    # 主跑 + 一次补跑。实测 GitHub 计划任务会晚约 2.3 小时（07:17 → 09:34），
-    # 补跑放在 11:47，留出余量且仍在北京日内；文件已存在就跳过，十几秒结束。
-    - cron: "17 23 * * *"   # 主跑  07:17 北京
-    - cron: "47 3 * * *"    # 补跑  11:47 北京
+  # 调度由外部对账巡检负责（docs/design/002-external-watchdog.md）。
+  # 不用 GitHub 的 schedule：实测延迟已到 8 小时以上，补跑会跨午夜生成残缺期。
   workflow_dispatch:
     inputs:
       date:
-        description: "出稿日期 YYYY-MM-DD（留空 = 今天）"
+        description: "生成哪一天（YYYY-MM-DD），留空=今天"
         required: false
-        type: string
+        default: ""
       force:
-        description: "覆盖当天已生成的文件"
+        description: "覆盖已存在的当天文件"
         required: false
-        type: boolean
-        default: false
+        default: "false"
 
 permissions:
   contents: write
