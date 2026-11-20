@@ -299,6 +299,11 @@
 "last": "2026-10-21",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -727,6 +732,11 @@
 "bbc.co.uk/news/videos/cw772xkxjm37o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-14",
 "last": "2026-11-14",
+"max_points": 0
+},
+"bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-20",
+"last": "2026-11-20",
 "max_points": 0
 },
 "bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss": {
@@ -2879,6 +2889,11 @@
 "last": "2026-11-20",
 "max_points": 0
 },
+"cnbc.com/2026/11/19/as-pompe-drug-shortage-drags-on-patients-struggle-to-get-treatments.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
 "cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -2914,7 +2929,22 @@
 "last": "2026-11-20",
 "max_points": 0
 },
+"cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
 "cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html": {
 "first": "2026-11-20",
 "last": "2026-11-20",
 "max_points": 0
@@ -2940,6 +2970,31 @@
 "max_points": 0
 },
 "cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/japan-inflation-cpi-october.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html": {
 "first": "2026-11-20",
 "last": "2026-11-20",
 "max_points": 0
@@ -3347,6 +3402,11 @@
 "ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf": {
 "first": "2026-11-19",
 "last": "2026-11-19",
+"max_points": 0
+},
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html": {
+"first": "2026-11-20",
+"last": "2026-11-20",
 "max_points": 0
 },
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
