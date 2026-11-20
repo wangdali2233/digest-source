@@ -69,6 +69,11 @@
 "last": "2026-11-06",
 "max_points": 605
 },
+"alpo.ge/remark.pdf": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 2244
+},
 "anthropic.com/claude-fable-and-mythos-5-2": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -149,6 +154,11 @@
 "last": "2026-10-23",
 "max_points": 232
 },
+"architectlabs.com/blog/frostbite": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 602
+},
 "arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8": {
 "first": "2026-10-30",
 "last": "2026-10-31",
@@ -203,6 +213,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 151
+},
+"arxiv.org/abs/2611.21885": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 313
 },
 "asahilinux.org/2026/11/progress-report-7-3": {
 "first": "2026-11-08",
@@ -869,6 +884,11 @@
 "last": "2026-11-12",
 "max_points": 264
 },
+"blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 319
+},
 "blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain": {
 "first": "2026-10-30",
 "last": "2026-10-30",
@@ -1023,6 +1043,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 446
+},
+"cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 316
 },
 "cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
 "first": "2026-10-26",
@@ -3479,6 +3504,11 @@
 "last": "2026-10-30",
 "max_points": 0
 },
+"ecohustler.com/article/one-corporation-to-pollute-them-all": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 494
+},
 "economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -3514,6 +3544,11 @@
 "last": "2026-11-20",
 "max_points": 639
 },
+"em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 402
+},
 "emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -3548,6 +3583,11 @@
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 280
+},
+"ethanlowman.com/posts/jj-primer": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 197
 },
 "europeanbusinessmagazine.com/ai-agents-better-questions-kpmg": {
 "first": "2026-11-19",
@@ -3588,6 +3628,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 115
+},
+"ffmpeg.org/download.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 286
 },
 "filfre.net/2026/11/deus-ex": {
 "first": "2026-11-07",
@@ -3683,6 +3728,11 @@
 "first": "2026-10-30",
 "last": "2026-10-30",
 "max_points": 561
+},
+"git-aarvin.github.io/mei": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 363
 },
 "github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview": {
 "first": "2026-11-09",
@@ -3984,6 +4034,11 @@
 "last": "2026-11-20",
 "max_points": 334
 },
+"github.com/openssl/openssl/pull/33652": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 363
+},
 "github.com/openssl/openssl/releases/tag/openssl-4.1.0": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -4044,6 +4099,11 @@
 "last": "2026-11-09",
 "max_points": 120
 },
+"github.com/tristanbuckmaster/navier-stokes": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 238
+},
 "github.com/tylertms/Stela": {
 "first": "2026-11-13",
 "last": "2026-11-13",
@@ -4073,6 +4133,11 @@
 "first": "2026-10-28",
 "last": "2026-10-28",
 "max_points": 342
+},
+"globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 333
 },
 "go.dev/blog/jsonv2": {
 "first": "2026-11-06",
@@ -4289,6 +4354,11 @@
 "last": "2026-10-27",
 "max_points": 191
 },
+"kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 596
+},
 "krthr.co/paper-folds-and-whats-new-in-fanzines-app": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -4424,6 +4494,11 @@
 "last": "2026-10-21",
 "max_points": 417
 },
+"math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 1291
+},
 "matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -4523,6 +4598,11 @@
 "first": "2026-11-15",
 "last": "2026-11-15",
 "max_points": 467
+},
+"motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 237
 },
 "motorolanews.com/motorola-signature-27-2": {
 "first": "2026-11-06",
@@ -4919,10 +4999,20 @@
 "last": "2026-11-03",
 "max_points": 97
 },
+"poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 750
+},
 "postalpro.usps.com/zcb": {
 "first": "2026-11-10",
 "last": "2026-11-10",
 "max_points": 546
+},
+"postgresql.org/docs/release/19.0": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 372
 },
 "privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training": {
 "first": "2026-10-28",
@@ -5454,6 +5544,11 @@
 "last": "2026-11-03",
 "max_points": 128
 },
+"terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 284
+},
 "theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391": {
 "first": "2026-11-14",
 "last": "2026-11-14",
@@ -5548,6 +5643,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 271
+},
+"thinkingmachines.ai/news/inkling-2-mini": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 496
 },
 "thinkingmachines.ai/news/inkling-2-small": {
 "first": "2026-11-07",
