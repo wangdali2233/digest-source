@@ -519,6 +519,11 @@
 "last": "2026-11-19",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -3029,6 +3034,11 @@
 "last": "2026-11-20",
 "max_points": 0
 },
+"cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
 "cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html": {
 "first": "2026-11-21",
 "last": "2026-11-21",
@@ -3104,6 +3114,11 @@
 "last": "2026-11-21",
 "max_points": 0
 },
+"cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
 "cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html": {
 "first": "2026-11-21",
 "last": "2026-11-21",
@@ -3114,9 +3129,39 @@
 "last": "2026-11-21",
 "max_points": 0
 },
+"cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
 "cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html": {
 "first": "2026-11-21",
 "last": "2026-11-21",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/rmd-deadline-penalty-2026.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/trump-fbi-database-hack.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/us-airlines-first-class-business-class.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/warren-buffett-quadruples-thanksgiving-gifts.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
@@ -3214,6 +3259,11 @@
 "last": "2026-11-21",
 "max_points": 0
 },
+"cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
 "cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -3277,6 +3327,16 @@
 "cnbc.com/make-it/2026/11/16/5-years-after-the-nft-boom-theres-a-lesson-for-investors-.html": {
 "first": "2026-11-17",
 "last": "2026-11-17",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/21/california-mining-modern-gold-rush.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
 "max_points": 0
 },
 "cnn.com/2026/11/16/us/united-airlines-outage": {
