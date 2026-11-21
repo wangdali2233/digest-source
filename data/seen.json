@@ -304,6 +304,11 @@
 "last": "2026-11-19",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -372,6 +377,11 @@
 "bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-11",
 "last": "2026-11-11",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-21",
+"last": "2026-11-21",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss": {
@@ -2939,6 +2949,11 @@
 "last": "2026-11-20",
 "max_points": 0
 },
+"cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
 "cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -3004,6 +3019,11 @@
 "last": "2026-11-20",
 "max_points": 0
 },
+"cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
 "cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -3049,6 +3069,11 @@
 "last": "2026-11-21",
 "max_points": 0
 },
+"cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
 "cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html": {
 "first": "2026-11-21",
 "last": "2026-11-21",
@@ -3059,9 +3084,39 @@
 "last": "2026-11-21",
 "max_points": 0
 },
+"cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
 "cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html": {
 "first": "2026-11-20",
 "last": "2026-11-20",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
+"cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
+"max_points": 0
+},
+"cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html": {
+"first": "2026-11-21",
+"last": "2026-11-21",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
