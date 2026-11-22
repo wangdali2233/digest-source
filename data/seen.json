@@ -239,6 +239,11 @@
 "last": "2026-11-01",
 "max_points": 354
 },
+"audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 270
+},
 "av.github.io/safe-sand": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -829,6 +834,11 @@
 "last": "2026-11-05",
 "max_points": 250
 },
+"betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 836
+},
 "binarysecurity.no/posts/2026/10/one-root-case": {
 "first": "2026-10-31",
 "last": "2026-10-31",
@@ -1093,6 +1103,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 160
+},
+"caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 1162
 },
 "cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888": {
 "first": "2026-10-23",
@@ -3719,6 +3734,11 @@
 "last": "2026-11-21",
 "max_points": 494
 },
+"economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 174
+},
 "economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -3974,6 +3994,11 @@
 "last": "2026-10-27",
 "max_points": 130
 },
+"github.com/EL4CTEO/fast-anything": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 175
+},
 "github.com/FrigadeHQ/yogurt": {
 "first": "2026-11-12",
 "last": "2026-11-12",
@@ -3993,6 +4018,11 @@
 "first": "2026-11-15",
 "last": "2026-11-15",
 "max_points": 150
+},
+"github.com/ItsNotRexed/Leonida": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 212
 },
 "github.com/JetBrains/thinkrail": {
 "first": "2026-10-26",
@@ -4133,6 +4163,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 258
+},
+"github.com/gulivan/worker755": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 253
 },
 "github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
 "first": "2026-11-01",
@@ -4293,6 +4328,11 @@
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 266
+},
+"github.com/sebaandrada-cell/PcapAnalyzer": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 159
 },
 "github.com/simpsoka/zigzag": {
 "first": "2026-11-13",
@@ -4489,6 +4529,16 @@
 "last": "2026-11-16",
 "max_points": 1100
 },
+"jeffgeerling.com/blog/2026/i-joined-the-ntp-pool": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 113
+},
+"jespino.github.io/gopgext": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 165
+},
 "jimmyhmiller.com/magic-of-partial-evaluation": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -4609,6 +4659,11 @@
 "last": "2026-11-22",
 "max_points": 741
 },
+"lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 146
+},
 "lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -4623,6 +4678,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 429
+},
+"linebender.org/blog/next-100-guis": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 251
 },
 "liquid.ai/blog/lfm3": {
 "first": "2026-10-29",
@@ -4889,6 +4949,11 @@
 "last": "2026-11-11",
 "max_points": 699
 },
+"neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 135
+},
 "netmeister.org/blog/claude-delusion.html": {
 "first": "2026-11-15",
 "last": "2026-11-15",
@@ -4978,6 +5043,11 @@
 "first": "2026-11-22",
 "last": "2026-11-22",
 "max_points": 349
+},
+"noemamag.com/the-mythology-of-conscious-ai": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 160
 },
 "nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks": {
 "first": "2026-11-02",
@@ -5094,6 +5164,11 @@
 "last": "2026-11-05",
 "max_points": 207
 },
+"openai.com/index/perplexity-and-intelligence": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 434
+},
 "openai.com/index/scaling-ai-research-for-complex-biological-data": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -5109,15 +5184,30 @@
 "last": "2026-11-17",
 "max_points": 177
 },
+"openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 277
+},
 "orcasairband.com/": {
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 223
 },
+"oreilly.com/radar/what-happened-to-silicon-valley": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 317
+},
 "osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview": {
 "first": "2026-11-15",
 "last": "2026-11-15",
 "max_points": 84
+},
+"osw-alliance.net/en": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 202
 },
 "otwstatus.org/": {
 "first": "2026-11-01",
@@ -5283,6 +5373,11 @@
 "first": "2026-11-07",
 "last": "2026-11-07",
 "max_points": 180
+},
+"pwn.ai/upload2shell": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 151
 },
 "pwn.college/": {
 "first": "2026-11-07",
@@ -5723,6 +5818,11 @@
 "first": "2026-11-17",
 "last": "2026-11-17",
 "max_points": 466
+},
+"stulle.app/": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 558
 },
 "surgehq.ai/blog/dayjob-tax": {
 "first": "2026-10-29",
