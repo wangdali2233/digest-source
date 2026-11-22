@@ -384,6 +384,11 @@
 "last": "2026-11-12",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-11",
 "last": "2026-11-11",
@@ -457,6 +462,11 @@
 "bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-07",
 "last": "2026-11-07",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-22",
+"last": "2026-11-22",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss": {
@@ -582,6 +592,11 @@
 "bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-10",
 "last": "2026-11-10",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-22",
+"last": "2026-11-22",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss": {
@@ -3185,6 +3200,11 @@
 "max_points": 0
 },
 "cnbc.com/2026/11/21/warren-buffett-quadruples-thanksgiving-gifts.html": {
+"first": "2026-11-22",
+"last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/quantum-computing-energy-applications.html": {
 "first": "2026-11-22",
 "last": "2026-11-22",
 "max_points": 0
