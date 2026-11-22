@@ -349,6 +349,11 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -3204,9 +3209,44 @@
 "last": "2026-11-22",
 "max_points": 0
 },
+"cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
 "cnbc.com/2026/11/22/quantum-computing-energy-applications.html": {
 "first": "2026-11-22",
 "last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/social-security-changes-cola-taxes-medicare.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
@@ -3382,6 +3422,16 @@
 "cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html": {
 "first": "2026-11-22",
 "last": "2026-11-22",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/22/google-worker-earns-323000-a-yearbut-he-lives-on-minimum-wage.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/make-it/2026/11/22/parenting-habits-people-pleaser.html": {
+"first": "2026-11-23",
+"last": "2026-11-23",
 "max_points": 0
 },
 "cnn.com/2026/11/16/us/united-airlines-outage": {
