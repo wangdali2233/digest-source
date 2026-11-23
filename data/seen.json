@@ -169,6 +169,11 @@
 "last": "2026-10-31",
 "max_points": 1728
 },
+"arm.jonpalmisc.com/": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 735
+},
 "arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -241,8 +246,8 @@
 },
 "audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife": {
 "first": "2026-11-23",
-"last": "2026-11-23",
-"max_points": 270
+"last": "2026-11-24",
+"max_points": 629
 },
 "av.github.io/safe-sand": {
 "first": "2026-11-12",
@@ -989,6 +994,11 @@
 "last": "2026-11-07",
 "max_points": 300
 },
+"blog.kagi.com/kagi-mail-public-beta": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 312
+},
 "blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -1193,6 +1203,11 @@
 "first": "2026-11-18",
 "last": "2026-11-18",
 "max_points": 338
+},
+"claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 256
 },
 "claude.com/product/claude-duet": {
 "first": "2026-10-22",
@@ -3339,6 +3354,11 @@
 "last": "2026-11-24",
 "max_points": 0
 },
+"cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 1872
+},
 "cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html": {
 "first": "2026-11-23",
 "last": "2026-11-23",
@@ -3668,6 +3688,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 122
+},
+"danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 312
 },
 "deepmind.google/blog/genie-4-a-new-generation-of-world-simulation": {
 "first": "2026-10-28",
@@ -4104,6 +4129,11 @@
 "last": "2026-10-19",
 "max_points": 211
 },
+"github.com/AFK-surf/xnulinux": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 593
+},
 "github.com/ClickHouse/ClickBench/pull/2165": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -4274,6 +4304,11 @@
 "last": "2026-11-15",
 "max_points": 399
 },
+"github.com/glushchenko/fsnotes/discussions/2056": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 445
+},
 "github.com/golang/go/issues/82345": {
 "first": "2026-10-21",
 "last": "2026-10-21",
@@ -4374,6 +4409,11 @@
 "last": "2026-10-27",
 "max_points": 194
 },
+"github.com/mikuta0407/win4wine": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 205
+},
 "github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -4418,6 +4458,11 @@
 "first": "2026-10-24",
 "last": "2026-10-24",
 "max_points": 180
+},
+"github.com/os6/nospeaker": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 261
 },
 "github.com/owls-on-wires/keplearn": {
 "first": "2026-10-30",
@@ -4534,6 +4579,11 @@
 "last": "2026-10-26",
 "max_points": 120
 },
+"gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 741
+},
 "gracefulliberty.com/articles/four-months-of-zig": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -4593,6 +4643,11 @@
 "first": "2026-11-08",
 "last": "2026-11-08",
 "max_points": 396
+},
+"ias.edu/sites/default/files/library/UsefulnessHarpers.pdf": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 172
 },
 "ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep": {
 "first": "2026-11-13",
@@ -4768,6 +4823,11 @@
 "first": "2026-10-30",
 "last": "2026-10-31",
 "max_points": 397
+},
+"ladybird.org/posts/alpha": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 1246
 },
 "layer3intel.com/blog/residential-proxies-white-house-network": {
 "first": "2026-11-05",
@@ -4963,6 +5023,11 @@
 "first": "2026-11-20",
 "last": "2026-11-20",
 "max_points": 249
+},
+"micjm.com/blog/yes-17m-lines-of-lean-is-a-lot": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 253
 },
 "microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash": {
 "first": "2026-11-18",
@@ -5229,6 +5294,11 @@
 "last": "2026-11-18",
 "max_points": 1196
 },
+"nyx.net/": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 159
+},
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -5316,8 +5386,8 @@
 },
 "oreilly.com/radar/what-happened-to-silicon-valley": {
 "first": "2026-11-23",
-"last": "2026-11-23",
-"max_points": 317
+"last": "2026-11-24",
+"max_points": 794
 },
 "osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview": {
 "first": "2026-11-15",
@@ -5373,6 +5443,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 733
+},
+"pequalnp.com/": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 182
 },
 "perishablepress.com/chrome-ai-wasting-much-bandwidth": {
 "first": "2026-11-20",
@@ -5879,6 +5954,11 @@
 "last": "2026-10-28",
 "max_points": 455
 },
+"spelunkr.tv/": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 916
+},
 "sphinx-six-theta.vercel.app/": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -6239,6 +6319,11 @@
 "last": "2026-11-10",
 "max_points": 768
 },
+"twitter.com/ylecun/status/2124550037912920090": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 923
+},
 "ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
 "first": "2026-10-27",
 "last": "2026-10-27",
@@ -6438,6 +6523,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 163
+},
+"z.ai/blog/glm-5.4": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 1012
 },
 "zerodha.tech/blog/high-performance-distributed-blob-storage": {
 "first": "2026-11-20",
