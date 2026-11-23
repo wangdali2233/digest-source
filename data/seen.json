@@ -314,6 +314,11 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -419,6 +424,11 @@
 "last": "2026-11-18",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cj924xvzrr2o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cjkgkdppk1nwo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-23",
 "last": "2026-11-23",
@@ -467,6 +477,11 @@
 "bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-23",
 "last": "2026-10-23",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss": {
@@ -614,6 +629,11 @@
 "last": "2026-11-02",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-10",
 "last": "2026-11-10",
@@ -737,6 +757,11 @@
 "bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-10",
 "last": "2026-11-10",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss": {
@@ -3299,14 +3324,39 @@
 "last": "2026-11-23",
 "max_points": 0
 },
+"cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html": {
 "first": "2026-11-23",
 "last": "2026-11-23",
 "max_points": 0
 },
+"cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html": {
 "first": "2026-11-23",
 "last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/tokenized-stocks-face-pushback-as-nyse-nasdaq-pivot-for-a-new-market-.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": {
@@ -3764,6 +3814,11 @@
 "last": "2026-11-20",
 "max_points": 0
 },
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -3782,6 +3837,11 @@
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html": {
 "first": "2026-11-19",
 "last": "2026-11-19",
+"max_points": 0
+},
+"ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html": {
