@@ -1099,6 +1099,11 @@
 "last": "2026-11-07",
 "max_points": 241
 },
+"bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 297
+},
 "bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -1223,6 +1228,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 1372
+},
+"charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 137
 },
 "chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry": {
 "first": "2026-11-18",
@@ -3814,6 +3824,11 @@
 "last": "2026-11-11",
 "max_points": 583
 },
+"deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 465
+},
 "developer.apple.com/system-status": {
 "first": "2026-11-18",
 "last": "2026-11-18",
@@ -4194,6 +4209,16 @@
 "last": "2026-10-28",
 "max_points": 271
 },
+"fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 211
+},
+"fzakaria.com/2026/11/23/2035-came-early": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 941
+},
 "garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest": {
 "first": "2026-11-14",
 "last": "2026-11-14",
@@ -4294,6 +4319,11 @@
 "last": "2026-11-23",
 "max_points": 212
 },
+"github.com/ItsNotRexed/Leonida/issues": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 327
+},
 "github.com/JetBrains/thinkrail": {
 "first": "2026-10-26",
 "last": "2026-10-26",
@@ -4378,6 +4408,11 @@
 "first": "2026-11-06",
 "last": "2026-11-07",
 "max_points": 1554
+},
+"github.com/anthropics/formal-math/tree/main/vp-vnp": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 357
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
@@ -4629,6 +4664,11 @@
 "last": "2026-10-26",
 "max_points": 182
 },
+"github.com/sous-labs/songe": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 158
+},
 "github.com/synchopate/llama-modchip": {
 "first": "2026-11-09",
 "last": "2026-11-09",
@@ -4699,6 +4739,11 @@
 "last": "2026-10-26",
 "max_points": 120
 },
+"governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 757
+},
 "gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth": {
 "first": "2026-11-24",
 "last": "2026-11-24",
@@ -4763,6 +4808,11 @@
 "first": "2026-11-08",
 "last": "2026-11-08",
 "max_points": 396
+},
+"hypercritical.co/2026/11/23/jetty-pro": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 241
 },
 "ias.edu/sites/default/files/library/UsefulnessHarpers.pdf": {
 "first": "2026-11-24",
@@ -4859,10 +4909,20 @@
 "last": "2026-10-19",
 "max_points": 260
 },
+"justafewbugs.xyz/": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 136
+},
 "kaba.cx/posts/20261020_Tor": {
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 320
+},
+"kadoa.com/congress/insights/trump-nvidia": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 281
 },
 "kadoa.com/energy-prices/insights/investor-owned-utilities": {
 "first": "2026-10-24",
@@ -5138,6 +5198,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 435
+},
+"michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 864
 },
 "micjm.com/blog/gemini-4-neon-looks-like-a-top-model": {
 "first": "2026-11-20",
@@ -5604,6 +5669,11 @@
 "last": "2026-10-23",
 "max_points": 240
 },
+"phoronix.com/review/amd-epyc-9006-7601": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 216
+},
 "php.net/archive/2026.php": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -5669,6 +5739,11 @@
 "last": "2026-11-21",
 "max_points": 372
 },
+"prismml.com/news/bonsai-2-5-27b": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 250
+},
 "privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -5708,6 +5783,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 1022
+},
+"quad9.net/news/blog/quad9-service-deactivation-in-france": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 329
 },
 "quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307": {
 "first": "2026-11-03",
@@ -5763,6 +5843,11 @@
 "first": "2026-11-20",
 "last": "2026-11-20",
 "max_points": 791
+},
+"reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 205
 },
 "reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06": {
 "first": "2026-11-08",
@@ -6088,6 +6173,11 @@
 "first": "2026-11-06",
 "last": "2026-11-06",
 "max_points": 2395
+},
+"stalw.art/blog/microsoft-exchange-replacement": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 684
 },
 "stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude": {
 "first": "2026-10-28",
@@ -6441,8 +6531,8 @@
 },
 "twitter.com/ylecun/status/2124550037912920090": {
 "first": "2026-11-24",
-"last": "2026-11-24",
-"max_points": 923
+"last": "2026-11-25",
+"max_points": 1980
 },
 "ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
 "first": "2026-10-27",
@@ -6473,6 +6563,11 @@
 "first": "2026-10-23",
 "last": "2026-10-23",
 "max_points": 342
+},
+"variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 313
 },
 "verialabs.com/ruby2shell": {
 "first": "2026-11-20",
