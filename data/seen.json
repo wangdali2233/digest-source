@@ -284,6 +284,11 @@
 "last": "2026-10-27",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-07",
 "last": "2026-11-07",
@@ -747,6 +752,11 @@
 "bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-11",
 "last": "2026-11-11",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-25",
+"last": "2026-11-25",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss": {
@@ -3429,9 +3439,44 @@
 "last": "2026-11-24",
 "max_points": 0
 },
+"cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/anthropic-stock-ipo-price.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
 "cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html": {
 "first": "2026-11-24",
 "last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/trump-nvidia-jensen-huang-national-security-china-chips.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
 "max_points": 0
 },
 "cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html": {
@@ -3442,6 +3487,11 @@
 "cnbc.com/2026/11/24/us-china-thwarting-india-growth.html": {
 "first": "2026-11-24",
 "last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
@@ -3904,6 +3954,11 @@
 "last": "2026-11-24",
 "max_points": 0
 },
+"ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html": {
+"first": "2026-11-25",
+"last": "2026-11-25",
+"max_points": 0
+},
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -4062,6 +4117,11 @@
 "federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm": {
 "first": "2026-11-19",
 "last": "2026-11-19",
+"max_points": 0
+},
+"federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm": {
+"first": "2026-11-25",
+"last": "2026-11-25",
 "max_points": 0
 },
 "felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers": {
