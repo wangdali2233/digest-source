@@ -379,6 +379,11 @@
 "last": "2026-10-25",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-17",
 "last": "2026-11-17",
@@ -609,6 +614,11 @@
 "last": "2026-11-03",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-24",
 "last": "2026-10-24",
@@ -822,6 +832,11 @@
 "bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-12",
 "last": "2026-11-12",
+"max_points": 0
+},
+"bbc.co.uk/news/videos/ckp80d5nl586o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss": {
@@ -3349,6 +3364,11 @@
 "last": "2026-11-24",
 "max_points": 0
 },
+"cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html": {
 "first": "2026-11-24",
 "last": "2026-11-24",
@@ -3359,9 +3379,29 @@
 "last": "2026-11-24",
 "max_points": 1872
 },
+"cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
 "cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html": {
 "first": "2026-11-23",
 "last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/nvidia-sets-options-trading-record-after-ceo-comeback-here-are-the-big-trades.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html": {
@@ -3382,6 +3422,26 @@
 "cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": {
 "first": "2026-11-23",
 "last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
+"max_points": 0
+},
+"cnbc.com/2026/11/24/us-china-thwarting-india-growth.html": {
+"first": "2026-11-24",
+"last": "2026-11-24",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
