@@ -394,6 +394,11 @@
 "last": "2026-11-17",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c6rrgqknw0jlo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -647,6 +652,11 @@
 "bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-24",
 "last": "2026-11-24",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss": {
@@ -3539,9 +3549,34 @@
 "last": "2026-11-25",
 "max_points": 0
 },
+"cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
 "cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html": {
 "first": "2026-11-25",
 "last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/25/pce-inflation-report-october-2026.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html": {
@@ -3562,6 +3597,16 @@
 "cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html": {
 "first": "2026-11-25",
 "last": "2026-11-25",
+"max_points": 0
+},
+"cnbc.com/2026/11/25/us-tariffs-trump-section-301.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html": {
@@ -3672,6 +3717,11 @@
 "cnbc.com/investingclub/2026/11/22/lets-weigh-the-cons-and-pros-of-this-market-to-find-a-way-forward.html": {
 "first": "2026-11-23",
 "last": "2026-11-23",
+"max_points": 0
+},
+"cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html": {
@@ -4057,6 +4107,11 @@
 "ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html": {
 "first": "2026-11-24",
 "last": "2026-11-24",
+"max_points": 0
+},
+"ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html": {
@@ -6107,6 +6162,11 @@
 "sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail": {
 "first": "2026-11-21",
 "last": "2026-11-21",
+"max_points": 0
+},
+"sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures": {
