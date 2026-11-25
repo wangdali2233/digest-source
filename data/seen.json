@@ -4,6 +4,11 @@
 "last": "2026-10-20",
 "max_points": 146
 },
+"1password.com/blog/update-on-nov-2026-security-incident": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 990
+},
 "247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought": {
 "first": "2026-11-09",
 "last": "2026-11-09",
@@ -1218,6 +1223,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 299
+},
+"buttons.joshwcomeau.com/": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 829
 },
 "caleb.software/posts/claude-to-pi.html": {
 "first": "2026-11-09",
@@ -3839,6 +3849,11 @@
 "last": "2026-10-20",
 "max_points": 281
 },
+"comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 214
+},
 "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -4133,6 +4148,11 @@
 "first": "2026-11-10",
 "last": "2026-11-10",
 "max_points": 472
+},
+"ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 259
 },
 "edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer": {
 "first": "2026-11-14",
@@ -4589,6 +4609,11 @@
 "last": "2026-10-21",
 "max_points": 258
 },
+"github.com/google-research/google-research/tree/master/cogentic_research_papers": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 421
+},
 "github.com/gulivan/worker755": {
 "first": "2026-11-23",
 "last": "2026-11-23",
@@ -4709,6 +4734,11 @@
 "last": "2026-10-28",
 "max_points": 778
 },
+"github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 1015
+},
 "github.com/openai/openai-cli": {
 "first": "2026-10-23",
 "last": "2026-10-23",
@@ -4809,6 +4839,11 @@
 "last": "2026-11-13",
 "max_points": 140
 },
+"github.com/xoxorwr/pw-loudness-eq": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 304
+},
 "github.com/zion-sati/NetWasm": {
 "first": "2026-10-22",
 "last": "2026-10-22",
@@ -4823,6 +4858,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 154
+},
+"githubstatus.com/incidents/qn8mfv6q5hlx": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 176
 },
 "gitlab.com/snipedbywifi/terminactory": {
 "first": "2026-11-15",
@@ -4859,6 +4899,11 @@
 "last": "2026-11-25",
 "max_points": 757
 },
+"gpu-demo-gallery.pages.dev/": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 328
+},
 "gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth": {
 "first": "2026-11-24",
 "last": "2026-11-24",
@@ -4873,6 +4918,11 @@
 "first": "2026-10-25",
 "last": "2026-10-25",
 "max_points": 616
+},
+"greydanus.github.io/2026/11/12/pengpt": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 386
 },
 "groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w": {
 "first": "2026-11-17",
@@ -4963,6 +5013,11 @@
 "first": "2026-11-19",
 "last": "2026-11-19",
 "max_points": 573
+},
+"intruder.io/research/taking-over-us-treasury-subdomains-for-3-each": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 225
 },
 "ipo.anthropic.com/us": {
 "first": "2026-11-13",
@@ -5138,6 +5193,11 @@
 "first": "2026-11-23",
 "last": "2026-11-23",
 "max_points": 146
+},
+"lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 444
 },
 "lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL": {
 "first": "2026-11-07",
@@ -5544,6 +5604,11 @@
 "last": "2026-11-11",
 "max_points": 159
 },
+"novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 223
+},
 "nullpt.rs/fingerprinting-bioweapons": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -5628,6 +5693,11 @@
 "first": "2026-10-22",
 "last": "2026-10-22",
 "max_points": 234
+},
+"openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 350
 },
 "openai.com/index/introducing-gpt-6-1-terra": {
 "first": "2026-10-27",
@@ -5856,8 +5926,8 @@
 },
 "prismml.com/news/bonsai-2-5-27b": {
 "first": "2026-11-25",
-"last": "2026-11-25",
-"max_points": 250
+"last": "2026-11-26",
+"max_points": 530
 },
 "privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training": {
 "first": "2026-10-28",
@@ -5939,6 +6009,11 @@
 "last": "2026-11-02",
 "max_points": 180
 },
+"reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 447
+},
 "reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -6004,6 +6079,11 @@
 "last": "2026-11-05",
 "max_points": 241
 },
+"rida.dev/blog/bypassing-ios-safari-60-fps-limit": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 432
+},
 "rikiyat.github.io/blog/weight-space-programming": {
 "first": "2026-11-03",
 "last": "2026-11-03",
@@ -6038,6 +6118,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 157
+},
+"s.conao3.com/blog/2026/e4f733": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 166
 },
 "safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
 "first": "2026-10-22",
@@ -6078,6 +6163,11 @@
 "first": "2026-11-22",
 "last": "2026-11-22",
 "max_points": 339
+},
+"scottaaronson.blog/?p=10379": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 749
 },
 "scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
 "first": "2026-10-22",
@@ -6708,6 +6798,11 @@
 "first": "2026-11-01",
 "last": "2026-11-01",
 "max_points": 308
+},
+"vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 418
 },
 "vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism": {
 "first": "2026-11-02",
