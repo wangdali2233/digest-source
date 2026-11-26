@@ -169,6 +169,11 @@
 "last": "2026-11-21",
 "max_points": 602
 },
+"aresluna.org/ui-style-guides": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 400
+},
 "arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8": {
 "first": "2026-10-30",
 "last": "2026-10-31",
@@ -3969,6 +3974,11 @@
 "last": "2026-11-26",
 "max_points": 214
 },
+"commandcode.ai/moat": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 239
+},
 "community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166": {
 "first": "2026-10-20",
 "last": "2026-10-20",
@@ -4074,6 +4084,11 @@
 "last": "2026-11-18",
 "max_points": 650
 },
+"devnull.land/amd-specific-llama-cpp": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 256
+},
 "discord.com/blog/making-content-from-discoverable-servers-easier-to-discover": {
 "first": "2026-10-28",
 "last": "2026-10-28",
@@ -4083,6 +4098,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 945
+},
+"diseasescuredbyai.com/": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 296
 },
 "docodethatmatters.com/home-automation-overnight-success": {
 "first": "2026-11-11",
@@ -4434,6 +4454,11 @@
 "last": "2026-10-23",
 "max_points": 159
 },
+"fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 270
+},
 "freedns.afraid.org/": {
 "first": "2026-10-25",
 "last": "2026-10-25",
@@ -4669,6 +4694,11 @@
 "last": "2026-11-25",
 "max_points": 357
 },
+"github.com/antonpictures/youtube-punisher": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 208
+},
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
 "last": "2026-10-19",
@@ -4769,6 +4799,11 @@
 "last": "2026-10-26",
 "max_points": 201
 },
+"github.com/intel/intel-one-mono": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 444
+},
 "github.com/ivankovic/omnidiff": {
 "first": "2026-11-02",
 "last": "2026-11-02",
@@ -4798,6 +4833,11 @@
 "first": "2026-11-14",
 "last": "2026-11-14",
 "max_points": 132
+},
+"github.com/lsernau/grh-lean": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 544
 },
 "github.com/maxilevi/project-hedra/tree/pre-ai": {
 "first": "2026-10-23",
@@ -5504,6 +5544,11 @@
 "last": "2026-11-20",
 "max_points": 249
 },
+"micjm.com/blog/openai-is-in-cost-control-mode": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 214
+},
 "micjm.com/blog/yes-17m-lines-of-lean-is-a-lot": {
 "first": "2026-11-24",
 "last": "2026-11-24",
@@ -5548,6 +5593,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 525
+},
+"modaic.dev/blog/latency-doesnt-lie": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 337
 },
 "modelcompare.ai/blog/ai-models-controversial-take-on-humans": {
 "first": "2026-10-23",
@@ -5674,6 +5724,16 @@
 "last": "2026-11-22",
 "max_points": 584
 },
+"news.ycombinator.com/item?id=50649864": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 394
+},
+"news.ycombinator.com/item?id=50655664": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 557
+},
 "newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -5683,6 +5743,11 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 512
+},
+"nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 387
 },
 "nfsu2.xyz/": {
 "first": "2026-11-08",
@@ -5868,6 +5933,11 @@
 "first": "2026-11-23",
 "last": "2026-11-23",
 "max_points": 277
+},
+"openwall.com/lists/oss-security/2026/11/25/9": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 407
 },
 "orcasairband.com/": {
 "first": "2026-11-14",
@@ -6058,6 +6128,11 @@
 "first": "2026-10-31",
 "last": "2026-10-31",
 "max_points": 626
+},
+"progrium.github.io/minipg": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 286
 },
 "pub.cba.mit.edu/863.26/site": {
 "first": "2026-11-17",
@@ -6274,6 +6349,11 @@
 "last": "2026-11-14",
 "max_points": 463
 },
+"scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 272
+},
 "sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969": {
 "first": "2026-11-18",
 "last": "2026-11-18",
@@ -6286,8 +6366,8 @@
 },
 "scottaaronson.blog/?p=10379": {
 "first": "2026-11-26",
-"last": "2026-11-26",
-"max_points": 749
+"last": "2026-11-27",
+"max_points": 1964
 },
 "scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
 "first": "2026-10-22",
@@ -6719,6 +6799,11 @@
 "last": "2026-11-07",
 "max_points": 302
 },
+"theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 241
+},
 "theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026": {
 "first": "2026-11-17",
 "last": "2026-11-17",
@@ -6733,6 +6818,11 @@
 "first": "2026-11-09",
 "last": "2026-11-09",
 "max_points": 624
+},
+"theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 646
 },
 "theverge.com/games/1015647/ea-is-shutting-down-bioware": {
 "first": "2026-10-22",
@@ -6858,6 +6948,11 @@
 "first": "2026-11-10",
 "last": "2026-11-10",
 "max_points": 768
+},
+"twitter.com/thsottiaux/status/2125784147889393806": {
+"first": "2026-11-27",
+"last": "2026-11-27",
+"max_points": 456
 },
 "twitter.com/ylecun/status/2124550037912920090": {
 "first": "2026-11-24",
