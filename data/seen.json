@@ -434,6 +434,11 @@
 "last": "2026-11-22",
 "max_points": 0
 },
+"bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
 "bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-11",
 "last": "2026-11-11",
@@ -542,6 +547,11 @@
 "bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss": {
 "first": "2026-11-18",
 "last": "2026-11-18",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss": {
@@ -842,6 +852,11 @@
 "bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss": {
 "first": "2026-10-27",
 "last": "2026-10-27",
+"max_points": 0
+},
+"bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss": {
+"first": "2026-11-26",
+"last": "2026-11-26",
 "max_points": 0
 },
 "bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss": {
@@ -3615,6 +3630,51 @@
 "max_points": 0
 },
 "cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/norse-airline-finance-business.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/north-korea-kim-nuclear-weapons-expansion.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/nvidia-market-governance-risk.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/stock-markets-today-.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/trump-us-tariff-india-trade.html": {
+"first": "2026-11-26",
+"last": "2026-11-26",
+"max_points": 0
+},
+"cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html": {
 "first": "2026-11-26",
 "last": "2026-11-26",
 "max_points": 0
