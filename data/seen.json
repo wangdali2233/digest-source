@@ -1054,6 +1054,11 @@
 "last": "2026-10-28",
 "max_points": 301
 },
+"blainehansen.me/post/mainstream-verifiable-language": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 302
+},
 "blender.org/download/releases/5-3": {
 "first": "2026-11-11",
 "last": "2026-11-11",
@@ -1138,6 +1143,11 @@
 "first": "2026-11-24",
 "last": "2026-11-24",
 "max_points": 312
+},
+"blog.ktz.me/black-friday-hard-drive-prices-are-messed-up": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 547
 },
 "blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up": {
 "first": "2026-11-03",
@@ -1244,6 +1254,11 @@
 "last": "2026-10-31",
 "max_points": 222
 },
+"bouncemarket.minhanhday.com/": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 314
+},
 "brangus.io/survival-llm": {
 "first": "2026-10-29",
 "last": "2026-10-29",
@@ -1303,6 +1318,11 @@
 "first": "2026-11-26",
 "last": "2026-11-26",
 "max_points": 829
+},
+"buynothingday.co.uk/": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 334
 },
 "caleb.software/posts/claude-to-pi.html": {
 "first": "2026-11-09",
@@ -4094,6 +4114,11 @@
 "last": "2026-10-25",
 "max_points": 191
 },
+"construct22.com/": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 672
+},
 "contralabs.com/frontierdesign": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -4419,6 +4444,11 @@
 "last": "2026-10-21",
 "max_points": 290
 },
+"eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 182
+},
 "eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again": {
 "first": "2026-11-15",
 "last": "2026-11-15",
@@ -4473,6 +4503,11 @@
 "first": "2026-10-21",
 "last": "2026-10-21",
 "max_points": 168
+},
+"eprint.iacr.org/2026/3020.pdf": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 202
 },
 "erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome": {
 "first": "2026-11-06",
@@ -4806,8 +4841,8 @@
 },
 "github.com/antonpictures/youtube-punisher": {
 "first": "2026-11-27",
-"last": "2026-11-27",
-"max_points": 208
+"last": "2026-11-28",
+"max_points": 534
 },
 "github.com/ardiri/palmos-lemmings": {
 "first": "2026-10-19",
@@ -4818,6 +4853,11 @@
 "first": "2026-11-12",
 "last": "2026-11-12",
 "max_points": 735
+},
+"github.com/convex/convex-backend-skill/issues/64": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 197
 },
 "github.com/crmne/zapfast": {
 "first": "2026-11-09",
@@ -4848,6 +4888,11 @@
 "first": "2026-11-05",
 "last": "2026-11-05",
 "max_points": 104
+},
+"github.com/gary23w/f-ck_data_brokers": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 244
 },
 "github.com/ggml-org/ggml/releases/tag/v1.0.0": {
 "first": "2026-11-15",
@@ -5279,6 +5324,11 @@
 "last": "2026-11-08",
 "max_points": 165
 },
+"infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 373
+},
 "inside-db.com/": {
 "first": "2026-11-19",
 "last": "2026-11-19",
@@ -5313,6 +5363,11 @@
 "first": "2026-11-16",
 "last": "2026-11-16",
 "max_points": 1100
+},
+"janlukas.blog/posts/ai-self-hosting": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 1086
 },
 "jeffgeerling.com/blog/2026/i-joined-the-ntp-pool": {
 "first": "2026-11-23",
@@ -5424,6 +5479,11 @@
 "last": "2026-11-21",
 "max_points": 596
 },
+"krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 334
+},
 "krthr.co/paper-folds-and-whats-new-in-fanzines-app": {
 "first": "2026-11-20",
 "last": "2026-11-20",
@@ -5483,6 +5543,11 @@
 "first": "2026-10-29",
 "last": "2026-10-29",
 "max_points": 429
+},
+"lia.mg/posts/measuring-company-culture-with-slack-emoji": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 550
 },
 "linebender.org/blog/next-100-guis": {
 "first": "2026-11-23",
@@ -5789,10 +5854,20 @@
 "last": "2026-11-04",
 "max_points": 413
 },
+"neuralnetworksanddeeplearning.com/": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 305
+},
 "news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains": {
 "first": "2026-11-18",
 "last": "2026-11-18",
 "max_points": 325
+},
+"news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 313
 },
 "news.ycombinator.com/front?day=2024-11-08": {
 "first": "2026-11-10",
@@ -5958,6 +6033,11 @@
 "first": "2026-11-24",
 "last": "2026-11-24",
 "max_points": 159
+},
+"oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 187
 },
 "oioannou.com/blog/ai-promised-less-work": {
 "first": "2026-10-28",
@@ -6924,6 +7004,11 @@
 "last": "2026-11-05",
 "max_points": 586
 },
+"thesoapbox.email/archive/3": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 198
+},
 "thestateofai.com/news/goldman-sachs-claude-code-traders-bankers": {
 "first": "2026-11-09",
 "last": "2026-11-09",
@@ -7023,6 +7108,11 @@
 "first": "2026-11-03",
 "last": "2026-11-03",
 "max_points": 125
+},
+"twitter.com/RealAstropulse/status/2126119408997466389": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 533
 },
 "twitter.com/boneGPT/status/2114035719853265264": {
 "first": "2026-10-26",
@@ -7218,6 +7308,11 @@
 "first": "2026-10-20",
 "last": "2026-10-20",
 "max_points": 643
+},
+"worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan": {
+"first": "2026-11-28",
+"last": "2026-11-28",
+"max_points": 502
 },
 "wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c": {
 "first": "2026-11-16",
